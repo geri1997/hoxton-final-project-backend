@@ -1,5 +1,6 @@
 import { PrismaClient } from '@prisma/client';
 import bcrypt from 'bcryptjs';
+import { movies } from './movies';
 
 const prisma = new PrismaClient({
     log: ['query', 'info', 'warn', 'error'],
@@ -58,6 +59,7 @@ const genres = [
     { name: 'Animuar' },
     { name: 'Erotik +18' },
     { name: 'Nordik' },
+    { name: 'SË SHPEJTI' },
     { name: 'Dokumentar' },
     { name: 'Turk' },
     { name: 'Gjerman' },
@@ -66,18 +68,22 @@ const genres = [
 ];
 
 async function createStuff() {
-  
     await prisma.user.deleteMany();
 
     for (const user of users) {
         await prisma.user.create({ data: user });
     }
 
-
     await prisma.genre.deleteMany();
 
     for (const genre of genres) {
         await prisma.genre.create({ data: genre });
+    }
+
+    await prisma.movie.deleteMany();
+
+    for (const movie of movies) {
+        await prisma.movie.create({ data: movie });
     }
 }
 
