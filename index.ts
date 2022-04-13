@@ -16,9 +16,97 @@ app.use(express.json())
 // #endregion
 
 app.get('/', async (req, res) => {
-    res.send("Server Up and Running")
+  res.send("Server Up and Running")
 })
-  
+
+function createToken(id: number) {
+  //@ts-ignore
+  const token = jwt.sign({ id: id }, process.env.MY_SECRET, { expiresIn: '3days' })
+  return token
+}
+
+async function getUserFromToken(token: string) {
+  //@ts-ignore
+  const data = jwt.verify(token, process.env.MY_SECRET)
+  const user = await prisma.user.findUnique({
+    // @ts-ignore
+    where: { id: data.id }
+  })
+
+  return user
+}
+
+app.get('/movies', async (req, res) => {
+  try {
+    const movies = await prisma.movie.findMany({ include: { genres: true } })
+    res.send(movies)
+  } catch (err) {
+    // @ts-ignore
+    res.status(400).send({ error: err.message })
+  }
+})
+
+
+
+app.get('/movie/:id', async (req, res) => {
+
+  const id = Number(req.params.id)
+  try {
+
+    const movie = await prisma.movie.findUnique({ where: { id: id } })
+    res.send(movie)
+  } catch (err) {
+    // @ts-ignore
+    res.status(400).send({ error: err.message })
+  }
+})
+
+app.post('/sign-up', async (req, res) => {
+  const { email, password, userName } = req.body
+
+  try {
+    const hash = bcrypt.hashSync(password)
+    const user = await prisma.user.create({
+      data: { email: email, password: hash, userName: userName },
+    })
+    res.send({ user, token: createToken(user.id) })
+  } catch (err) {
+    // @ts-ignore
+    res.status(400).send({ error: err.message })
+  }
+})
+
+app.post('/login', async (req, res) => {
+  const { email, password } = req.body
+
+  try {
+    const user = await prisma.user.findUnique({
+      where: { email: email }
+    })
+    // @ts-ignore
+    const passwordMatches = bcrypt.compareSync(password, user.password)
+    if (user && passwordMatches) {
+      res.send({ user, token: createToken(user.id) })
+    } else {
+      throw Error('Boom')
+    }
+  } catch (err) {
+    res.status(400).send({ error: 'Email/password invalid.' })
+  }
+})
+
+app.get('/validate', async (req, res) => {
+  const token = req.headers.authorization || ''
+
+  try {
+    const user = await getUserFromToken(token)
+    res.send(user)
+  } catch (err) {
+    // @ts-ignore
+    res.status(400).send({ error: err.message })
+  }
+})
+
 app.listen(4000, () => {
-console.log(`Server up: http://localhost:4000`)
+  console.log(`Server up: http://localhost:4000`)
 })
