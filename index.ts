@@ -38,7 +38,7 @@ async function getUserFromToken(token: string) {
 
 app.get('/movies', async (req, res) => {
   try {
-    const movies = await prisma.movie.findMany()
+    const movies = await prisma.movie.findMany({ include: { genres: true } })
     res.send(movies)
   } catch (err) {
     // @ts-ignore
@@ -46,16 +46,18 @@ app.get('/movies', async (req, res) => {
   }
 })
 
+
+
 app.get('/movie/:id', async (req, res) => {
 
   const id = Number(req.params.id)
   try {
 
-      const movie = await prisma.movie.findUnique({ where: { id: id } })
-      res.send(movie)
+    const movie = await prisma.movie.findUnique({ where: { id: id } })
+    res.send(movie)
   } catch (err) {
-      // @ts-ignore
-      res.status(400).send({ error: err.message })
+    // @ts-ignore
+    res.status(400).send({ error: err.message })
   }
 })
 
@@ -63,14 +65,14 @@ app.post('/sign-up', async (req, res) => {
   const { email, password, userName } = req.body
 
   try {
-      const hash = bcrypt.hashSync(password)
-      const user = await prisma.user.create({
-          data: { email: email, password: hash, userName: userName },
-      })
-      res.send({ user, token: createToken(user.id) })
+    const hash = bcrypt.hashSync(password)
+    const user = await prisma.user.create({
+      data: { email: email, password: hash, userName: userName },
+    })
+    res.send({ user, token: createToken(user.id) })
   } catch (err) {
-      // @ts-ignore
-      res.status(400).send({ error: err.message })
+    // @ts-ignore
+    res.status(400).send({ error: err.message })
   }
 })
 
@@ -78,18 +80,18 @@ app.post('/login', async (req, res) => {
   const { email, password } = req.body
 
   try {
-      const user = await prisma.user.findUnique({
-          where: { email: email }
-      })
-      // @ts-ignore
-      const passwordMatches = bcrypt.compareSync(password, user.password)
-      if (user && passwordMatches) {
-          res.send({ user, token: createToken(user.id) })
-      } else {
-          throw Error('Boom')
-      }
+    const user = await prisma.user.findUnique({
+      where: { email: email }
+    })
+    // @ts-ignore
+    const passwordMatches = bcrypt.compareSync(password, user.password)
+    if (user && passwordMatches) {
+      res.send({ user, token: createToken(user.id) })
+    } else {
+      throw Error('Boom')
+    }
   } catch (err) {
-      res.status(400).send({ error: 'Email/password invalid.' })
+    res.status(400).send({ error: 'Email/password invalid.' })
   }
 })
 
@@ -97,11 +99,11 @@ app.get('/validate', async (req, res) => {
   const token = req.headers.authorization || ''
 
   try {
-      const user = await getUserFromToken(token)
-      res.send(user)
+    const user = await getUserFromToken(token)
+    res.send(user)
   } catch (err) {
-      // @ts-ignore
-      res.status(400).send({ error: err.message })
+    // @ts-ignore
+    res.status(400).send({ error: err.message })
   }
 })
 
