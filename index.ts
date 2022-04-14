@@ -1,28 +1,30 @@
 // #region 'Importing and configuration of Prisma'
-import express from 'express'
-import cors from 'cors'
-import { PrismaClient } from '@prisma/client'
-import bcrypt from 'bcryptjs'
-import jwt from 'jsonwebtoken'
-import 'dotenv/config'
+import express from 'express';
+import cors from 'cors';
+import { PrismaClient } from '@prisma/client';
+import bcrypt from 'bcryptjs';
+import jwt from 'jsonwebtoken';
+import 'dotenv/config';
 
 const prisma = new PrismaClient({
-  log: ['query', 'info', 'warn', 'error']
-})
+    log: ['query', 'info', 'warn', 'error'],
+});
 
-const app = express()
-app.use(cors())
-app.use(express.json())
+const app = express();
+app.use(cors());
+app.use(express.json());
 // #endregion
 
 app.get('/', async (req, res) => {
-  res.send("Server Up and Running")
-})
+    res.send('Server Up and Running');
+});
 
 function createToken(id: number) {
-  //@ts-ignore
-  const token = jwt.sign({ id: id }, process.env.MY_SECRET, { expiresIn: '3days' })
-  return token
+    //@ts-ignore
+    const token = jwt.sign({ id: id }, process.env.MY_SECRET, {
+        expiresIn: '3days',
+    });
+    return token;
 }
 
 async function getUserFromToken(token: string) {
@@ -47,19 +49,44 @@ app.get('/movies', async (req, res) => {
 })
 
 
+app.get('/movies/page/:pagenr', async (req, res) => {
+    const page = Number(req.params.pagenr);
+    const nrToSkip = (page - 1) * 10;
+
+    try {
+        const movies = await prisma.movie.findMany({
+            include: { genres: { include: { genre: true } } },
+            skip: nrToSkip,
+            take: 20,
+        });
+        res.send(movies);
+    } catch (err) {
+        // @ts-ignore
+        res.status(400).send({ error: err.message });
+    }
+});
+
+//get movie count
+app.get('/movie-count', async (req, res) => {
+    try {
+        const count = await prisma.movie.count();
+        res.send({ count: count });
+    } catch (err) {
+        // @ts-ignore
+        res.status(400).send({ error: err.message });
+    }
+});
 
 app.get('/movie/:id', async (req, res) => {
-
-  const id = Number(req.params.id)
-  try {
-
-    const movie = await prisma.movie.findUnique({ where: { id: id } })
-    res.send(movie)
-  } catch (err) {
-    // @ts-ignore
-    res.status(400).send({ error: err.message })
-  }
-})
+    const id = Number(req.params.id);
+    try {
+        const movie = await prisma.movie.findUnique({ where: { id: id } });
+        res.send(movie);
+    } catch (err) {
+        // @ts-ignore
+        res.status(400).send({ error: err.message });
+    }
+});
 
 app.get('/comments', async (req, res) => {
   try {
@@ -123,51 +150,51 @@ app.get('/genres', async (req, res) => {
 })
 
 app.post('/sign-up', async (req, res) => {
-  const { email, password, userName } = req.body
+    const { email, password, userName } = req.body;
 
-  try {
-    const hash = bcrypt.hashSync(password)
-    const user = await prisma.user.create({
-      data: { email: email, password: hash, userName: userName },
-    })
-    res.send({ user, token: createToken(user.id) })
-  } catch (err) {
-    // @ts-ignore
-    res.status(400).send({ error: err.message })
-  }
-})
+    try {
+        const hash = bcrypt.hashSync(password);
+        const user = await prisma.user.create({
+            data: { email: email, password: hash, userName: userName },
+        });
+        res.send({ user, token: createToken(user.id) });
+    } catch (err) {
+        // @ts-ignore
+        res.status(400).send({ error: err.message });
+    }
+});
 
 app.post('/login', async (req, res) => {
-  const { email, password } = req.body
+    const { email, password } = req.body;
 
-  try {
-    const user = await prisma.user.findUnique({
-      where: { email: email }
-    })
-    // @ts-ignore
-    const passwordMatches = bcrypt.compareSync(password, user.password)
-    if (user && passwordMatches) {
-      res.send({ user, token: createToken(user.id) })
-    } else {
-      throw Error('Boom')
+    try {
+        const user = await prisma.user.findUnique({
+            where: { email: email },
+        });
+        // @ts-ignore
+        const passwordMatches = bcrypt.compareSync(password, user.password);
+        if (user && passwordMatches) {
+            res.send({ user, token: createToken(user.id) });
+        } else {
+            throw Error('Boom');
+        }
+    } catch (err) {
+        res.status(400).send({ error: 'Email/password invalid.' });
     }
-  } catch (err) {
-    res.status(400).send({ error: 'Email/password invalid.' })
-  }
-})
+});
 
 app.get('/validate', async (req, res) => {
-  const token = req.headers.authorization || ''
+    const token = req.headers.authorization || '';
 
-  try {
-    const user = await getUserFromToken(token)
-    res.send(user)
-  } catch (err) {
-    // @ts-ignore
-    res.status(400).send({ error: err.message })
-  }
-})
+    try {
+        const user = await getUserFromToken(token);
+        res.send(user);
+    } catch (err) {
+        // @ts-ignore
+        res.status(400).send({ error: err.message });
+    }
+});
 
 app.listen(4000, () => {
-  console.log(`Server up: http://localhost:4000`)
-})
+    console.log(`Server up: http://localhost:4000`);
+});
