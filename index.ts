@@ -55,6 +55,17 @@ app.get('/movies/page/:pagenr', async (req, res) => {
     }
 });
 
+//get movie count
+app.get('/movie-count', async (req, res) => {
+    try {
+        const count = await prisma.movie.count();
+        res.send({ count: count });
+    } catch (err) {
+        // @ts-ignore
+        res.status(400).send({ error: err.message });
+    }
+});
+
 app.get('/movie/:id', async (req, res) => {
     const id = Number(req.params.id);
     try {
