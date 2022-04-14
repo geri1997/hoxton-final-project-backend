@@ -71,6 +71,20 @@ app.get('/comments', async (req, res) => {
   }
 })
 
+app.get('/favorites', async (req, res) => {
+  const token = req.headers.authorization || ''
+  try {
+    const user = await getUserFromToken(token)
+
+    const favorites = await prisma.favorite.findMany({ where: { userId: user?.id } })
+    res.send(favorites)
+  } catch (err) {
+    // @ts-ignore
+    res.status(400).send({ error: err.message })
+  }
+})
+
+
 app.get('/genres', async (req, res) => {
   try {
     const generes = await prisma.genre.findMany()
