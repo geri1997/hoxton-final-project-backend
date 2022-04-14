@@ -1,6 +1,6 @@
 import { PrismaClient } from '@prisma/client';
 import bcrypt from 'bcryptjs';
-import { movies } from './movies';
+import { movieGenres, movies} from './movies';
 
 const prisma = new PrismaClient({
     log: ['query', 'info', 'warn', 'error'],
@@ -84,6 +84,16 @@ async function createStuff() {
 
     for (const movie of movies) {
         await prisma.movie.create({ data: movie });
+    }
+
+    await prisma.movieGenre.deleteMany();
+
+    for (const movieGenre in movieGenres) {
+        for (const genre of movieGenres[movieGenre]) {
+            await prisma.movieGenre.create({
+                data: { genreId: genre, movieId: Number(movieGenre) + 1 },
+            });
+        }
     }
 }
 
