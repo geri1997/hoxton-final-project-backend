@@ -61,6 +61,26 @@ app.get('/movie/:id', async (req, res) => {
   }
 })
 
+app.get('/comments', async (req, res) => {
+  try {
+    const comments = await prisma.comment.findMany()
+    res.send(comments)
+  } catch (err) {
+    // @ts-ignore
+    res.status(400).send({ error: err.message })
+  }
+})
+
+app.get('/genres', async (req, res) => {
+  try {
+    const generes = await prisma.genre.findMany()
+    res.send(generes)
+  } catch (err) {
+    // @ts-ignore
+    res.status(400).send({ error: err.message })
+  }
+})
+
 app.post('/sign-up', async (req, res) => {
   const { email, password, userName } = req.body
 
