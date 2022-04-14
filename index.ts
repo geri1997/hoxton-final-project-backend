@@ -31,7 +31,6 @@ async function getUserFromToken(token: string) {
   const user = await prisma.user.findUnique({
     // @ts-ignore
     where: { id: data.id },
-    include: { favoriteMovies: true }
   })
 
   return user
@@ -97,10 +96,10 @@ app.post('/favorites', async (req, res) => {
       //@ts-ignore
       data: { userId: user.id, movieId: movieId }
     })
-    const movies = await prisma.movie.findMany()
+    const favorites = await prisma.favorite.findMany({ where: { userId: user?.id } })
     const generes = await prisma.genre.findMany()
-    // @ts-ignore
-    user.movies = movies
+    //@ts-ignore
+    user.favorites = favorites
     //@ts-ignore
     user.generes = generes
 
