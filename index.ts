@@ -40,7 +40,7 @@ async function getUserFromToken(token: string) {
 
 app.get('/movies/page/:pagenr', async (req, res) => {
     const page = Number(req.params.pagenr);
-    const nrToSkip = (page - 1) * 10;
+    const nrToSkip = (page - 1) * 20;
 
     try {
         const movies = await prisma.movie.findMany({
@@ -59,17 +59,18 @@ app.get('/movies/page/:pagenr', async (req, res) => {
 app.get('/movie-count', async (req, res) => {
     try {
         const count = await prisma.movie.count();
-        res.send({ count: count });
+        res.send({ count});
     } catch (err) {
         // @ts-ignore
         res.status(400).send({ error: err.message });
     }
 });
 
-app.get('/movie/:id', async (req, res) => {
-    const id = Number(req.params.id);
+app.get('/movie/:title', async (req, res) => {
+    const title = req.params.title.split('').map(char=>char==='-'?' ':char).join('');
+    
     try {
-        const movie = await prisma.movie.findUnique({ where: { id: id } });
+        const movie = await prisma.movie.findFirst({ where: { title },include: { genres: { include: { genre: true } } } });
         res.send(movie);
     } catch (err) {
         // @ts-ignore
