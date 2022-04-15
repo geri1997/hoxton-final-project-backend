@@ -28,26 +28,27 @@ function createToken(id: number) {
 }
 
 async function getUserFromToken(token: string) {
-  //@ts-ignore
-  const data = jwt.verify(token, process.env.MY_SECRET)
-  const user = await prisma.user.findUnique({
-    // @ts-ignore
-    where: { id: data.id },
-  })
+    //@ts-ignore
+    const data = jwt.verify(token, process.env.MY_SECRET);
+    const user = await prisma.user.findUnique({
+        // @ts-ignore
+        where: { id: data.id },
+    });
 
-  return user
+    return user;
 }
 
 app.get('/movies', async (req, res) => {
-  try {
-    const movies = await prisma.movie.findMany({ include: { genres: true } })
-    res.send(movies)
-  } catch (err) {
-    // @ts-ignore
-    res.status(400).send({ error: err.message })
-  }
-})
-
+    try {
+        const movies = await prisma.movie.findMany({
+            include: { genres: true },
+        });
+        res.send(movies);
+    } catch (err) {
+        // @ts-ignore
+        res.status(400).send({ error: err.message });
+    }
+});
 
 app.get('/movies/page/:pagenr', async (req, res) => {
     const page = Number(req.params.pagenr);
@@ -70,7 +71,7 @@ app.get('/movies/page/:pagenr', async (req, res) => {
 app.get('/movie-count', async (req, res) => {
     try {
         const count = await prisma.movie.count();
-        res.send({ count});
+        res.send({ count });
     } catch (err) {
         // @ts-ignore
         res.status(400).send({ error: err.message });
@@ -78,10 +79,16 @@ app.get('/movie-count', async (req, res) => {
 });
 
 app.get('/movie/:title', async (req, res) => {
-    const title = req.params.title.split('').map(char=>char==='-'?' ':char).join('');
-    
+    const title = req.params.title
+        .split('')
+        .map((char) => (char === '-' ? ' ' : char))
+        .join('');
+
     try {
-        const movie = await prisma.movie.findFirst({ where: { title },include: { genres: { include: { genre: true } } } });
+        const movie = await prisma.movie.findFirst({
+            where: { title },
+            include: { genres: { include: { genre: true } } },
+        });
         res.send(movie);
     } catch (err) {
         // @ts-ignore
@@ -90,65 +97,66 @@ app.get('/movie/:title', async (req, res) => {
 });
 
 app.get('/comments', async (req, res) => {
-  try {
-    const comments = await prisma.comment.findMany()
-    res.send(comments)
-  } catch (err) {
-    // @ts-ignore
-    res.status(400).send({ error: err.message })
-  }
-})
+    try {
+        const comments = await prisma.comment.findMany();
+        res.send(comments);
+    } catch (err) {
+        // @ts-ignore
+        res.status(400).send({ error: err.message });
+    }
+});
 
 app.get('/favorites', async (req, res) => {
-  const token = req.headers.authorization || ''
-  try {
-    const user = await getUserFromToken(token)
+    const token = req.headers.authorization || '';
+    try {
+        const user = await getUserFromToken(token);
 
-    const favorites = await prisma.favorite.findMany({ where: { userId: user?.id } })
-    res.send(favorites)
-  } catch (err) {
-    // @ts-ignore
-    res.status(400).send({ error: err.message })
-  }
-})
+        const favorites = await prisma.favorite.findMany({
+            where: { userId: user?.id },
+        });
+        res.send(favorites);
+    } catch (err) {
+        // @ts-ignore
+        res.status(400).send({ error: err.message });
+    }
+});
 
 app.post('/favorites', async (req, res) => {
+    const token = req.headers.authorization || '';
+    const { movieId } = req.body;
 
-  const token = req.headers.authorization || ''
-  const { movieId } = req.body
+    try {
+        const user = await getUserFromToken(token);
 
-  try {
-    const user = await getUserFromToken(token)
+        const favorite = await prisma.favorite.create({
+            //@ts-ignore
+            data: { userId: user.id, movieId: movieId },
+        });
+        const favorites = await prisma.favorite.findMany({
+            where: { userId: user?.id },
+        });
+        const generes = await prisma.genre.findMany();
+        //@ts-ignore
+        user.favorites = favorites;
+        //@ts-ignore
+        user.generes = generes;
 
-    const favorite = await prisma.favorite.create({
-      //@ts-ignore
-      data: { userId: user.id, movieId: movieId }
-    })
-    const favorites = await prisma.favorite.findMany({ where: { userId: user?.id } })
-    const generes = await prisma.genre.findMany()
-    //@ts-ignore
-    user.favorites = favorites
-    //@ts-ignore
-    user.generes = generes
-
-    res.send(user)
-  } catch (err) {
-    // @ts-ignore
-    res.status(400).send({ error: err.message })
-  }
-
-})
-
+        res.send(user);
+    } catch (err) {
+        // @ts-ignore
+        res.status(400).send({ error: err.message });
+    }
+});
 
 app.get('/genres', async (req, res) => {
-  try {
-    const generes = await prisma.genre.findMany()
-    res.send(generes)
-  } catch (err) {
-    // @ts-ignore
-    res.status(400).send({ error: err.message })
-  }
-})
+    try {
+        const generes = await prisma.genre.findMany();
+        res.send(generes);
+    } catch (err) {
+        // @ts-ignore
+        res.status(400).send({ error: err.message });
+    }
+});
 
 app.post('/sign-up', async (req, res) => {
     const { email, password, userName } = req.body;
@@ -190,6 +198,24 @@ app.get('/validate', async (req, res) => {
     try {
         const user = await getUserFromToken(token);
         res.send(user);
+    } catch (err) {
+        // @ts-ignore
+        res.status(400).send({ error: err.message });
+    }
+});
+
+//search endpoint
+app.post('/search', async (req, res) => {
+    const { title } = req.body;
+
+    try {
+        const movies = await prisma.movie.findMany({
+            where: {
+                title: { contains: title },
+            },
+            include: { genres: { include: { genre: true } } },
+        });
+        res.send(movies);
     } catch (err) {
         // @ts-ignore
         res.status(400).send({ error: err.message });
