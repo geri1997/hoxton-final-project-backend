@@ -222,6 +222,40 @@ app.post('/search', async (req, res) => {
     }
 });
 
+//genre endpoint
+app.get('/genres/:genre', async (req, res) => {
+    const genre = req.params.genre;
+    let page = Number(req.query.page);
+    const genreId = await prisma.genre.findFirst({
+        where: { name: genre },
+    });
+    const count = await prisma.movieGenre.count({
+        where: {
+            genreId: genreId?.id,
+        },
+    });
+
+    try {
+        const movies = await prisma.movie.findMany({
+            where: {
+                genres: {
+                    some: {
+                        genre: {
+                            name: genre,
+                        },
+                    },
+                },
+            },
+            include: { genres: { include: { genre: true } } },take: 20,skip: (page - 1) * 20,
+        });
+        res.send({ movies, count });
+    } catch (err) {
+        // @ts-ignore
+        res.status(400).send({ error: err.message });
+    }
+});
+
 app.listen(4000, () => {
     console.log(`Server up: http://localhost:4000`);
 });
+
