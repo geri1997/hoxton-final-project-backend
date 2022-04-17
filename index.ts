@@ -8,7 +8,7 @@ import 'dotenv/config';
 import { XMLParser, XMLBuilder, XMLValidator } from 'fast-xml-parser';
 import fetch from 'node-fetch';
 import { parse } from 'node-html-parser';
-import { genres } from './prisma/movies';
+import { genres, movies } from './prisma/movies';
 
 const prisma = new PrismaClient({
     log: ['query', 'info', 'warn', 'error'],
@@ -18,6 +18,8 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 // #endregion
+
+app.use(express.static('public'))
 
 app.get('/', async (req, res) => {
     res.send('Server Up and Running');
@@ -267,7 +269,8 @@ app.get('/latest', async (req, res) => {
         orderBy: {
             id: 'desc',
         },
-        take: 20,include:{genres:{include:{genre:true}}}
+        take: 20,
+        include: { genres: { include: { genre: true } } },
     });
     res.send(latestMovies);
 });
