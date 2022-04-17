@@ -267,7 +267,7 @@ app.get('/latest', async (req, res) => {
         orderBy: {
             id: 'desc',
         },
-        take: 20,
+        take: 20,include:{genres:{include:{genre:true}}}
     });
     res.send(latestMovies);
 });
