@@ -5,6 +5,10 @@ import { PrismaClient } from '@prisma/client';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import 'dotenv/config';
+import { XMLParser, XMLBuilder, XMLValidator } from 'fast-xml-parser';
+import fetch from 'node-fetch';
+import { parse } from 'node-html-parser';
+import { genres } from './prisma/movies';
 
 const prisma = new PrismaClient({
     log: ['query', 'info', 'warn', 'error'],
@@ -222,6 +226,185 @@ app.post('/search', async (req, res) => {
     }
 });
 
+<<<<<<< HEAD
+=======
+//genre endpoint
+app.get('/genres/:genre', async (req, res) => {
+    const genre = req.params.genre;
+    let page = Number(req.query.page);
+    const genreId = await prisma.genre.findFirst({
+        where: { name: genre },
+    });
+    const count = await prisma.movieGenre.count({
+        where: {
+            genreId: genreId?.id,
+        },
+    });
+
+    try {
+        const movies = await prisma.movie.findMany({
+            where: {
+                genres: {
+                    some: {
+                        genre: {
+                            name: genre,
+                        },
+                    },
+                },
+            },
+            include: { genres: { include: { genre: true } } },
+            take: 20,
+            skip: (page - 1) * 20,
+        });
+        res.send({ movies, count });
+    } catch (err) {
+        // @ts-ignore
+        res.status(400).send({ error: err.message });
+    }
+});
+
+//get lastest movies
+app.get('/latest', async (req, res) => {
+    const latestMovies = await prisma.movie.findMany({
+        orderBy: {
+            id: 'desc',
+        },
+        take: 20,include:{genres:{include:{genre:true}}}
+    });
+    res.send(latestMovies);
+});
+
+//add latest movies in db
+
+async function addLatestMovies() {
+    const resq = await fetch('https://www.filma24.so/feed', {
+        headers: {
+            'User-Agent':
+                'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+        },
+    });
+    const text = await resq.text();
+    // const html = cheerio.load(text)
+    // const html = jquery.parseHTML(text)
+    // console.log(text);
+
+    const parser = new XMLParser();
+    let jObj = parser.parse(text);
+
+    const moviesToFetch: any = [];
+    for (const item of jObj.rss.channel.item) {
+        const foundMovie = await prisma.movie.findFirst({
+            where: {
+                title: item.title,
+            },
+        });
+
+        if (foundMovie === null) {
+            moviesToFetch.push(item);
+        }
+    }
+    const movies = [];
+    for (const movie of moviesToFetch) {
+        const singleMovie = await fetch(movie.link);
+        const singleMovieText = await singleMovie.text();
+        const singleMovieHtml = parse(singleMovieText);
+        const movieLink = singleMovieHtml.querySelector(
+            'div.player div.movie-player p iframe'
+        )?.attributes.src;
+        const movieTitle = singleMovieHtml.querySelector(
+            '.movie-info .main-info .title h2'
+        )?.innerText;
+        const trailerLink = singleMovieHtml.querySelector(
+            '.trailer-player iframe'
+        )?.attributes.src;
+        const genreLis = singleMovieHtml.querySelectorAll(
+            '.secondary-info .info-left .genre li'
+        );
+        const genres: any = [];
+        genreLis.forEach((li) => genres.push(li.innerText));
+        const movieLength = singleMovieHtml.querySelector(
+            '.info-right span.movie-len'
+        )?.innerText;
+        const releaseYear = singleMovieHtml.querySelector(
+            '.info-right span.quality'
+        )?.innerText;
+        const imdbRating = singleMovieHtml.querySelector(
+            '.info-right span:last-child a'
+        )?.innerText;
+        const synopsis = singleMovieHtml.querySelector(
+            '.synopsis .syn-wrapper p'
+        )?.innerText;
+        const thumbnail = singleMovieHtml.querySelector(
+            `meta[property="og:image"]`
+        )?.attributes.content;
+        movies.push({
+            title: movieTitle,
+            videoSrc: movieLink,
+            genres,
+            trailerSrc: trailerLink,
+            duration: movieLength,
+            releaseYear,
+            ratingImdb: imdbRating,
+            description: synopsis,
+            photoSrc: thumbnail,
+        });
+    }
+    if (movies.length !== 0) {
+        //@ts-ignore
+        // movies.forEach(movie=>delete movie.genres)
+        movies.forEach(
+            //@ts-ignore
+            (movie) => (movie.ratingImdb = Number(movie.ratingImdb))
+        );
+        //@ts-ignore
+        movies.forEach(
+            //@ts-ignore
+            (movie) => (movie.releaseYear = Number(movie.releaseYear))
+        );
+        movies.forEach((movie) => {
+            const genresa = [];
+            for (let genre of movie.genres) {
+                const genreId = genres.find((genre1) => genre1.name === genre);
+                const id = genres.findIndex(
+                    (genre) => genre.name === genreId?.name
+                );
+                //@ts-ignore
+                genresa.push(id + 1);
+            }
+            //@ts-ignore
+            movie.genres = genresa;
+        });
+        for (const movie of movies) {
+            const createdMovie = await prisma.movie.create({
+                //@ts-ignore
+                data: {
+                    description: movie.description,
+                    duration: movie.duration,
+                    photoSrc: movie.photoSrc,
+                    //@ts-ignore
+                    ratingImdb: movie.ratingImdb,
+                    //@ts-ignore
+                    releaseYear: movie.releaseYear,
+                    title: movie.title,
+                    videoSrc: movie.videoSrc,
+                    trailerSrc: movie.trailerSrc,
+                },
+            });
+
+            for (const genre of movie.genres) {
+                await prisma.movieGenre.create({
+                    data: { genreId: genre, movieId: createdMovie.id },
+                });
+            }
+        }
+    }
+}
+
+addLatestMovies();
+
+setInterval(addLatestMovies, 1000 * 60 * 60);
+
+>>>>>>> 32c9ccf5dc73f7de5990e3a1e95e62fe3eca03ce
 app.listen(4000, () => {
     console.log(`Server up: http://localhost:4000`);
 });
