@@ -226,8 +226,6 @@ app.post('/search', async (req, res) => {
     }
 });
 
-<<<<<<< HEAD
-=======
 //genre endpoint
 app.get('/genres/:genre', async (req, res) => {
     const genre = req.params.genre;
@@ -404,7 +402,6 @@ addLatestMovies();
 
 setInterval(addLatestMovies, 1000 * 60 * 60);
 
->>>>>>> 32c9ccf5dc73f7de5990e3a1e95e62fe3eca03ce
 app.listen(4000, () => {
     console.log(`Server up: http://localhost:4000`);
 });
