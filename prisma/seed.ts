@@ -83,7 +83,7 @@ async function createStuff() {
     await prisma.movie.deleteMany();
 
     for (const movie of movies) {
-        await prisma.movie.create({ data: movie });
+        await prisma.movie.create({ data: {...movie,views:Math.floor(Math.random()*1000)} });
     }
 
     await prisma.movieGenre.deleteMany();

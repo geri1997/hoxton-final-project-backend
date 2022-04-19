@@ -57,12 +57,18 @@ app.get('/movies', async (req, res) => {
 });
 
 app.get('/movies/page/:pagenr', async (req, res) => {
+    const sortBy = req.query.sortBy;
+    const ascOrDesc = req.query.ascOrDesc;
     const page = Number(req.params.pagenr);
     const nrToSkip = (page - 1) * 20;
 
     try {
         const movies = await prisma.movie.findMany({
             include: { genres: { include: { genre: true } } },
+            orderBy: {
+                //@ts-ignore
+                [sortBy]: ascOrDesc,
+            },
             skip: nrToSkip,
             take: 20,
         });
@@ -234,7 +240,7 @@ app.get('/genres/:genre', async (req, res) => {
     let page = Number(req.query.page);
     const genreId = await prisma.genre.findFirst({
         where: { name: genre },
-    });    
+    });
     const count = await prisma.movieGenre.count({
         where: {
             genreId: genreId?.id,
@@ -263,7 +269,7 @@ app.get('/genres/:genre', async (req, res) => {
     }
 });
 
-//get lastest movies
+//get latest movies
 app.get('/latest', async (req, res) => {
     const latestMovies = await prisma.movie.findMany({
         orderBy: {
@@ -274,6 +280,24 @@ app.get('/latest', async (req, res) => {
     });
     res.send(latestMovies);
 });
+
+//sort movies
+// app.get('/sort', async (req, res) => {
+//     const by = req.query.by;
+//     const ascOrDesc = req.query.ascOrDesc;
+//     const page = Number(req.query.page);
+//     console.log(by, ascOrDesc, page);
+//     const movies = await prisma.movie.findMany({
+//         orderBy: {
+//             //@ts-ignore
+//             [by]: ascOrDesc,
+//         },
+//         take: 20,
+//         skip: (page - 1) * 20,
+//         include: { genres: { include: { genre: true } } },
+//     });
+//     res.send(movies);
+// });
 
 //add latest movies in db
 
@@ -342,7 +366,7 @@ async function addLatestMovies() {
         const thumbnail = singleMovieHtml.querySelector(
             `meta[property="og:image"]`
         )?.attributes.content;
-        console.log(thumbnail)
+        // console.log(thumbnail);
 
         const file = fs.createWriteStream(
             //@ts-ignore
@@ -381,7 +405,7 @@ async function addLatestMovies() {
             //@ts-ignore
             (movie) => (movie.releaseYear = Number(movie.releaseYear))
         );
-        movies.forEach(async function(movie) {
+        movies.forEach(async function (movie) {
             const genresa = [];
             for (let genre of movie.genres) {
                 const genreId = genres.find((genre1) => genre1.name === genre);
@@ -391,7 +415,7 @@ async function addLatestMovies() {
                     );
                     //@ts-ignore
                     genresa.push(id + 1);
-                }else{
+                } else {
                     const newGenre = await prisma.genre.create({
                         data: {
                             name: genre,
@@ -420,13 +444,11 @@ async function addLatestMovies() {
                     trailerSrc: movie.trailerSrc,
                 },
             });
-            
+
             for (const genre of movie.genres) {
-                
-                    await prisma.movieGenre.create({
-                        data: { genreId: genre, movieId: createdMovie.id },
-                    })
-                
+                await prisma.movieGenre.create({
+                    data: { genreId: genre, movieId: createdMovie.id },
+                });
             }
         }
     }
