@@ -232,7 +232,7 @@ app.get('/genres/:genre', async (req, res) => {
     let page = Number(req.query.page);
     const genreId = await prisma.genre.findFirst({
         where: { name: genre },
-    });
+    });    
     const count = await prisma.movieGenre.count({
         where: {
             genreId: genreId?.id,
