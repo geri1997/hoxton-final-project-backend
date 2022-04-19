@@ -19,7 +19,7 @@ app.use(cors());
 app.use(express.json());
 // #endregion
 
-app.use(express.static('public'))
+app.use(express.static('public'));
 
 app.get('/', async (req, res) => {
     res.send('Server Up and Running');
@@ -277,6 +277,9 @@ app.get('/latest', async (req, res) => {
 
 //add latest movies in db
 
+import https from 'https'; // or 'https' for https:// URLs
+import fs from 'fs';
+
 async function addLatestMovies() {
     const resq = await fetch('https://www.filma24.so/feed', {
         headers: {
@@ -335,9 +338,23 @@ async function addLatestMovies() {
         const synopsis = singleMovieHtml.querySelector(
             '.synopsis .syn-wrapper p'
         )?.innerText;
+
         const thumbnail = singleMovieHtml.querySelector(
             `meta[property="og:image"]`
         )?.attributes.content;
+        console.log(thumbnail)
+
+        const file = fs.createWriteStream(
+            //@ts-ignore
+            `public/images/${thumbnail?.split('/').pop()}`
+        );
+        const request = https.get(
+            //@ts-ignore
+            thumbnail?.replace('http', 'https'),
+            function (response) {
+                response.pipe(file);
+            }
+        );
         movies.push({
             title: movieTitle,
             videoSrc: movieLink,
@@ -347,7 +364,9 @@ async function addLatestMovies() {
             releaseYear,
             ratingImdb: imdbRating,
             description: synopsis,
-            photoSrc: thumbnail,
+            photoSrc: `http://localhost:4000/images/${thumbnail
+                ?.split('/')
+                .pop()}`,
         });
     }
     if (movies.length !== 0) {
@@ -362,15 +381,25 @@ async function addLatestMovies() {
             //@ts-ignore
             (movie) => (movie.releaseYear = Number(movie.releaseYear))
         );
-        movies.forEach((movie) => {
+        movies.forEach(async function(movie) {
             const genresa = [];
             for (let genre of movie.genres) {
                 const genreId = genres.find((genre1) => genre1.name === genre);
-                const id = genres.findIndex(
-                    (genre) => genre.name === genreId?.name
-                );
-                //@ts-ignore
-                genresa.push(id + 1);
+                if (genreId) {
+                    const id = genres.findIndex(
+                        (genre) => genre.name === genreId?.name
+                    );
+                    //@ts-ignore
+                    genresa.push(id + 1);
+                }else{
+                    const newGenre = await prisma.genre.create({
+                        data: {
+                            name: genre,
+                        },
+                    });
+                    //@ts-ignore
+                    genresa.push(newGenre.id);
+                }
             }
             //@ts-ignore
             movie.genres = genresa;
@@ -391,11 +420,13 @@ async function addLatestMovies() {
                     trailerSrc: movie.trailerSrc,
                 },
             });
-
+            
             for (const genre of movie.genres) {
-                await prisma.movieGenre.create({
-                    data: { genreId: genre, movieId: createdMovie.id },
-                });
+                
+                    await prisma.movieGenre.create({
+                        data: { genreId: genre, movieId: createdMovie.id },
+                    })
+                
             }
         }
     }
