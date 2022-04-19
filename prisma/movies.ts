@@ -8,8 +8,7 @@ export const movies = [
         ratingImdb: 0,
         description:
             "Kai Jin, një kuzhinier i ri në San Francisko, ngatërrohet me ndjekjen e Triadës Kineze për fuqitë e lashta vdekjeprurëse të njohura si 'Wu Xing'.",
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_fistful_of_vengeance.png',
+        photoSrc: 'http://localhost:4000/images/rsz_fistful_of_vengeance.png',
     },
     {
         title: 'Texas Chainsaw Massacre (2022)',
@@ -20,7 +19,7 @@ export const movies = [
         ratingImdb: 5.6,
         description:
             'Pas rreth 50 vitesh i fshehur Fytyrë-lëkura rikthehet për të terrorizuar një grup shokësh që aksidentalisht i prishin qetësinë në një qytezë të braktisur në periferi të Teksasit.',
-        photoSrc: 'http://www.filma24.so/wp-content/uploads/rsz_texas.png',
+        photoSrc: 'http://localhost:4000/images/rsz_texas.png',
     },
     {
         title: 'Alpha Rift (2021)',
@@ -31,8 +30,7 @@ export const movies = [
         ratingImdb: 6.1,
         description:
             'Një përkrenare magjike e fut Nolanin në një botë kalorësish të ditëve moderne, që luftojnë të keqen e mbinatyrshme. Ndonëse e ka të vështirë të besojë se historitë e fisnikëve ekzistojnë vërtet, ai është i detyruar të bëhet kalorësi hero, siç ishte i destinuar që në lindje.',
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_movieposter_en.png',
+        photoSrc: 'http://localhost:4000/images/rsz_movieposter_en.png',
     },
     {
         title: 'Pursuit (2022)',
@@ -44,7 +42,7 @@ export const movies = [
         description:
             'Detektivi Breslin kryqëzon rrugët me Calloway, një haker i pamëshirshëm që po përpiqet të shpëtojë gruan e tij të rrëmbyer nga një kartel droge. Kur Calloway arratiset nga paraburgimi i policisë, Breslin bashkon forcat me një police me këmbë në tokë për të rimarrë të burgosurin e tij.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_wyihsxwyqn8ejsdut2p1p0o97n0.png',
+            'http://localhost:4000/images/rsz_wyihsxwyqn8ejsdut2p1p0o97n0.png',
     },
     {
         title: 'Jailbreak Pact (2020)',
@@ -56,7 +54,7 @@ export const movies = [
         description:
             'Ky film bazohet në histori të vërtetë. Në vitin 1990, 49 të burgosur politik u arratisën me anë të një tuneli i cili iu desh 18 muaj për ta hapur duke gërmuar.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_elevjj3yg279mmpwuygyrhbjbbq.png',
+            'http://localhost:4000/images/rsz_elevjj3yg279mmpwuygyrhbjbbq.png',
     },
     {
         title: 'Heroic Losers (2019)',
@@ -68,7 +66,7 @@ export const movies = [
         description:
             "Dështakët Heroikë : Në kohën e 'Corralitosit' të famshëm Argjentinas, komshinjtë e një qyteti të vogël bëjnë një plan për të marrë mbrapsht paratë e humbura, pasi mësojnë se i ka vjedhur një avokat i famshëm me ndihmën e drejtorit të bankës së tyre. ",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/yyBcr5Z5EZJn25yEH75PLc9gWfA.png',
+            'http://localhost:4000/images/yyBcr5Z5EZJn25yEH75PLc9gWfA.png',
     },
     {
         title: 'At the End of the Tunnel (2016)',
@@ -80,7 +78,7 @@ export const movies = [
         description:
             'Një inxhinier kompjuterësh i paralizuar që lëviz me një karrige me rrota dhe punon në bodrumin e tij, fillon të dëgjojë zhurma dhe zërat e grabitësve të bankave.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_b0qx5pqu3hwlotspnnz6wuwjfhy.png',
+            'http://localhost:4000/images/rsz_b0qx5pqu3hwlotspnnz6wuwjfhy.png',
     },
     {
         title: '9th Company (2005)',
@@ -92,7 +90,7 @@ export const movies = [
         description:
             'Filmi më fitimprurës i Rusisë post-komuniste deri tani, KOMPANIA E 9-të është një film lufte i ditëve moderne që mund të krahasohet me filmat më të njohur hollivudianë. Më 1988, një bandë me 39 ushtarë sovjetikë mbajtën “Kodrën 3234” kundër 400 rebelëve afganë në një kapitull të jashtëzakonshëm të historisë ushtarake. I bazuar në ngjarje ë vërteta, filmi ndjek fatin e keq të një grupi të vogël ushtarësh të rinj rusë, nga stërvitjet e kampit, te mbërritja e tyre në zemrën e luftës e deri te beteja e përgjakshme që i bëri të gjithë heronj.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/2016/02/rsz_ykpr5dbuzrpsdt1gohuntvsnplg.png',
+            'http://localhost:4000/images/rsz_ykpr5dbuzrpsdt1gohuntvsnplg.png',
     },
     {
         title: 'A Haunted House 2 (2014)',
@@ -104,7 +102,7 @@ export const movies = [
         description:
             'Pasi ka bërë procesin e ekzorcizmit për të larguar djallin nga ish e dashura e tij, Malkolmi ia ka nisur nga fillimi me të dashurën e tij të re dhe dy fëmijët e saj. Pasi janë zhvendosur në shtëpinë e ëndërrave, Malkolmi edhe një herë fillon të torturohet nga aktivitete paranormale të çuditshme.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_2c9utc3rgiw5nrqb72yibp00uif.png',
+            'http://localhost:4000/images/rsz_2c9utc3rgiw5nrqb72yibp00uif.png',
     },
     {
         title: 'Combustion (2013)',
@@ -115,8 +113,7 @@ export const movies = [
         ratingImdb: 5.7,
         description:
             'Në festën e shpalljes së fejesës së tij me Xhulian, një trashëgimtare dyqanesh argjendarie, Mikeli njihet me kamerieren joshëse Ari. Ai përpiqet t’i mbajë nën kontroll ndjenjat e tij, por fati i bashkon dhe Mikeli përjeton natën më pasionante të jetës së tij. I fiksuar pas Arit, ai tërhiqet në botën magjepsëse të garave ilegale me makina. Kur ai kupton se është ngatërruar në një plan të përpunuar nga Ari dhe i dashuri i saj i rrezikshëm për të grabitur biznesin multimilionar të Xhulias, nuk ka më kthim mbrapa për të. Mikeli është i dashuruar me Arin... dhe do të detyrohet të marrë vendimin më të vështirë të jetës së tij dhe të drejtojë sulmin ndaj dyqanit të ish të fejuarës së tij.',
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_1combustion.png',
+        photoSrc: 'http://localhost:4000/images/rsz_1combustion.png',
     },
     {
         title: 'Shut In (2022)',
@@ -127,7 +124,7 @@ export const movies = [
         ratingImdb: 6.6,
         description:
             'Pasi ish-i dashuri i dhunshëm e mbyll brenda qilarit, një nënë e re duhet të përdorë zgjuarsinë për të mbrojtur dy fëmijët e saj të vegjël nga rreziku i përshkallëzuar, ndërsa përpiqet të dalë prej andej.',
-        photoSrc: 'http://www.filma24.so/wp-content/uploads/rsz_shut_in.png',
+        photoSrc: 'http://localhost:4000/images/rsz_shut_in.png',
     },
     {
         title: 'Eiffel (2021)',
@@ -139,7 +136,7 @@ export const movies = [
         description:
             'Sapo ka përfunduar Statuja e Lirisë, Gustave Eiffel është në kulmin e karrierës së tij. Gjithçka ndryshon ditën kur ai kryqëzon rrugët me dashurinë e tij. Marrëdhënia e tyre e ndaluar e frymëzon atë të ndryshojë horizontin e Parisit përgjithmonë.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_9fcilbxprdve3hw65ruegd3zmuz.png',
+            'http://localhost:4000/images/rsz_9fcilbxprdve3hw65ruegd3zmuz.png',
     },
     {
         title: 'Licorice Pizza (2021)',
@@ -151,7 +148,7 @@ export const movies = [
         description:
             'Historia e Alana Kejnit dhe Geri Valentinit që rriten, duke vrapuar dhe duke kaluar nëpër lundrimin tradhtar të dashurisë së parë në Luginën e San Fernandos, në vitin 1973. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_jd98aukhqznamrk0wqq9wmnqpnp.png',
+            'http://localhost:4000/images/rsz_jd98aukhqznamrk0wqq9wmnqpnp.png',
     },
     {
         title: 'Freaks Out (2021)',
@@ -163,7 +160,7 @@ export const movies = [
         description:
             'Matilde, Cencio, Fulvio dhe Mario janë të bashkuar kur Lufta e Dytë Botërore godet Romën. Izraeli, pronari i cirkut të tyre, zhduket në përpjekje për të gjetur një vend jashtë shtetit për të gjithë. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/1TkkTo8UiRl5lWM5qkAISHXg0fU.jpg',
+            'http://localhost:4000/images/1TkkTo8UiRl5lWM5qkAISHXg0fU.jpg',
     },
     {
         title: 'Naked Weapon (2002)',
@@ -174,7 +171,7 @@ export const movies = [
         ratingImdb: 5.5,
         description:
             '40 vajza 13 vjeçare rrëmbehen dhe për 6 vite trajnohen me forcë për të qenë vrasëse. Të mbijetuarat e trajnimit arrijnë të jenë vrasëset me famë ndërkombëtarë, të njohura si kukullat kineze. Një agjent i CIA-s bie në gjurmët e tyre. ',
-        photoSrc: 'http://www.filma24.so/wp-content/uploads/rsz_naked.png',
+        photoSrc: 'http://localhost:4000/images/rsz_naked.png',
     },
     {
         title: 'The Blood of Wolves (2018)',
@@ -185,8 +182,7 @@ export const movies = [
         ratingImdb: 6.9,
         description:
             'Detektivi i policisë së Hiroshimas, Ogami Shogo dhe partneri i tij Hioka hetojnë zhdukjen e një punojësi banke dhe kërkimi përshkallëzon luftën e Jakuzës për territor në vitin 1988.',
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_91vii-wgx2l_ri_.png',
+        photoSrc: 'http://localhost:4000/images/rsz_91vii-wgx2l_ri_.png',
     },
     {
         title: 'Stoker Hills (2022)',
@@ -197,8 +193,7 @@ export const movies = [
         ratingImdb: 4,
         description:
             'Tre studentë kolegji duke filmuar një film horror e gjejnë veten të bllokuar në makthin e tyre më të keq. Shpresa e tyre e vetme për mbijetesë janë dy detektivë që gjejnë kamerën që lanë pas.',
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_stokerhills.png',
+        photoSrc: 'http://localhost:4000/images/rsz_stokerhills.png',
     },
     {
         title: 'Catch the Fair One (2022)',
@@ -210,7 +205,7 @@ export const movies = [
         description:
             'Një ish boksiere përballet me betejën e jetës kur shkon të kërkojë motrën e saj të humbur.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_catch_the_fair_one_me_titra_shqip.png',
+            'http://localhost:4000/images/rsz_catch_the_fair_one_me_titra_shqip.png',
     },
     {
         title: 'Honey 3: Dare to Dance (2016)',
@@ -221,7 +216,7 @@ export const movies = [
         ratingImdb: 6.6,
         description:
             'Ndërsa shkon në universitetin e Kejp Taunit, Melia Martini ndihet e kufizuar nga rregullat e shkollës dhe vendos të bëjë diçka vetë. Duke kërkuar për një mënyrë se si të përdorë talentin e saj si kërcimtare dhe të frymëzojë komunitetin rreth saj, Melia merr me qira një teatër të dështuar që të vërë në skenë një shfaqje hip-hopi të Romeos dhe Xhuljetës. Por ashtu si Kapuletët dhe Montagët, mosmarrëveshjet mes pjesëtarëve të kastit kërcënojnë zhvillimin e shfaqjes. ',
-        photoSrc: 'http://www.filma24.so/wp-content/uploads/mm00226229.jpg',
+        photoSrc: 'http://localhost:4000/images/mm00226229.jpg',
     },
     {
         title: 'Fear Clinic (2014)',
@@ -233,7 +228,7 @@ export const movies = [
         description:
             'Një mjek kërkon për të kuruar një paciente nga fobitë e saj duke i future ata brenda shpikjes së tij që prodhon dhe kontrollon haluçinacione.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/2015/06/rsz_4nebfeqomo05020rsqd7emn8yva.png',
+            'http://localhost:4000/images/rsz_4nebfeqomo05020rsqd7emn8yva.png',
     },
     {
         title: 'Big Bug (2022)',
@@ -244,8 +239,7 @@ export const movies = [
         ratingImdb: 5.5,
         description:
             'Një grup banorësh të periferisë të cilët kanë grindje të vazhdueshme mes tyre e gjejnë veten të mbyllur së bashku, kur një kryengritje e androidëve bën që robotët e tyre shtëpiak për sigurinë e tyre ti izolojnë në banese.',
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_bigbug_me_titra_shqip.png',
+        photoSrc: 'http://localhost:4000/images/rsz_bigbug_me_titra_shqip.png',
     },
     {
         title: 'True to the Game 3 (2021)',
@@ -257,7 +251,7 @@ export const movies = [
         description:
             "Trologjia vazhdon në përfundimin e filmit 'True 2'. Xhina zgjohet dhe zbulon se shpëtimtari i saj misterioz është Kadiri. Përpara se të jetojnë të lumtur, Xhina ka kohë 72 orë për tu kthyer në Filadelfia të shpëtojë Brian dhe gjyshe Gitin.",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_hdkmo1ferh5gewp9vaw27ax2tyy.png',
+            'http://localhost:4000/images/rsz_hdkmo1ferh5gewp9vaw27ax2tyy.png',
     },
     {
         title: 'Just Before I Go (2014)',
@@ -269,7 +263,7 @@ export const movies = [
         description:
             'Në prag të heqjes dorë nga jeta, një djalë udhëton në qytetin e lindjes për të ndrequr gabimet e tij...',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_rewxzioh3clva5jjmxt5kayy6ff.png',
+            'http://localhost:4000/images/rsz_rewxzioh3clva5jjmxt5kayy6ff.png',
     },
     {
         title: 'Mary Poppins Returns (2018)',
@@ -281,7 +275,7 @@ export const movies = [
         description:
             'Dekada pas vizitës së saj origjinale, dadoja magjike kthehet për të ndihmuar përsëri Benksat dhe fëmijët e Majkëllit në këtë periudhë të vështirë të jetës së tyre.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/aY7lsvp9mK2SCHB5o59n4LWR8o9.png',
+            'http://localhost:4000/images/aY7lsvp9mK2SCHB5o59n4LWR8o9.png',
     },
     {
         title: 'The Hobbit: The Battle of the Five Armies (2014)',
@@ -293,7 +287,7 @@ export const movies = [
         description:
             'Vetëm sekonda pas ngjarjeve tek “Rrënimi”, Bilbo dhe grupi vazhdojnë të ngjiten në një mal thesari që ishte ruajtur prej shumë kohësh. Por me Gandalfin e Thinjur, i cili po përballej me disa armiq të vështirë, Hobiti mbetet në disavantazh kur ushtria brutale me orkë e drejtuar nga Azog Përdhosësi kthehet pas. Por me ushtritë e tjera, si ajo e kukudhëve dhe ajo e njerëzve të Qytetit në Liqen, të cilave nuk u besohet, vihen në provë nga tërbimi i Smogut, forca absolute e Azogut, dhe ushtria e plotë Sauronit plotësojnë sulmin. Me pak fjalë, ushtritë e besuar kanë dy zgjedhje: të bashkohen ose të vdesin. Por për më keq, Bilbo vihet në teh të thikës dhe e gjen veten duke luftuar me të gjithë forcën për shokët e tij xhuxhë, pasi shpresa për Mesin e Tokës ishte vënë e gjitha në duart e Bilbos. Gjëja e vetme “e shtrenjtë” për t’u dhënë fund të gjithave.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_xjxwtd6d4kpgdl1oehyumzwnky5.png',
+            'http://localhost:4000/images/rsz_xjxwtd6d4kpgdl1oehyumzwnky5.png',
     },
     {
         title: 'True to the Game (2017)',
@@ -304,8 +298,7 @@ export const movies = [
         ratingImdb: 5.4,
         description:
             'Një bos karizmatik droge përpiqet të fillojë një jetë të re pasi bie në dashuri me një vajzë të re nga Filadelfia.',
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_true_to_the_game.png',
+        photoSrc: 'http://localhost:4000/images/rsz_true_to_the_game.png',
     },
     {
         title: 'Ted K (2022)',
@@ -316,7 +309,7 @@ export const movies = [
         ratingImdb: 6.1,
         description:
             'Një eksplorim i jetës së Ted Krazinskit në Linkoln, Montana gjatë viteve përpara se të arrestohej.',
-        photoSrc: 'http://www.filma24.so/wp-content/uploads/rsz_tedk.png',
+        photoSrc: 'http://localhost:4000/images/rsz_tedk.png',
     },
     {
         title: 'Fireheart (2022)',
@@ -328,7 +321,7 @@ export const movies = [
         description:
             "16 vjeçarja, Xhorxhia Nolan, me dëshirën e madhe për t’u bërë femra e parë zjarrfikëse në botë, bëhet pjesë e një serie ngjarjesh kur në qytetin e Nju Jork zjarrfikësit fillojnë të zhduken. E dëshpëruar për të ndihmuar të atin dhe për të shpëtuar qytetin e saj, nga zjarrvënësi i teatrove, Xhorxhia maskohet si një djalë i ri i quajtur 'Xho' dhe bashkohet me një grup të vogël zjarrfikësish të papërshtatshëm që përpiqen të ndalojnë zjarrvënësin.",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_nmd0vzk8jqg1suhs0iv9cj0xdtz.png',
+            'http://localhost:4000/images/rsz_nmd0vzk8jqg1suhs0iv9cj0xdtz.png',
     },
     {
         title: 'Out of Time (2003)',
@@ -340,7 +333,7 @@ export const movies = [
         description:
             'Një shef policie në Florida duhet të zgjidhi një vrasje të dyfishtë dashakeqe, përpara se ai vetë të bjeri në dyshim.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_out-of-time-2003-film-images-0106f6f4-64da-453d-b0a9-b746a7d89e0.png',
+            'http://localhost:4000/images/rsz_out-of-time-2003-film-images-0106f6f4-64da-453d-b0a9-b746a7d89e0.png',
     },
     {
         title: 'Needle Boy (2016) +18',
@@ -352,7 +345,7 @@ export const movies = [
         description:
             'Jeta është bërë e padurueshme për Nikun, një 23-vjeçarin i cili është i bindur që është person i keq. Rrjedhimisht, ai shfaqet në Universitetin e Arhusit me armë në xhep dhe tenton të qëllojë kolegët e tij studentë ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/graYxyHxbi7NHiQHOJZzU3pnVUS-1.jpg',
+            'http://localhost:4000/images/graYxyHxbi7NHiQHOJZzU3pnVUS-1.jpg',
     },
     {
         title: 'True to the Game 2 (2020)',
@@ -364,7 +357,7 @@ export const movies = [
         description:
             'Pas vdekjes të së dashurit të saj, një gazetare njujorkeze bëhet objektivi i një krimineli që kërkon të mbledhë një borxh.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_dlij7mryiehlerrlghp4wsa8alt.png',
+            'http://localhost:4000/images/rsz_dlij7mryiehlerrlghp4wsa8alt.png',
     },
     {
         title: 'C&#8217;mon C&#8217;mon (2021)',
@@ -376,7 +369,7 @@ export const movies = [
         description:
             "Kur motra e tij i kërkon atij të kujdeset për djalin e saj, një gazetar radioje nis një udhëtim jashtë vendit me nipin e tij energjik për t'i treguar atij jetën larg Los Anxhelosit.",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_hrob7nfim3cnk28j0jk4rfbxgq9.png',
+            'http://localhost:4000/images/rsz_hrob7nfim3cnk28j0jk4rfbxgq9.png',
     },
     {
         title: 'Charlie Bartlett (2007)',
@@ -388,7 +381,7 @@ export const movies = [
         description:
             'Çarli Bartlet është një 17 vjeçar inovativ dhe tepër i përgatitur por që has probleme me popullaritetin në shkollë. Kështu ai ndërmerr veprime nga më të ndryshmet që të ndihet i plotësuar.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_xcirdlsaqwuphkyq2kp9aglidq0.png',
+            'http://localhost:4000/images/rsz_xcirdlsaqwuphkyq2kp9aglidq0.png',
     },
     {
         title: 'No Exit (2022)',
@@ -399,8 +392,7 @@ export const movies = [
         ratingImdb: 6.1,
         description:
             'Të bllokuar gjatë një stuhie bore në një ndalesë pushimi të izoluar në male, një narkomane e cila arratiset nga qëndra e rehabilitimit zbulon një fëmijë të rrëmbyer të fshehur në një fugon që i përkiste dy prej njerëzve aty brenda.',
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_no_exit_me_titra_shqip.png',
+        photoSrc: 'http://localhost:4000/images/rsz_no_exit_me_titra_shqip.png',
     },
     {
         title: 'Special Delivery (2022)',
@@ -411,7 +403,7 @@ export const movies = [
         ratingImdb: 6.4,
         description:
             "Eun-ha, e cila është një punonjëse e zakonshme e kantierit të mbeturinave, punon fshehurazi si nëpunëse dërgese që merret me kërkesat e pazakonta të dërgesave. 'Ajo mund të dorëzojë gjithçka që shërbimi i postës nuk trajton.'",
-        photoSrc: 'http://www.filma24.so/wp-content/uploads/rsz_special.png',
+        photoSrc: 'http://localhost:4000/images/rsz_special.png',
     },
     {
         title: 'Domino (2019)',
@@ -423,7 +415,7 @@ export const movies = [
         description:
             'Një polic nga Kopenhaga kërkon drejtësi për vrasjen e partnerit të tij nga një njeri misterioz.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_rrx1ojdd068ahlrgq5khd92a3ba.png',
+            'http://localhost:4000/images/rsz_rrx1ojdd068ahlrgq5khd92a3ba.png',
     },
     {
         title: 'The Desperate Hour (2021)',
@@ -435,7 +427,7 @@ export const movies = [
         description:
             'Një mama mundohet të shpëtojë djalin e saj ndërsa autoritetet e mbyllin qytetin. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/u6Pg9eTklhg6Aa7kXaxrfdE1Chi.jpg',
+            'http://localhost:4000/images/u6Pg9eTklhg6Aa7kXaxrfdE1Chi.jpg',
     },
     {
         title: 'I Want You Back (2022)',
@@ -447,7 +439,7 @@ export const movies = [
         description:
             "Piter dhe Ema bashkohen për të sabotuar marrëdhëniet e reja të ish-ëve të tyre dhe për t'i fituar përsëri.",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_i_want_you_back_me_titra_shqip.png',
+            'http://localhost:4000/images/rsz_i_want_you_back_me_titra_shqip.png',
     },
     {
         title: 'Hunter Killer (2018)',
@@ -458,8 +450,7 @@ export const movies = [
         ratingImdb: 6.6,
         description:
             'Një kapiten i ri i Flotës Detare Amerikane duhet të bashkojë forcat me një skuadër ushtarake, për të shpëtuar Presidentin Rus nga një grusht shteti i organizuar nga një gjeneral që kërkon pushtet.',
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_p15325196_v_v8_ae.png',
+        photoSrc: 'http://localhost:4000/images/rsz_p15325196_v_v8_ae.png',
     },
     {
         title: 'West Side Story (2021)',
@@ -470,7 +461,7 @@ export const movies = [
         ratingImdb: 7.7,
         description:
             'Jeta e një Romeoje dhe Zhuljete moderne, në bandat e rrugëve të Nju Jorkut. Në rrugët e ashpra të anës së sipërme perëndimore, dy banda luftojnë për kontrollin e terrenit. Situata ndërlikohet kur një anëtar bande bie në dashuri me motrën e një rivali.',
-        photoSrc: 'http://www.filma24.so/wp-content/uploads/rsz_west_side.png',
+        photoSrc: 'http://localhost:4000/images/rsz_west_side.png',
     },
     {
         title: 'Foxcatcher (2014)',
@@ -481,8 +472,7 @@ export const movies = [
         ratingImdb: 7,
         description:
             'Bazuar në historinë e vërtetë të mundësit olimpik Mark Schultz, i cili vihet në rrethana të vështira nga sponsori i tij.',
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/2015/01/fo-poster.jpg',
+        photoSrc: 'http://localhost:4000/images/fo-poster.jpg',
     },
     {
         title: 'Circle (2015)',
@@ -493,7 +483,7 @@ export const movies = [
         ratingImdb: 6,
         description:
             'Të mbajtur me forcë dhe përballë vdekjes së tyre, 50 të njerëz pa njohje me njeri-tjetrin detyrohen të zgjedhin njërin prej tyre i cili mund të jetojë.',
-        photoSrc: 'http://www.filma24.so/wp-content/uploads/2015/10/cc.png',
+        photoSrc: 'http://localhost:4000/images/cc.png',
     },
     {
         title: 'Acusada (2018) a.k.a. The Accused',
@@ -505,7 +495,7 @@ export const movies = [
         description:
             'Dolores Dreier, bën një jetë studentore të bukur derisa shoqja e saj e ngushtë vritet në mënyrë misterioze dhe i gjithë dyshimi bie mbi të.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_bwwalkuairbi7ntvjkgcui5y1dn.png',
+            'http://localhost:4000/images/rsz_bwwalkuairbi7ntvjkgcui5y1dn.png',
     },
     {
         title: 'The Whale (2013)',
@@ -516,7 +506,7 @@ export const movies = [
         ratingImdb: 6.3,
         description:
             "Tom Nikersoni i moshuar kujton se si në vitin 1819 doli në det si djalë kabine në anijen e gjuetisë së balenave 'Eseks', duke lënë Nantuketin. Kapiteni i tij Xhorxh Polard e mori përzemër duke qenë se gjente ngjashmëri me të nga historitë e gjyshit të tij. Në një ditë të stuhishme, kur ushqimet e tyre ishin pakësuar, shpresa e tyre u rrit nga kapja e një balene. Dy muaj më vonë, një balenë tjetër u shfaq dhe e fundosi anijen, gjw që Tomi mendonte se ishte akt hakmarrjeje. Më pas, ekuipazhi përpiqet me çdo kusht të gjejë një mënyrë për të mbijetuar në det të hapur.",
-        photoSrc: 'http://www.filma24.so/wp-content/uploads/rsz_the_wahle.png',
+        photoSrc: 'http://localhost:4000/images/rsz_the_wahle.png',
     },
     {
         title: 'Winter on Fire: Ukraine&#8217;s Fight for Freedom (2015)',
@@ -527,8 +517,7 @@ export const movies = [
         ratingImdb: 8.3,
         description:
             'Një dokumentar i xhiruar mes trazirave të Ukrainës gjatë vitit 2013 dhe 2014, kur protestat e studentëve të cilët donin integrimin Evropian Eskaluan në një revolucion të dhunshëm duke kërkuar dorëheqjen e Presidentit Viktor F. Yanukovich.',
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_winter_on_fire.png',
+        photoSrc: 'http://localhost:4000/images/rsz_winter_on_fire.png',
     },
     {
         title: 'The Call of the Wild (2020)',
@@ -540,7 +529,7 @@ export const movies = [
         description:
             "Bak është nje qen me zemër të madhe ku jeta e qetë shtëpiake do të përmbyset pasi ai rrëmbehet për t'u shitur si qen slite. Në aventurën e tij ai do të njoh miq të mirë dhe vendin që i takon...",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_tehafvhditdoaxkff8om5axeqr7.png',
+            'http://localhost:4000/images/rsz_tehafvhditdoaxkff8om5axeqr7.png',
     },
     {
         title: 'Until We Meet Again (2022)',
@@ -551,7 +540,7 @@ export const movies = [
         ratingImdb: 5.8,
         description:
             'Një vajzë zbulon se shtëpia e saj e re është e banuar nga fantazma e një pianisti të ri të pasionuar, i cili vdiq tragjikisht 35 vite më parë. ',
-        photoSrc: 'http://www.filma24.so/wp-content/uploads/rsz_1until.png',
+        photoSrc: 'http://localhost:4000/images/rsz_1until.png',
     },
     {
         title: 'Arctic Void (2022)',
@@ -563,7 +552,7 @@ export const movies = [
         description:
             'Kur elektriciteti ikën në mënyrë misterioze dhe pothuajse të gjithë zhduken nga një anije e vogël turistike në Arktik, frika bëhet mjeshtër për të tre ata që mbetën. Të detyruar të zbresin në breg, tre burrat përkeqësohen në trup dhe mendje derisa shfaqet një e vërtetë e errët që i detyron ata të bashkohen ose të zhduken. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/tNsiUYvnPdzue9stFpqSAcXwuMe.jpg',
+            'http://localhost:4000/images/tNsiUYvnPdzue9stFpqSAcXwuMe.jpg',
     },
     {
         title: 'The Giver (2014)',
@@ -575,7 +564,7 @@ export const movies = [
         description:
             'Historia e DHËNËSIT përqendrohet te Xhonas, një djalosh që jeton në një botë ideale e pa ngjyra. Kur ai fillon të kalojë kohë me Dhënësin, i cili është ruajtësi i vetëm i kujtimeve të komunitetit, Xhonasi nis të zbulojë të vërteta të errëta të së kaluarës. Me fuqinë e tij të njohurisë, ai kupton se rreziqet janë më të larta nga çfarë mendohej – një çështje jetë a vdekje për të dhe për të dashurit e tij. Xhonasi e di se duhet të largohet nga kjo botë për t’i mbrojtur të gjithë, një sfidë që më parë nuk e kishte kaluar askush me sukses. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/pBId6jhii1vP2CShtrGLB3SuKhc.jpg',
+            'http://localhost:4000/images/pBId6jhii1vP2CShtrGLB3SuKhc.jpg',
     },
     {
         title: 'My Father&#8217;s Violin (2022) a.k.a Babamin Kemani',
@@ -587,7 +576,7 @@ export const movies = [
         description:
             'Përmes pikëllimit të tyre të përbashkët dhe lidhjes me muzikën, një vajzë jetime lidhet me xhaxhain e saj violinist të suksesshëm emocionalisht të përmbajtur. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/AAAABUDmZc0IlYhKxh_DwvPU7qvpsrbSoCgyCEq-B_W552mUo5Qd6IYm9cf6WdfcyfccLK3qumrjgGbpid6I72Y4CVi-eVA-sy8XRgUxF4I41MOefi0gwN-mAYog9fhe1g.jpg',
+            'http://localhost:4000/images/AAAABUDmZc0IlYhKxh_DwvPU7qvpsrbSoCgyCEq-B_W552mUo5Qd6IYm9cf6WdfcyfccLK3qumrjgGbpid6I72Y4CVi-eVA-sy8XRgUxF4I41MOefi0gwN-mAYog9fhe1g.jpg',
     },
     {
         title: 'Payback (1999)',
@@ -598,7 +587,7 @@ export const movies = [
         ratingImdb: 7.1,
         description:
             "Porter (Mel Gibson) është një hajdut i tradhtuar nga gruaja e tij, Lynn (Deborah Kara Unger) dhe kolegia e tij, Val (Gregg Henry), kur ai u qëllua në shpinë pas një grabitjeje. Ngadalë, Porter shërohet nga plagët e tij dhe fillon një kërkim për Val, me qëllim që të rikuperojë pjesën e tij të parave që vodhën së bashku. Me ndihmën e prostitutës Rosie (Maria Bello), Porter kap Valin, por ende nuk mund t'i gjejë paratë e tij. Për këtë, Porter do të duhet të sfidojë një sindikatë imponuese të krimit të quajtur Outfit.",
-        photoSrc: 'http://www.filma24.so/wp-content/uploads/rsz_payback.png',
+        photoSrc: 'http://localhost:4000/images/rsz_payback.png',
     },
     {
         title: 'Tyler Perry&#8217;s A Madea Homecoming (2022)',
@@ -609,7 +598,7 @@ export const movies = [
         ratingImdb: 6,
         description:
             'Madea është kthyer. Dhe ajo nuk duron asnjë marrëzi kur drama familjare shpërthen në festën e diplomimit të stërnipit të saj.',
-        photoSrc: 'http://www.filma24.so/wp-content/uploads/rsz_1a_madem.png',
+        photoSrc: 'http://localhost:4000/images/rsz_1a_madem.png',
     },
     {
         title: 'Borrego (2022)',
@@ -620,8 +609,7 @@ export const movies = [
         ratingImdb: 4.9,
         description:
             'Borrego ndjek një botanist të ri i cili zhvendoset në një qytet të vogël të shkretëtirës për të studiuar një specie bimore pushtuese. Ajo duhet të luftojë për mbijetesën e saj kur rrëmbehet nga një drogaxhi i papërvojë pasi avioni i tij rrëzohet në shkretëtirë. ',
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_borrego_me_titra_shqip.png',
+        photoSrc: 'http://localhost:4000/images/rsz_borrego_me_titra_shqip.png',
     },
     {
         title: 'Down to Earth (2001)',
@@ -633,7 +621,7 @@ export const movies = [
         description:
             'Pasi vdes para kohe, një komedian zezak ambicioz fiton një mundësi të dytë në jetë, duke u vendosur në trupin e një biznesmeni të pasur të bardhë.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_zp6hh5r0sfmpgdktdmpsqozkbva.png',
+            'http://localhost:4000/images/rsz_zp6hh5r0sfmpgdktdmpsqozkbva.png',
     },
     {
         title: 'Goal! The Dream Begins (2005)',
@@ -644,7 +632,7 @@ export const movies = [
         ratingImdb: 6.8,
         description:
             'Djaloshit të talentuar Santiago Munez i jepet një mundësi në futbollin profesionist, pasi vëzhgohet nga një kërkues talentesh i cili e nënshkruan me Njukasëllin.',
-        photoSrc: 'http://www.filma24.so/wp-content/uploads/2015/10/goal.png',
+        photoSrc: 'http://localhost:4000/images/goal.png',
     },
     {
         title: 'Goal II: Living the Dream (2007)',
@@ -656,7 +644,7 @@ export const movies = [
         description:
             'Pasi bëhet një futbollist profesionist tek klubi i Njukasëll Juanitid, Santiago Munez blihet nga klubi i Real Madrid ku fillon aventura e madhe.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/2015/10/rsz_goal-2-living-the-dream-202679l.png',
+            'http://localhost:4000/images/rsz_goal-2-living-the-dream-202679l.png',
     },
     {
         title: 'Ask Tutulmas (2008) a.k.a The Goal of My Life',
@@ -668,7 +656,7 @@ export const movies = [
         description:
             'Dashuria e një tifozi të Fenerbahçes i ciligjithçka e lidh me parashikimin dhe ndjesinëqë ka për gjërat.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/MV5BM2U1YzgyZjUtYmY3ZC00YjMzLThmMjktNzE0MWM4YTgyZTA5XkEyXkFqcGdeQXVyMjc0MjUzMzU@._V1_.png',
+            'http://localhost:4000/images/MV5BM2U1YzgyZjUtYmY3ZC00YjMzLThmMjktNzE0MWM4YTgyZTA5XkEyXkFqcGdeQXVyMjc0MjUzMzU@._V1_.png',
     },
     {
         title: 'The Pilot. A Battle for Survival (2021) a.k.a Letchik',
@@ -680,7 +668,7 @@ export const movies = [
         description:
             'Dhjetor 1941, Fronti Veriperëndimor. Një kolonë tankesh gjermane po lëviz drejt Moskës. Gjatë një misioni për të ndaluar avancimin e armikut, piloti Nikolai Komlev goditet dhe arrin të ulet në një pyll. Ai është gjallë, por në territor armik. Përpara tij është një provë e pamëshirshme e qëndrueshmërisë së rëndë fizike dhe mendore. Pasi luftoi me urinë dhe të ftohtin ekstrem, duke iu shmangur tufave të ujqërve dhe detashmenteve të ushtarëve nazistë, Komlev i plagosur më në fund kthehet në territor të sigurt. Por atje ai përballet me një sfidë tjetër, më të rëndësishmen nga të gjitha. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/msKnqw1OMiJnQQ7rOFh8Syglxfm-1.jpg',
+            'http://localhost:4000/images/msKnqw1OMiJnQQ7rOFh8Syglxfm-1.jpg',
     },
     {
         title: 'Top Gun: Maverick (2022)',
@@ -691,7 +679,7 @@ export const movies = [
         description:
             'Pas më shumë se 30 vjet shërbimi si një nga pilotët më të mirë të Marinës, Pete Mitchell kthehet aty ku e ka vendin, duke shtyrë limitet si pilot testues dhe duke i bërë ballë çdo avancim teknologjie që e vë në sprovë... Nuk ka date se zyrtare se kur do shfaqet!',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/d2TVlANiuLZ1aOen3aaN2XzxHSJ.jpg',
+            'http://localhost:4000/images/d2TVlANiuLZ1aOen3aaN2XzxHSJ.jpg',
     },
     {
         title: 'Pirates (2014)',
@@ -702,8 +690,7 @@ export const movies = [
         ratingImdb: 6.5,
         description:
             'Një grup piratësh dhe një grup banditësh luftojnë për të kapur balenën gri që ka gëlltitur një vulë mbretërore.',
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/2016/01/pirates.jpg',
+        photoSrc: 'http://localhost:4000/images/pirates.jpg',
     },
     {
         title: 'Tall Girl (2019)',
@@ -715,7 +702,7 @@ export const movies = [
         description:
             'Kur vajza më e gjatë e gjimnazit bie në dashuri me një nxënës të bukur, ajo përfshihet në një trekëndësh të papritur dashurie. Tashmë, i duhet të luftojë me pasiguritë e saj për shkak të gjatësisë, për të cilën, të tjerët e kanë tallur gjatë të gjithë jetës...',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_tall_girl_2019_me_titra_shqip.png',
+            'http://localhost:4000/images/rsz_tall_girl_2019_me_titra_shqip.png',
     },
     {
         title: 'Sweet November (2001)',
@@ -727,7 +714,7 @@ export const movies = [
         description:
             "'Nëntor i ëmbël' : Një burrë i dhënë pas punës dhe një grua jo e zakontë bien dakord për një marrëdhënie me afat të shkurtër. Gjatë asaj kohe ajo do t'i ndryshojë jetën...",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/oudmI83S8tjSn84EpbYGTaVmmwI.png',
+            'http://localhost:4000/images/oudmI83S8tjSn84EpbYGTaVmmwI.png',
     },
     {
         title: 'The Calm Beyond (2020)',
@@ -738,7 +725,7 @@ export const movies = [
         ratingImdb: 5.6,
         description:
             'Një vajzë e re jeton e fshehur në pamje të qartë në një ndërtesë të shkatërruar të Hong Kongut, pasi një cunami shkatërroi qytetin. Ekzistenca e saj e fshehur, ndryshon përgjithmonë kur një fëmijë i vogël hyn në jetën e saj..',
-        photoSrc: 'http://www.filma24.so/wp-content/uploads/rsz_1the_calm.png',
+        photoSrc: 'http://localhost:4000/images/rsz_1the_calm.png',
     },
     {
         title: 'Tall Girl 2 (2022)',
@@ -750,7 +737,7 @@ export const movies = [
         description:
             "Pasi Jodi Kreyman fiton popullaritet, komunikimet e saj të gabuara fillojnë të shkaktojnë përçarje me ata që e rrethojnë dhe tani ajo me të vërtetë ka nevojë të 'qëndrojë e gjatë'.",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_1tall_girl_2_me_titra_shqip.png',
+            'http://localhost:4000/images/rsz_1tall_girl_2_me_titra_shqip.png',
     },
     {
         title: 'Indemnity (2022)',
@@ -762,7 +749,7 @@ export const movies = [
         description:
             'Bota e një ish-zjarrfikësi në Cape Town tronditet kur ai zgjohet pranë trupit të pajetë të gruas së tij pa kujtuar çfarë ndodhi dhe të gjitha provat e tregojnë atë si vrasës.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_indemnity_me_titra_shqip.png',
+            'http://localhost:4000/images/rsz_indemnity_me_titra_shqip.png',
     },
     {
         title: 'Troy (2004)',
@@ -774,7 +761,7 @@ export const movies = [
         description:
             'I bazuar në Iliadën nga Homeri, filmi ndjek sulmin ndaj Trojës nga ana e Greqisë së bashkuar dhe vendos fatet e njerëzve të përfshirë.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_edmlij7nw2nmla32xskdnzmcfbm.png',
+            'http://localhost:4000/images/rsz_edmlij7nw2nmla32xskdnzmcfbm.png',
     },
     {
         title: 'Project &#8216;Gemini&#8217; (2022)',
@@ -785,8 +772,7 @@ export const movies = [
         ratingImdb: 0,
         description:
             'Një thriller fantastiko-shkencor për një mision hapësinor të dërguar për të formuar një planet të largët. Megjithatë, misioni ndeshet me diçka të panjohur që ka planin e vet për planetin.',
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_project-gemini-2022.png',
+        photoSrc: 'http://localhost:4000/images/rsz_project-gemini-2022.png',
     },
     {
         title: 'Against the Ice (2022)',
@@ -797,8 +783,7 @@ export const movies = [
         ratingImdb: 6.4,
         description:
             'Në vitin 1909, dy eksplorues luftojnë për të mbijetuar pasi kanë mbetur pas ndërsa ishin në një ekspeditë në Grenlandën e mbuluar me akull.',
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_against_the_ice.png',
+        photoSrc: 'http://localhost:4000/images/rsz_against_the_ice.png',
     },
     {
         title: 'Haunt (2019)',
@@ -810,7 +795,7 @@ export const movies = [
         description:
             "Për Hallouin, një grup miqsh hasin në një shtëpi 'ekstreme' të pushtuar nga fantazmatqë premton të ushqejë frikërat e tyre më të errëta. Nata bëhet vdekjeprurëse ndërsa arrijnë te kuptojnë se disa makthe janë të vërteta.",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_haqsrjflq30i60uvn1vsb6urwkm.png',
+            'http://localhost:4000/images/rsz_haqsrjflq30i60uvn1vsb6urwkm.png',
     },
     {
         title: 'The Invisible Guest (2016) a.k.a Contratiempo',
@@ -822,7 +807,7 @@ export const movies = [
         description:
             'Nje biznesmen i ri perballet me nje avokat ne perpjekje per te provuar pafajesine per vrasjen e te dashures se tij.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/8c9fce3c0ffa46576423d44b525447edc25f1396.jpg',
+            'http://localhost:4000/images/8c9fce3c0ffa46576423d44b525447edc25f1396.jpg',
     },
     {
         title: 'Suck Me Shakespeer 2 (2015) a.k.a Fack ju Göhte 2',
@@ -834,7 +819,7 @@ export const movies = [
         description:
             "'Fack ju Göhte 2' Z.Miller dhe klasa e tij do të bëjnë një udhëtim shkollor në Tailandë për të forcuar reputacionin e shkollës së tyre.",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/2016/03/rsz_bny1a1fnykrp6wwaeq3xe4ay8ck.png',
+            'http://localhost:4000/images/rsz_bny1a1fnykrp6wwaeq3xe4ay8ck.png',
     },
     {
         title: 'Restless (2022)',
@@ -845,7 +830,7 @@ export const movies = [
         ratingImdb: 5.7,
         description:
             'Pasi kalon në ekstrem për të mbuluar një aksident, jeta e një polici të korruptuar del jashtë kontrollit kur ai fillon të marrë kërcënime nga një dëshmitar misterioz.',
-        photoSrc: 'http://www.filma24.so/wp-content/uploads/rsz_restless.png',
+        photoSrc: 'http://localhost:4000/images/rsz_restless.png',
     },
     {
         title: 'Outlaw King (2018)',
@@ -857,7 +842,7 @@ export const movies = [
         description:
             'Historia e vërtetë e Robert Brus, mbretit të vetëshpallur të Skocisë, i cili falë zgjuarsisë dhe kurajës së tij mundi ushtrinë Angleze 5 herë më të madhe në numër.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_rt49ouskuwn3dv7ulhac9ontndl.png',
+            'http://localhost:4000/images/rsz_rt49ouskuwn3dv7ulhac9ontndl.png',
     },
     {
         title: 'Demon Slayer the Movie: Mugen Train (2020)',
@@ -869,7 +854,7 @@ export const movies = [
         description:
             'Hashibira, një djalë i rritur nga derrat dhe Zenitsu Agatsuma, një djalë që zbulon fuqinë e tij të vërtetë kur fle, hipin në Trenin e Pafund për një mision të ri me Shtyllën e Flakës, Kioxhuro Rengoku, për të mposhtur një demon që ka torturuar njerëzit dhe ka vrarë ata që e kundërshtojnë! ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/i78pnWKV3VEjJIoSU1td6DVPhqr.jpg',
+            'http://localhost:4000/images/i78pnWKV3VEjJIoSU1td6DVPhqr.jpg',
     },
     {
         title: 'Flashback (2021)',
@@ -881,7 +866,7 @@ export const movies = [
         description:
             'Një avokate udhëton pas në kohë dhe takohet me femra të tjera ndër vite që kanë luftuar për të drejtat e grave.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_wljewwoumhhbw2hxkp8leoqvq1l.png',
+            'http://localhost:4000/images/rsz_wljewwoumhhbw2hxkp8leoqvq1l.png',
     },
     {
         title: 'Love Tactics (2022) a.k.a Ask Taktikleri',
@@ -892,8 +877,7 @@ export const movies = [
         ratingImdb: 5.2,
         description:
             'Një ekzekutiv reklamash dhe një stiliste-blogere nuk besojnë në dashuri, kështu që ata vënë bast se tjetri do të bjerë në dashuri, por duke përdorur mënyra të pazakonshme.',
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_love_tatics.png',
+        photoSrc: 'http://localhost:4000/images/rsz_love_tatics.png',
     },
     {
         title: 'Air America (1990)',
@@ -904,8 +888,7 @@ export const movies = [
         ratingImdb: 5.8,
         description:
             'Billy Covington punësohet nga Air America, një linjë ajrore klandestine që operon jashtë Laosit e drejtuar nga CIA. Së shpejti ai zbulon se misioni i tij është të transportojë heroinë.',
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_1air_america.png',
+        photoSrc: 'http://localhost:4000/images/rsz_1air_america.png',
     },
     {
         title: 'The Sacrifice (2020)',
@@ -917,7 +900,7 @@ export const movies = [
         description:
             'Në vitin 1953, Lufta Koreane po hynte ne fazën finale. Batalioni i Vullnetarëve të Kinës kishte filluar betejën e fundit më të madhe në Kumsong. Në mënyrë që të arrinin në kohë në fushëbetejë dhe të jepnin ndihmë të mjaftueshme në vijën parësore të luftimit,ushtarët duhet të mbrojnë veten e tyre nga bombardimet e pafundme të armikut dhe të garonin me kohën për të riparuar urën,nën mungesën e furnizimeve dhe pajisjeve inferiore. Një histori kjo e rrallë e cila shpaloset dalëngadalë.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_tjlukhjgolwffxhp3ad7xd5tkyi.png',
+            'http://localhost:4000/images/rsz_tjlukhjgolwffxhp3ad7xd5tkyi.png',
     },
     {
         title: 'A Banquet (2022)',
@@ -929,7 +912,7 @@ export const movies = [
         description:
             'Një nënë e ve testohet rrënjësisht kur vajza e saj adoleshente këmbëngul se po përjeton një përvojë të mbinatyrshme dhe që e ka lënë trupin e saj në shërbim të një fuqie më të lartë.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_4flsyrcjo4z3mcj6up3v5npb4b4.png',
+            'http://localhost:4000/images/rsz_4flsyrcjo4z3mcj6up3v5npb4b4.png',
     },
     {
         title: 'Home Team (2022)',
@@ -940,7 +923,7 @@ export const movies = [
         ratingImdb: 6,
         description:
             "Pas fitores së Super Bowl, trajneri përballet me akuza të ndryshme, ku dhe pezullohet nga detyra. Ai gjen nje ekip fëmijësh me dëshirën për të luajtur futboll, por pa asnjë fitore. Për t'u afruar dhe me djalin e tij, Sean merr përsipër të trajnojë fëmijët për të fituar kampionatin, ku përveç se ti stërvitë I duhet t'i motivojë.",
-        photoSrc: 'http://www.filma24.so/wp-content/uploads/rsz_home_team.png',
+        photoSrc: 'http://localhost:4000/images/rsz_home_team.png',
     },
     {
         title: 'Close Range (2015)',
@@ -952,7 +935,7 @@ export const movies = [
         description:
             'Kolt një ish ushtarak detyrohet të shpëtojë mbesën e tij kur motra i kërkon ndihmë. Por duke bërë këtë ai duhet të përballet me kartelin Meksikan Balistika që bashkëpunon me sherifin e zonës.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_vbkqn4yhpxnkb2hp64cj84wsdh.png',
+            'http://localhost:4000/images/rsz_vbkqn4yhpxnkb2hp64cj84wsdh.png',
     },
     {
         title: 'Catch Me If You Can (2002)',
@@ -964,7 +947,7 @@ export const movies = [
         description:
             '“Më kap nëse mundesh” është historia e vërtetë e falsifikatorit Frank Abagnale Jr. i cili lindi më 27 prill të vitit 1948 dhe e shtriu “aktivitetin” e tij të mashtrimit për pesë vjet në vitet ’60. Mashtrimi i tij i parë ishte firmosja e çeqeve mbi llogarinë e tij, por tejet të ekzagjeruar. Ai u maskua si një pilot “Frank Williams” për të bërë xhiro falas rreth e rrotull botës. Më vonë u shtir si pediatër për 11 muaj në spitalin e Georgia-s, nën emrin “Frank Williams”. Falsifikoi diplomën e juristit të Universitetit të Harvardit, mori provimin e avokatit në Lousiana dhe zuri punë në zyrën e prokurorit të Përgjithshëm të Shtetit të Lousianës. Për 5 vjet ai punoi me 8 identitete të ndryshme, megjithëse përdorte më shumë para të thata se sa çeqe.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/2016/01/rsz_up4lnv9pvetmrjx7almllxujwno.png',
+            'http://localhost:4000/images/rsz_up4lnv9pvetmrjx7almllxujwno.png',
     },
     {
         title: 'Badla (2019)',
@@ -976,7 +959,7 @@ export const movies = [
         description:
             "Një sipërmarrëse e re dhe e zonja e gjen veten të mbyllur në një dhomë hoteli me kufomën e të dashurit të saj brenda. Punëson një avokat të famshëm për ta mbrojtur dhe punojnë bashkë për të zbuluar se ç'ka ndodhur vërtet.",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_ekpzberuhogytwi3pwfvsahxnuo.png',
+            'http://localhost:4000/images/rsz_ekpzberuhogytwi3pwfvsahxnuo.png',
     },
     {
         title: 'Guddu Ki Gun (2015)',
@@ -988,7 +971,7 @@ export const movies = [
         description:
             "Gudu është një person, i cili përdor pretekstin se shet larës rrobash për të flirtuar me femrat. Por çdo gjë do të ndryshojë kur njëra nga ato do ta mallkojë Gudun dhe atij do t'i duhet që të anulojë mallkimin duke gjetur dashurinë e vërtetë.",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_8cmedmietdt18xl1h2do9gpudg.png',
+            'http://localhost:4000/images/rsz_8cmedmietdt18xl1h2do9gpudg.png',
     },
     {
         title: 'The Battle at Lake Changjin (2021)',
@@ -999,7 +982,7 @@ export const movies = [
         ratingImdb: 5.2,
         description:
             'Filmi zhvillohet në sfondin e betejës së liqenit Çaxhinit në fushatën e dytë të luftës kundër Shteteve të Bashkuara dhe Koresë së Veriut dhe tregon historinë dramatike të trupave luftarake të Frontit Lindor të cilët me vullnet të çelikut dhe shpirt luftarak të guximshëm, përmbysur situatën e fushëbetejës, prestigjin ushtarak dhe kombëtar duke çuar në fitore.',
-        photoSrc: 'http://www.filma24.so/wp-content/uploads/rsz_thebattle.png',
+        photoSrc: 'http://localhost:4000/images/rsz_thebattle.png',
     },
     {
         title: 'Die Hard (1988)',
@@ -1011,7 +994,7 @@ export const movies = [
         description:
             'Oficeri Xhon Meklein, përpiqet për të shpëtuar gruan dhe disa të tjerë që janë marrë peng nga terroristi gjerman Hans Gruber gjatë një feste Krishtlindjesh në Los Anxhelos.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_fixhtnqpqigvkmtyynefq6gtfx8.png',
+            'http://localhost:4000/images/rsz_fixhtnqpqigvkmtyynefq6gtfx8.png',
     },
     {
         title: 'Tomb Raider (2018)',
@@ -1023,7 +1006,7 @@ export const movies = [
         description:
             'Lara Kroft, vajza guximtare dhe e pavarur e një aventurieri të zhdukur, duhet ta shtyjë veten përtej limiteve të saj kur gjendet në ishullin ku u zhduk babai i saj.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_epyn2nx9t8sol70erw47q29zufo-1.png',
+            'http://localhost:4000/images/rsz_epyn2nx9t8sol70erw47q29zufo-1.png',
     },
     {
         title: 'Akilla&#8217;s Escape (2020)',
@@ -1035,7 +1018,7 @@ export const movies = [
         description:
             'Një tregtar droge sfidon veten kur ndalon një grabitje të armatosur dhe kap një nga anëtarët e bandës, i cili është një djalë 15 vjeçar.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_irxgq3r2zfqymvjvjn4zd5x7i4g.png',
+            'http://localhost:4000/images/rsz_irxgq3r2zfqymvjvjn4zd5x7i4g.png',
     },
     {
         title: 'After Yang (2021)',
@@ -1047,7 +1030,7 @@ export const movies = [
         description:
             'Në një të ardhme të afërt, një familje përballet me pyetje rreth dashurisë, lidhjes dhe humbjes pasi roboti i tyre ndihmës papritur prishet.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_skcaw35zftymwqfufl0m8fkrrow.png',
+            'http://localhost:4000/images/rsz_skcaw35zftymwqfufl0m8fkrrow.png',
     },
     {
         title: 'Iron Man (2008)',
@@ -1059,7 +1042,7 @@ export const movies = [
         description:
             'Kur industrialisti i pasur Toni Stark detyrohet të ndërtojë një kostum të blinduar pas një incidenti të rrezikshëm që pësoi, ai vendos përfundimisht të përdorë teknologjinë për të luftuar kundër së keqes.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_xewzyqofxevauun7ltmfide846i.png',
+            'http://localhost:4000/images/rsz_xewzyqofxevauun7ltmfide846i.png',
     },
     {
         title: 'Iron Man 2 (2010)',
@@ -1071,7 +1054,7 @@ export const movies = [
         description:
             'Për shkak të alter egos së tij prej Superheroi, Tony Stark duhet të luftojë me çështjet vdekjeprurëse që përfshijnë qeverinë, miqtë e tij dhe armiqtë e rinj.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/2015/07/rsz_rlivdea2ezzojlf9xahwz2utu8x.png',
+            'http://localhost:4000/images/rsz_rlivdea2ezzojlf9xahwz2utu8x.png',
     },
     {
         title: 'Fresh (2022)',
@@ -1082,8 +1065,7 @@ export const movies = [
         ratingImdb: 6.8,
         description:
             "U RREGULLUA FILMI! Tmerret e takimeve moderne shihen përmes syve të një gruaje të re që po lufton për t'i mbijetuar oreksit të pazakontë të të dashurit të saj të ri.",
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_fresh_me_titra_shqip.png',
+        photoSrc: 'http://localhost:4000/images/rsz_fresh_me_titra_shqip.png',
     },
     {
         title: 'Recalled (2021)',
@@ -1095,7 +1077,7 @@ export const movies = [
         description:
             'Sujin, e cila ka humbur kujtesën, për shkak të një incidenti të tmerrshëm, fillon të dyshojë për burrin e saj. Ajo e gjen veten të ngatërruar, midis realitetit dhe iluzioneve, të vërtetave dhe gënjeshtrave. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/kTXwu4Ux8QJ1iwBprwVRbEtPa90.jpg',
+            'http://localhost:4000/images/kTXwu4Ux8QJ1iwBprwVRbEtPa90.jpg',
     },
     {
         title: 'Hitch (2005)',
@@ -1107,7 +1089,7 @@ export const movies = [
         description:
             "Ndërsa po ndihmonte klientin e tij të fitonte dashurinë e zonjës së ëndrrave të tij, një profesionist takimesh' zbulon se loja e tij nuk po funksionon në redaksinë e thashethemeve. ",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/Avux0JRggNm1MpSKqAyXLVk7ye7.jpg',
+            'http://localhost:4000/images/Avux0JRggNm1MpSKqAyXLVk7ye7.jpg',
     },
     {
         title: 'Unsane (2018)',
@@ -1119,7 +1101,7 @@ export const movies = [
         description:
             'Sojer Valentini zhvendoset nga Bostoni në Pensilvani për t’i shpëtuar një maniaku që ka dy vjet që e përndjek. Ndërsa konsultohet me një terapist, Valentinin e shtrojnë pa dëshirë në një spital të çmendurish, ku ajo do të përballet sërish me maniakun dhe do të bëjë gjithçka për t’i shpëtuar atij...',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_wc25mkt4cd8tjhowrjaupmtusth.png',
+            'http://localhost:4000/images/rsz_wc25mkt4cd8tjhowrjaupmtusth.png',
     },
     {
         title: 'Blood and Bone (2009)',
@@ -1131,7 +1113,7 @@ export const movies = [
         description:
             'Ish i dënuari Boun është forca e re në skenën e ndeshjeve të fshehta te rrugëve në Los Anxheles. Kur ai mund kampionin në fuqi, bosi i gangsterëve vendas dëshiron që ta fusë Bounin në një seri ndeshjesh ndërkombëtare me fitime të mëdha. Refuzimi i Bounit nis një shfaqje shpërthyese midis dy armiqve të fuqishëm që po rrezikojnë gjithçka.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/5254_1_ladsfgfdgdfgdfgfdgfdgrge.jpg',
+            'http://localhost:4000/images/5254_1_ladsfgfdgdfgdfgfdgfdgrge.jpg',
     },
     {
         title: 'Mohenjo Daro (2016)',
@@ -1143,7 +1125,7 @@ export const movies = [
         description:
             'Në 2016 para Krishtit, një fermer i mirë udhëheq kryengritjen e qytetit të Mohenxho Daros.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_q2xvemxiwsa18mbavpi3rblxg2u.png',
+            'http://localhost:4000/images/rsz_q2xvemxiwsa18mbavpi3rblxg2u.png',
     },
     {
         title: 'The Advent Calendar (2021)',
@@ -1155,7 +1137,7 @@ export const movies = [
         description:
             'Eva duhet të zgjedhë mes shkatërrimit të kalendarit ose të ecë përsëri, edhe pse kjo shkakton vdekjen e njerëzve të saj të dashur.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_1psayuhdotafhvnae1pzn2gkrxjy.png',
+            'http://localhost:4000/images/rsz_1psayuhdotafhvnae1pzn2gkrxjy.png',
     },
     {
         title: 'The Souvenir: Part II (2021)',
@@ -1167,7 +1149,7 @@ export const movies = [
         description:
             'Pas marrëdhënies së saj të trazuar, Julie fillon të zgjidhë dashurinë e saj të madhe në realizimin e filmit të saj të diplomimit, duke ndarë faktet nga fantazia e ndërtuar me hollësi.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_fynvmz1vw7bncuhrazyjubgkjwp.png',
+            'http://localhost:4000/images/rsz_fynvmz1vw7bncuhrazyjubgkjwp.png',
     },
     {
         title: 'The Conjuring 2 (2016)',
@@ -1179,7 +1161,7 @@ export const movies = [
         description:
             'Loren dhe Ed Uarren udhëtojnë për në Londrën veriore, për të ndihmuar një mama beqare në rritjen e katër fëmijëve në një shtëpi që torturohet nga shpirta keqdashës. Këshillohet të mos shikohet nën moshën 16 vjeç',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_9tsyaiw7gj8d0fnwq5agphncyqa.png',
+            'http://localhost:4000/images/rsz_9tsyaiw7gj8d0fnwq5agphncyqa.png',
     },
     {
         title: 'Descendants (2015)',
@@ -1191,7 +1173,7 @@ export const movies = [
         description:
             'Në një mbretëri idilike të ditëve të sotme i biri dashamirës i Mbretit Adam dhe Mbretëreshës Belle ua jep një mundësi shpengimi fëmijëve të personazheve të liga të Disney-t për telashet që u kanë sjellur atyre prindërit e tyre: Cruella De Vil (Carlos), Maleficient (Mal), Mbretëresha e Ligë (Evie) dhe Xhafar (Jay).',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/2015/11/rsz_q59dr1sj1bvldju4prwithdcokm.png',
+            'http://localhost:4000/images/rsz_q59dr1sj1bvldju4prwithdcokm.png',
     },
     {
         title: 'Wolf (2021)',
@@ -1203,7 +1185,7 @@ export const movies = [
         description:
             "Duke besuar se është ujk i ngecur në trupin e një njeriu, Xhejkobi ha, fle dhe jeton si i tillë. Kur familja e dërgon në një klinikë, ai dhe bashkëmoshatarët e tij detyrohen t'iu nënshtrohen formave gjithnjë e më ekstreme të terapive kurative. Megjithatë, kur takon macen e egër misterioze, Xhejkobi duhet të vendosë nëse do të heqë dorë nga vetvetja për dashurinë. ",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/lw7knnuSLwYoFvKcDaotcgQ3CRf.jpg',
+            'http://localhost:4000/images/lw7knnuSLwYoFvKcDaotcgQ3CRf.jpg',
     },
     {
         title: 'The Wolf and the Lion (2021)',
@@ -1215,7 +1197,7 @@ export const movies = [
         description:
             "Pas vdekjes së gjyshit të saj, 20-vjeçarja Alma vendos të kthehet në shtëpinë e saj të fëmijërisë, një ishull i vogël në zemër të një pylli madhështor. Ndërsa atje, ajo shpëton dy këlyshë të pafuqishëm: një ujk dhe një luan. Ata krijojnë një lidhje të pandashme, por bota e tyre së shpejti shembet kur një rojtar pylli zbulon kafshët dhe i merr me vete. Dy këlyshët tani duhet të nisin një udhëtim të pabesë nëpër shkretëtirë për t'u ribashkuar me njëri-tjetrin dhe Almën.",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_asrvk4kljorbrvdlfn2wrgx8xpv.png',
+            'http://localhost:4000/images/rsz_asrvk4kljorbrvdlfn2wrgx8xpv.png',
     },
     {
         title: 'The Kingdom (2007)',
@@ -1227,7 +1209,7 @@ export const movies = [
         description:
             'Një skuadër agjentësh amerikanë dërgohet për të hetuar shpërthimin e një ndërtese amerikane në Lindjen e Mesme.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_83ejjlhsclsi9dhsqsyk1hixl83.png',
+            'http://localhost:4000/images/rsz_83ejjlhsclsi9dhsqsyk1hixl83.png',
     },
     {
         title: 'I Am Legend (2007)',
@@ -1239,7 +1221,7 @@ export const movies = [
         description:
             'Pasi një virus shkatërroi qytetërimin dhe pjesën tjetër i ktheu ne monstra, i vetmi i mbijetuar në Nju Jork mundohet dëshpërimisht të gjejë një kurë!',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_cuqipuccqab5dkdeyrufozifnsi.png',
+            'http://localhost:4000/images/rsz_cuqipuccqab5dkdeyrufozifnsi.png',
     },
     {
         title: 'Ready or Not (2019)',
@@ -1251,7 +1233,7 @@ export const movies = [
         description:
             'Nata e martesës së Grejsit merr një kthesë djallëzore kur aktet eksentrike të familjes së saj të re e detyrojnë të marrë pjesë në një lojë të tmerrshme.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_ready_or_not_me_titra_shqip.png',
+            'http://localhost:4000/images/rsz_ready_or_not_me_titra_shqip.png',
     },
     {
         title: 'The Blood of Wolves II (2021) a.k.a Last of the Wolves',
@@ -1263,7 +1245,7 @@ export const movies = [
         description:
             'Ngjarjet zhvillohen disa vite pas vdekjes së Ogami Shogos, ku detektivi Hioka ka ekzekutuar me sukses planin e Shogos dhe mban kontrollin e Jakuzës dhe parandalon luftën mes bandave. Situata ndryshon plotësisht kur një djalë i ri përfundon dënimin dhe lirohet nga burgu. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_the_blood_of_wolves_me_titra_shqip.png',
+            'http://localhost:4000/images/rsz_the_blood_of_wolves_me_titra_shqip.png',
     },
     {
         title: 'Red Dragon (2002)',
@@ -1274,8 +1256,7 @@ export const movies = [
         ratingImdb: 7.2,
         description:
             "Një agjent i pensionuar i FBI-së me dhunti psikologjike është caktuar për të ndihmuar në gjetjen e 'Zanës së dhëmbëve', një vrasës serial misterioz. Ai ndihmohet nga i burgosuri Dr. Hanibal 'Kanibali' Lekteri.",
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_p30402_v_v8_ac.png',
+        photoSrc: 'http://localhost:4000/images/rsz_p30402_v_v8_ac.png',
     },
     {
         title: 'TQM (2022)',
@@ -1287,7 +1268,7 @@ export const movies = [
         description:
             'Një nga psikiatret më prestigjioze në Meksikë vendos të vërë në provë tre fëmijët e saj për të parë se si do të veprojnë për të fituar trashëgiminë e tyre. Gjithçka ndërlikohet kur në lojë futet një nga pacintët e saj. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/MV5BOTIwYzYzYTUtNTNhMi00YTRjLTk2YzctYzQwOWVlODRkZWVlXkEyXkFqcGdeQXVyMTI2ODkxND.jpg',
+            'http://localhost:4000/images/MV5BOTIwYzYzYTUtNTNhMi00YTRjLTk2YzctYzQwOWVlODRkZWVlXkEyXkFqcGdeQXVyMTI2ODkxND.jpg',
     },
     {
         title: 'A Day to Die (2022)',
@@ -1299,7 +1280,7 @@ export const movies = [
         description:
             "Konor Konolli ka 24 orë kohë për t'i paguar dy milion dollarë Tajron Petisit. Ai detyrohet t'i kërkojë ekipit të tij të vjetër të operacioneve ushtarake, të udhëhequr nga Brajs Mejson, që të mblidhen për t'i siguruar dy milionë dollarët përpara se të humbasë gruan që do nëse nuk ia del.",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_lap4v7sfdaj4bsjfsxyvqvnlglz.png',
+            'http://localhost:4000/images/rsz_lap4v7sfdaj4bsjfsxyvqvnlglz.png',
     },
     {
         title: 'The Tower (2012)',
@@ -1311,7 +1292,7 @@ export const movies = [
         description:
             'Në një ndërtesë luksoze shpërthen zjarri në mbrëmjen e Krishtlindjes. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/puqjyTc3TYUARgHxzVjscKJkKX9.jpg',
+            'http://localhost:4000/images/puqjyTc3TYUARgHxzVjscKJkKX9.jpg',
     },
     {
         title: 'Spider-Man: No Way Home (2021)',
@@ -1323,7 +1304,7 @@ export const movies = [
         description:
             'Peter Parker është i demaskuar dhe nuk është më në gjendje të ndajë jetën e tij normale nga rreziku i të qenit një Super Hero. Kur ai kërkon ndihmë nga Doctor Strange, rreziku shtohet, duke e detyruar atë të zbulojë se çfarë do të thotë me të vërtetë të jesh Spider-Man.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/1gxZrx9gL9ov2c1NpXimEUzMTmh.jpg',
+            'http://localhost:4000/images/1gxZrx9gL9ov2c1NpXimEUzMTmh.jpg',
     },
     {
         title: 'Jobs (2013)',
@@ -1335,7 +1316,7 @@ export const movies = [
         description:
             'Historia e jetës së Stiv Xhobs që nga braktisja e kolegjit dhe triumfi i tij në botën e teknologjisë duke u bërë një nga sipërmarrësit më të nderuar të shekullit të 20-të.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_83kfs7hlhpkfsgf6xkrfmprnywh.png',
+            'http://localhost:4000/images/rsz_83kfs7hlhpkfsgf6xkrfmprnywh.png',
     },
     {
         title: 'A Fairy Tale After All (2022)',
@@ -1347,7 +1328,7 @@ export const movies = [
         description:
             'Sky, një adoleshente kokëfortë, e gjen veten përballë personazheve të çuditshëm kur ajo transportohet në një botë fantazish dhe përrallash ndërsa ndjek një shfaqje marionetash në shkollë.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_a_fairy_tale_after_all_me_titra_shqip.png',
+            'http://localhost:4000/images/rsz_a_fairy_tale_after_all_me_titra_shqip.png',
     },
     {
         title: 'Doctor Strange in the Multiverse of Madness (2022)',
@@ -1358,7 +1339,7 @@ export const movies = [
         description:
             "Doctor Strange, me ndihmën e aleatëve mistikë, të vjetër dhe të rinj, përshkon realitetet alternative të turbullta dhe të rrezikshme të Multiuniversit për t'u përballur me një kundërshtar të ri misterioz. Filmi shfaqet në kinema me 6 Maj 2022 ",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_doctor_strange_in_the_multiverse_of_madness_me_titra_shqip.png',
+            'http://localhost:4000/images/rsz_doctor_strange_in_the_multiverse_of_madness_me_titra_shqip.png',
     },
     {
         title: 'Sonic the Hedgehog 2 (2022)',
@@ -1368,7 +1349,7 @@ export const movies = [
         ratingImdb: 0,
         description:
             'Pasi u vendos në Green Hills, Sonic është i etur të provojë se e ka atë që duhet për të qenë një hero i vërtetë. Prova e tij vjen kur Dr Robotnik kthehet, këtë herë me një partner të ri, Knuckles, në kërkim të një smeraldi që ka fuqinë të shkatërrojë qytetërimet. Sonic bashkohet me ndihmësin e tij, Tails, dhe së bashku ata nisin një udhëtim globit për të gjetur smeraldin përpara se të bjerë në duart e gabuara Filmi shfaqet në kinema me 8 Prill 2022 ',
-        photoSrc: 'http://www.filma24.so/wp-content/uploads/rsz_sonic_2.png',
+        photoSrc: 'http://localhost:4000/images/rsz_sonic_2.png',
     },
     {
         title: 'Avatar 2 (2022)',
@@ -1378,7 +1359,7 @@ export const movies = [
         ratingImdb: 0,
         description:
             "Dymbëdhjetë vjet pas eksplorimit të Pandorës dhe bashkimit me Na'vi, Jake Sully që atëherë ka krijuar një familje me Neytirin dhe është vendosur brenda klaneve të botës së re. Sigurisht, paqja nuk mund të zgjasë kaq gjatë. Sidomos kur organizata ushtarake kthehet për të 'mbaruar atë që filloi'. Filmi shfaqet ne kinema 16 Dhjetor 2022",
-        photoSrc: 'http://www.filma24.so/wp-content/uploads/rsz_avatar_2.png',
+        photoSrc: 'http://localhost:4000/images/rsz_avatar_2.png',
     },
     {
         title: 'Thor: Love and Thunder (2022)',
@@ -1388,7 +1369,7 @@ export const movies = [
         ratingImdb: 0,
         description:
             'Vazhdimi i Thor: Ragnarok dhe filmi i katërt në sagën Thor.',
-        photoSrc: 'http://www.filma24.so/wp-content/uploads/Thor.png',
+        photoSrc: 'http://localhost:4000/images/Thor.png',
     },
     {
         title: 'Black Panther: Wakanda Forever (2022)',
@@ -1399,7 +1380,7 @@ export const movies = [
         description:
             'Një vazhdim që do të vazhdojë të eksplorojë botën e Wakanda dhe të gjithë personazhet e prezantuara në filmin e 2018-ës.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_6n6rr1y5wsi2kbtp4hfap3hnwqe.png',
+            'http://localhost:4000/images/rsz_6n6rr1y5wsi2kbtp4hfap3hnwqe.png',
     },
     {
         title: 'Fantastic Beasts: The Secrets of Dumbledore (2022)',
@@ -1410,7 +1391,7 @@ export const movies = [
         description:
             'Në një përpjekje për të penguar planet e Grindelwald për të rritur magjistarë me gjak të pastër për të sunduar mbi të gjitha qeniet jo magjike, Albus Dumbledore kërkon ish-studentin e tij Njut Skamander, i cili pranon të ndihmojë, megjithëse ai nuk është në dijeni të rreziqeve që i pret. Linjat vizatohen ndërsa dashuria dhe besnikëria testohen, madje edhe mes miqve dhe familjes më të vërtetë, në një botë magjike gjithnjë e më të ndarë.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_3shu40ezblcqgzv4ybznz0nhthf.png',
+            'http://localhost:4000/images/rsz_3shu40ezblcqgzv4ybznz0nhthf.png',
     },
     {
         title: 'Jurassic World Dominion (2022)',
@@ -1420,7 +1401,7 @@ export const movies = [
         ratingImdb: 0,
         description:
             'Katër vjet pasi Isla Nublar u shkatërrua, dinosaurët tani jetojnë - dhe gjuajnë - së bashku me njerëzit në të gjithë botën. Ky ekuilibër i brishtë do të riformësojë të ardhmen dhe do të përcaktojë, një herë e përgjithmonë, nëse qeniet njerëzore do të mbeten grabitqarët kulminantë në një planet që ata tani ndajnë me krijesat më të frikshme të historisë.',
-        photoSrc: 'http://www.filma24.so/wp-content/uploads/rsz_1jussic.png',
+        photoSrc: 'http://localhost:4000/images/rsz_1jussic.png',
     },
     {
         title: 'Nope (2022)',
@@ -1430,7 +1411,7 @@ export const movies = [
         ratingImdb: 0,
         description:
             'Banorët në një brendësi të vetmuar të Kalifornisë dëshmojnë për një zbulim të çuditshëm, rrëqethës.',
-        photoSrc: 'http://www.filma24.so/wp-content/uploads/rsz_1nope.png',
+        photoSrc: 'http://localhost:4000/images/rsz_1nope.png',
     },
     {
         title: 'Black Adam (2022)',
@@ -1440,8 +1421,7 @@ export const movies = [
         ratingImdb: 0,
         description:
             'Gati 5000 vjet pasi iu dhuruan fuqitë e plotfuqishme të perëndive egjiptiane - dhe u burgos po aq shpejt - Adami i Zi çlirohet nga varri i tij tokësor, gati për të lëshuar formën e tij unike të drejtësisë në botën moderne.',
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_1black_adam.png',
+        photoSrc: 'http://localhost:4000/images/rsz_1black_adam.png',
     },
     {
         title: 'The Northman (2022)',
@@ -1452,7 +1432,7 @@ export const movies = [
         description:
             "Një princ i ri viking fillon një kërkim për t'u hakmarrë për vrasjen e babait të tij.",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_utu1bsfdwtv1ea4dr43hdftnqbd.png',
+            'http://localhost:4000/images/rsz_utu1bsfdwtv1ea4dr43hdftnqbd.png',
     },
     {
         title: 'Minions 2: The Rise of Gru (2022)',
@@ -1463,7 +1443,7 @@ export const movies = [
         description:
             "Një adhurues i një supergrupi super të keq të njohur si Vicious 6, Gru harton një plan për t'u bërë aq i keq sa për t'u bashkuar me ta, me mbështetjen e ndjekësve të tij, Minions.",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_wkiokztn9luuunzlmtnwubzyong.png',
+            'http://localhost:4000/images/rsz_wkiokztn9luuunzlmtnwubzyong.png',
     },
     {
         title: 'The Bad Guys (2022)',
@@ -1474,7 +1454,7 @@ export const movies = [
         description:
             'Disa kafshë kriminale të reformuara por të keqkuptuara përpiqen të bëhen të mira, me disa rezultate katastrofike gjatë rrugës.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_qt2lvvfpb8y7o0er5lcbcndm07e.png',
+            'http://localhost:4000/images/rsz_qt2lvvfpb8y7o0er5lcbcndm07e.png',
     },
     {
         title: 'Turning Red (2022)',
@@ -1486,7 +1466,7 @@ export const movies = [
         description:
             'Një vajzë 13-vjeçare e quajtur Meilin ktehet në një panda të kuqe të madhe sa herë përjeton emocione të forta.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_turning_red_me_titra_shqip.png',
+            'http://localhost:4000/images/rsz_turning_red_me_titra_shqip.png',
     },
     {
         title: 'The Lost City (2022)',
@@ -1497,7 +1477,7 @@ export const movies = [
         description:
             'Një romanciere romantike e veçuar në një turne librash me modelin e saj të kopertinës përfshihet në një tentativë rrëmbimi që i fut të dy në një aventurë të ashpër në xhungël.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_the_lost_city_me_titra_shqip.png',
+            'http://localhost:4000/images/rsz_the_lost_city_me_titra_shqip.png',
     },
     {
         title: 'Who Am I (2014) a.k.a Who Am I &#8211; Kein System ist sicher',
@@ -1509,7 +1489,7 @@ export const movies = [
         description:
             ' Benxhamin është një pirat kompjuterësh nga Gjermania, atë e ftojnë të bëhet pjesë e një grupi të ri piratësh që do të bëjë emër në skenën botërore. Por gjërat nuk përfundojnë aq mirë sa duken.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_nmhcjivfjumqwc116ze96u5ihfx.png',
+            'http://localhost:4000/images/rsz_nmhcjivfjumqwc116ze96u5ihfx.png',
     },
     {
         title: 'Chernobyl: Abyss (2021)',
@@ -1521,7 +1501,7 @@ export const movies = [
         description:
             'Historia e një zjarrfikësi heroik i cili punonte në centralin bërthamor në Çernobil. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/ssApiPZ0O0U7IHPJ306i29Ejcuw.jpg',
+            'http://localhost:4000/images/ssApiPZ0O0U7IHPJ306i29Ejcuw.jpg',
     },
     {
         title: 'Focus (2015)',
@@ -1533,7 +1513,7 @@ export const movies = [
         description:
             'Një mjeshtër i vjetër mashtrimi, merr nën krahun e tij një vajzë të re shumë tërheqëse por gjërat komplikohen kur ata të dy përfshihen emocionalisht në një romancë.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_4oalanbt2fvh1v5lkbsptzvumr8.png',
+            'http://localhost:4000/images/rsz_4oalanbt2fvh1v5lkbsptzvumr8.png',
     },
     {
         title: 'Bad Genius (2017)',
@@ -1545,7 +1525,7 @@ export const movies = [
         description:
             'Lini, një nxënëse-gjeni e shkollës së mesme, që jeton me të atin, nis të bëjë para, duke ndihmuar shokët e saj për të kopjuar në provime. Por, nevoja dhe etja për para, do ta çojnë atë në Sidnej, ku, për të fituar miliona, duhet të japë provimin ndërkombëtar STIC (SAT) dhe t’ua dërgojë përgjigjet miqve të saj në Tajlandë, para se të nisin edhe ata të njëjtin provim…',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_mgyvwqn5sykhfg5kofzdfgh8r0q.png',
+            'http://localhost:4000/images/rsz_mgyvwqn5sykhfg5kofzdfgh8r0q.png',
     },
     {
         title: 'In the Heart of the Sea (2015)',
@@ -1556,7 +1536,7 @@ export const movies = [
         ratingImdb: 6.9,
         description:
             "'NË ZEMËR TË DETIT', bazuar në ngjarjen e vitit 1820, ku një ngjarje e pabesueshme ndodhi: një anije gjuetare balenash u sulmua nga një balenë gjigande me përmasat dhe forcën e një mamuthi, duke e lënë ekuipazhin e anijes 90 ditë në det, mijëra kilometra larg shtëpisë.",
-        photoSrc: 'http://www.filma24.so/wp-content/uploads/2016/01/nztd.png',
+        photoSrc: 'http://localhost:4000/images/nztd.png',
     },
     {
         title: 'The Intern (2015)',
@@ -1568,7 +1548,7 @@ export const movies = [
         description:
             'Shtatëdhjetë vjeçari Ben Whittaker ka zbuluar se dalja në pension nuk është e gjitha për të, duke gjetur një mundësi për të marrë përsëri në lojë punën, ai bëhet një praktikant i lartë në një faqe online të modës, të cilën e themelon Jules Ostin.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_9uoac9tu8kiyry8acjnghnh0goh.png',
+            'http://localhost:4000/images/rsz_9uoac9tu8kiyry8acjnghnh0goh.png',
     },
     {
         title: 'Exploited (2022)',
@@ -1580,7 +1560,7 @@ export const movies = [
         description:
             'Kujdes filmi përmban skena të forta erotike! +18 Një student i vitit të parë i universitetit bëhet i fiksuar pas pronarit të mëparshëm të laptopit të lëshuar nga shkolla e tij.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_exploited_me_titra_shqip.png',
+            'http://localhost:4000/images/rsz_exploited_me_titra_shqip.png',
     },
     {
         title: 'Twin Dragons (1992)',
@@ -1592,7 +1572,7 @@ export const movies = [
         description:
             'Dy binjakë ndahen që në lindje dhe njëri bëhet mekanik, ndërsa tjetri dirigjent i njohur. Ata takohen pas shumë kohësh dhe ngatërrohen me njëri tjetrin.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_twin-dragons-5528fb081ef08.png',
+            'http://localhost:4000/images/rsz_twin-dragons-5528fb081ef08.png',
     },
     {
         title: 'Secret Society of Second Born Royals (2020)',
@@ -1604,7 +1584,7 @@ export const movies = [
         description:
             'Filmi ndjek aventurat e Samit në një program trajnimi të fshehtë për një klasë të re fëmijësh të dytë mbretërorë që u ngarkohet detyra e shpëtimit të botës. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/x0fojycYFbT0eqXXbEO6aDqkalX.jpg',
+            'http://localhost:4000/images/x0fojycYFbT0eqXXbEO6aDqkalX.jpg',
     },
     {
         title: 'Dragon Fury (2021)',
@@ -1615,8 +1595,7 @@ export const movies = [
         ratingImdb: 5,
         description:
             'Një ekip ekspertësh udhëton thellë në male për të gjetur një krijesë të rrezikshme.',
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_dragon_fury.png',
+        photoSrc: 'http://localhost:4000/images/rsz_dragon_fury.png',
     },
     {
         title: 'The Royal Treatment (2022)',
@@ -1628,7 +1607,7 @@ export const movies = [
         description:
             'Parukieria njujorkeze Izi shfrytëzon shansin për të punuar në dasmën e një princi simpatik, por kur të fluturojnë shkëndijat mes tyre, do të mbizotërojë dashuria apo detyra?',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_the_royal_treatment_me_titra_shqip.png',
+            'http://localhost:4000/images/rsz_the_royal_treatment_me_titra_shqip.png',
     },
     {
         title: 'Holmes &#038; Watson (2018)',
@@ -1640,7 +1619,7 @@ export const movies = [
         description:
             'Detektivi Sherlok Holms dhe Dr. Xhon Uatsoni bashkojnë forcat për të hetuar një vrasje misterioze në Buckingham Palace. Duket çështje e lehtë, pasi të gjitha shenjat të çojnë te Xhejms Moriarti, por shumë shpejt, Sherloku do të nisë të dyshojë te një njeri që e ka shumë afër... Kush është ai që e njeh aq mirë dhe që tallet me të? A do të kapet vrasësi para se mbretëresha të bëhet viktima e tij e ardhshme? ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/tgp4TiYEL3Sint0E3B3gAbYmjRW.png',
+            'http://localhost:4000/images/tgp4TiYEL3Sint0E3B3gAbYmjRW.png',
     },
     {
         title: 'Hell Hath No Fury (2021)',
@@ -1652,7 +1631,7 @@ export const movies = [
         description:
             "E cilësuar si tradhtare nga bashkatdhetarët e saj, shtetasja franceze, Mari Duzhardon, shpëtohet nga ushtarët amerikanë me një kusht: për të mbijetuar, ajo duhet t'i çojë ata në një depo ari të gjuajtur nga nazistët dhe rezistenca franceze. ",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/wltdRZfeKDux9yKThlGKwjWhUil.jpg',
+            'http://localhost:4000/images/wltdRZfeKDux9yKThlGKwjWhUil.jpg',
     },
     {
         title: 'The Host (2013)',
@@ -1664,7 +1643,7 @@ export const movies = [
         description:
             'Kur një armik i padëgjuar më parë kërcënon njerëzimin, Melani do të rrezikojë gjithçka për të mbrojtur njerëzit e saj të dashur.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/jnPOLAPQLhqMeDLV2BsQfrd6R11.png',
+            'http://localhost:4000/images/jnPOLAPQLhqMeDLV2BsQfrd6R11.png',
     },
     {
         title: 'The Host (2006)',
@@ -1676,7 +1655,7 @@ export const movies = [
         description:
             "Ky duket si një film klasik 'B-film' me një përbindësh vrasës, por ndërsa minutat kalojnë, shikuesi kupton se është dëshmitar i një shfaqje krejtësisht ndryshe nga ç'pret dhe nuk largohet nga ekrani. 'Vite më parë, gabimisht krijohet një përbindësh deti nga një grup shkencëtarësh. Tani kjo krijesë mutante, synon të shijojë një ditë të bukur me diell në lumin Han në Seul, por papritur fillon të sulmojë njerëzit dhe pasi ka mbjellë viktima të shumta, merr me vete një vajzën e quajtur Hyun-seo. Pavarësisht ndërhyrjes ushtarake amerikane, e cila përfundon të bëjë më shumë dëme sesa mirë, nga kush do të zgjidhet kjo fatkeqësi që të shpëtojë bota?' Shikoni filmin për me tepër!",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_74okcskts4f8myelavdj57lj2cg.png',
+            'http://localhost:4000/images/rsz_74okcskts4f8myelavdj57lj2cg.png',
     },
     {
         title: 'The Exorcism of God (2021)',
@@ -1688,7 +1667,7 @@ export const movies = [
         description:
             'Një prift amerikan që punon në Meksikë pushtohet gjatë një ekzorcizmi dhe përfundon duke kryer një akt të tmerrshëm. Tetëmbëdhjetë vjet më vonë, pasojat e mëkatit të tij rikthehen ta ndjekin atë, duke nisur betejën më të madhe brenda tij. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/pcqo9D8Bdppt6t9fBliJYPROZkv.jpg',
+            'http://localhost:4000/images/pcqo9D8Bdppt6t9fBliJYPROZkv.jpg',
     },
     {
         title: 'Impregnation Nation (2020) +18',
@@ -1700,7 +1679,7 @@ export const movies = [
         description:
             'Kujdes filmi përmban skena të forta erotike! +18 Një çift shkon në një sekt që ndihmon në mbartjen e tyre. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/tqfZkA7v28BW56aqX2w4oVMSmOY.jpg',
+            'http://localhost:4000/images/tqfZkA7v28BW56aqX2w4oVMSmOY.jpg',
     },
     {
         title: 'The Burning Sea (2021)',
@@ -1712,7 +1691,7 @@ export const movies = [
         description:
             'Një platformë nafte bie në mënyrë dramatike në bregdetin Norvegjez dhe studiuesit përpiqen të zbulojnë se çfarë ndodhi kur kuptojnë se ky është vetëm fillimi i diçkaje edhe më serioze.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_the_burning_sea_me_titra_shqip.png',
+            'http://localhost:4000/images/rsz_the_burning_sea_me_titra_shqip.png',
     },
     {
         title: 'Southpaw (2015)',
@@ -1724,7 +1703,7 @@ export const movies = [
         description:
             "Billy Hope do t'i ndryshojë jeta në mënyrë tragjike pasi gjen gruan e të vdekur dhe më pas i pafuqishëm dhe i dëshpëruar i drejtohet alkoolit dhe ilaçeve. Goditja përfundimtare vjen nga gjykata e cila nuk i lejon të rrisë vajzën, pasi sjellja e tij nuk është korrekte. E teksa ka prekur fundin Hope do të mbledhë copëzat e tij dhe do të nisë të pastrohet duke i kërkuar trajnerit të tij Tick ta ndihmojë për të rifituar vetëbesimin për të luftuar dhe për t’u përballur me të gjithë demonët që e ndjekin.",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/2015/08/rsz_dgdjtwfs2vq7k4lngotb21qqwk5.png',
+            'http://localhost:4000/images/rsz_dgdjtwfs2vq7k4lngotb21qqwk5.png',
     },
     {
         title: 'Run All Night (2015)',
@@ -1736,7 +1715,7 @@ export const movies = [
         description:
             "Ekzekutori virtuoz, Xhim Konlon me nofkën “Varrmihës”, në një moment të vështirë për të mbrojtur të birin e tij do të vrasë djalin e shokut të tij të ngushtë dhe njëherazi të bosit të mafies. Sado që Xhimi do përpiqet për ta bindur ta falë dhe ta lejë atë dhe familjen e tij të qetë, mafiozi do t'i shpalli atij menjëherë 'luftë' duke dashur të hakmerret kundrejt tij dhe të birit.",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/aqNJrAxudMRNo8jg3HOUQqdl2xr.jpg',
+            'http://localhost:4000/images/aqNJrAxudMRNo8jg3HOUQqdl2xr.jpg',
     },
     {
         title: 'Dragonheart 3: The Sorcerer&#8217;s Curse (2015)',
@@ -1748,7 +1727,7 @@ export const movies = [
         description:
             "Kur një kalorës e aspiron Garethin të shkon në kërkim të një komete e cila ka rënë dhe thuhet që ka ari aty, ati i ndodhe një gjë e pazakonte ai më shumë tronditet kur gjen dragoin. Pasi dragoi i'a shpëton jetën Garethit, të dy lidhen bashke dhe duhet të luftojnë s'bashku për të mposhtur një magjistar të fuqishëm dhe për të ndaluar mbretërinë e tij.",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_mv5bmtuzmjkxnzk3nf5bml5banbnxkftztgwote1mzyynde_v1_.png',
+            'http://localhost:4000/images/rsz_mv5bmtuzmjkxnzk3nf5bml5banbnxkftztgwote1mzyynde_v1_.png',
     },
     {
         title: 'Those Who Walk Away (2022)',
@@ -1759,8 +1738,7 @@ export const movies = [
         ratingImdb: 6.3,
         description:
             "Pasi Meks dhe Ejvëri takohen në një aplikacion rrjetesh sociale për një takim të parë, ata përfundojnë në një shtëpi të përhumbur vetëm për të kuptuar se trauma që ndajnë mund t'i shpëtojë ose të shpërthejë në një makth të paharrueshëm.",
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_1those_who_walk_away.png',
+        photoSrc: 'http://localhost:4000/images/rsz_1those_who_walk_away.png',
     },
     {
         title: 'The Pirates: The Last Royal Treasure (2022)',
@@ -1772,7 +1750,7 @@ export const movies = [
         description:
             'Në epokën e Joseon një grup piratësh përballet me hajdutë. Pasi bëhen grup dhe gjejnë një hartë thesari të lënë pas nga tradhtarët e mbretërisë ata vendosin të nisin një rrugëtim për tu bërë të pasur. Në rrugëtimin e tyre përballen me armiq të vjetër edhe aventura të reja.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/The-Pirates-The-Last-Royal-Treasure-me-titra-shqip.png',
+            'http://localhost:4000/images/The-Pirates-The-Last-Royal-Treasure-me-titra-shqip.png',
     },
     {
         title: 'Berberian Sound Studio (2012)',
@@ -1784,7 +1762,7 @@ export const movies = [
         description:
             'Një anglez punësohet për të krijuar efekte zanore për një studio filmash horror në Romën e viteve 1970, por puna përfundon duke marrë një dëm të rëndë në shëndetin e tij mendor. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/sCrLZYF7TU32Vk5bOIJneVAcoKE.jpg',
+            'http://localhost:4000/images/sCrLZYF7TU32Vk5bOIJneVAcoKE.jpg',
     },
     {
         title: 'Marry Me (2022)',
@@ -1795,8 +1773,7 @@ export const movies = [
         ratingImdb: 6.1,
         description:
             'PERKTHIMI U RREGULLUA! Superylli i popit Kat Valdez (Xhenifer Lopez) është gati të martohet para fansave të saj besnikë, por disa sekonda para ceremonisë, mëson se i fejuari (Maluma) e ka tradhtuar. Në një moment çmendurie, Kati zgjedh dikë në turmë dhe martohet menjëherë me të. Shumë shpejt, atyre do t’u duhet të vendosin nëse dy njerëz nga botë kaq të ndryshme mund ta gjejnë dashurinë e vërtetë te njëri-tjetri. ',
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/marrymeposter124354.jpg',
+        photoSrc: 'http://localhost:4000/images/marrymeposter124354.jpg',
     },
     {
         title: 'A Serious Man (2009)',
@@ -1808,7 +1785,7 @@ export const movies = [
         description:
             'Larry Gopnik, një profesor i Midwesternit, është i frustruar me ngjarjet e papritura që i trazojnë jetën. I hutuar dhe i etur për të deshifruar shkakun e këtyre incidenteve, a do të mundet ai të ketë sukses?',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_qelmjwrzuoqmzgmwrixfd7xempn.png',
+            'http://localhost:4000/images/rsz_qelmjwrzuoqmzgmwrixfd7xempn.png',
     },
     {
         title: 'Dog (2022)',
@@ -1819,8 +1796,7 @@ export const movies = [
         ratingImdb: 6.7,
         description:
             'Pas vdekjes së shokut të tij të ushtrisë, ish-ushtari Brigs, duhet të çojë qenin Lulu në funeral, në kohën e duhur. Gjatë rrugës, ndërsa u duhet të mësohen me njëri-tjetrin, ata thyejnë ligjet, i shmangen ngushtë vdekjes dhe mësojnë të luftojnë për të gjetur lumturinë.',
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_dog_me_titra_shqip.png',
+        photoSrc: 'http://localhost:4000/images/rsz_dog_me_titra_shqip.png',
     },
     {
         title: 'The Adam Project (2022)',
@@ -1831,8 +1807,7 @@ export const movies = [
         ratingImdb: 7,
         description:
             "Një pilot që udhëton në kohë bashkohet me veten e tij më të re dhe babain e tij të ndjerë për t'u pajtuar me të kaluarën e tij duke shpëtuar të ardhmen.",
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_the_adam_project.png',
+        photoSrc: 'http://localhost:4000/images/rsz_the_adam_project.png',
     },
     {
         title: 'Blacklight (2022)',
@@ -1843,8 +1818,7 @@ export const movies = [
         ratingImdb: 0,
         description:
             'Trevis Bllok është një oficer qeveritar që përballet me të kaluarën e tij të errët. Kur zbulon një komplot që rrezikon qytetarët e SHBA-së, Bllok e gjen veten përballë drejtorit të FBI-së, të cilin e mbronte dikur.',
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_blacklight-1.png',
+        photoSrc: 'http://localhost:4000/images/rsz_blacklight-1.png',
     },
     {
         title: 'The Batman (2022)',
@@ -1856,7 +1830,7 @@ export const movies = [
         description:
             'Kur Ridler, një vrasës serial sadist, fillon të vrasë figurat kryesore politike në Gotham, Batman detyrohet të hetojë korrupsionin e fshehur të qytetit dhe të vërë në dyshim përfshirjen e familjes së tij.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_the_batman_me_titra_shqip.png',
+            'http://localhost:4000/images/rsz_the_batman_me_titra_shqip.png',
     },
     {
         title: 'Uncharted (2022)',
@@ -1868,7 +1842,7 @@ export const movies = [
         description:
             "Natan Drejk i cili merrej me mashtrime të vogla nis të bashkëpunojë me gjuetarin e thesareve Viktor 'Sulli' Sullivan për të kërkuar një thesar të gjetur nga Magelani dhe të zhdukur përpara 500 viteve nga shtëpia e Monkadws.",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_uncharted_me_titra_shqip.png',
+            'http://localhost:4000/images/rsz_uncharted_me_titra_shqip.png',
     },
     {
         title: 'The Spine of Night (2021)',
@@ -1880,7 +1854,7 @@ export const movies = [
         description:
             'Kur një magji e lashtë, bie në duart e gabuara, një grup heronjsh nga periudha dhe kultura të ndryshme duhet të bashkohen për ta mposhtur atë me çdo kusht.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_9uerhkrctgdztlsx5pg36j61rqc.png',
+            'http://localhost:4000/images/rsz_9uerhkrctgdztlsx5pg36j61rqc.png',
     },
     {
         title: 'A Thursday (2022)',
@@ -1891,7 +1865,7 @@ export const movies = [
         ratingImdb: 8.2,
         description:
             'Kur një mësuese kopshti - Yami Gautam rrëmben 16 nxënës të vegjël dhe bën një sërë kërkesash, kjo gjë jo vetëm që trondit policinë dhe qytetin e Mumbait, por bën jehonë në të gjithë vendin dhe politikanët e saj.',
-        photoSrc: 'http://www.filma24.so/wp-content/uploads/rsz_a_t.png',
+        photoSrc: 'http://localhost:4000/images/rsz_a_t.png',
     },
     {
         title: 'Friends with Benefits (2011)',
@@ -1903,7 +1877,7 @@ export const movies = [
         description:
             'Duke u munduar të shmangin komeditë romantike të Hollivudit, Dylan dhe Jamie zbulojnë se po ti shtosh shoqërisë aktin e seksit, gjërat bëhen më të ndërlikuara.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_nkhhdfcdzxej3guunq570ldpukz.png',
+            'http://localhost:4000/images/rsz_nkhhdfcdzxej3guunq570ldpukz.png',
     },
     {
         title: 'Mr. Church (2016)',
@@ -1915,7 +1889,7 @@ export const movies = [
         description:
             'Filmi tregon historinë e një miqësie të veçantë mes një vajze dhe një kuzhinieri të talentuar me emrin zoti Kisha. Një miqësi e cila fillon si marrëveshje për 6 muaj, zgjat për 15 vite dhe krijon një lidhje familjare që zgjat përgjithmonë.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_26qewdsh3ludwgrtgtohgfj2woxl.png',
+            'http://localhost:4000/images/rsz_26qewdsh3ludwgrtgtohgfj2woxl.png',
     },
     {
         title: 'Slumber Party Massacre (2021)',
@@ -1927,7 +1901,7 @@ export const movies = [
         description:
             'Një festë me pizhame kthehet në gjakderdhje dhe argëtimi ndërpritet nga një vrasës serial i cili përdor turielë elektrike.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_5vl6gyjvwxj71cywmh4bjlzq12l.png',
+            'http://localhost:4000/images/rsz_5vl6gyjvwxj71cywmh4bjlzq12l.png',
     },
     {
         title: 'A Journal for Jordan (2021)',
@@ -1939,7 +1913,7 @@ export const movies = [
         description:
             "Rreshteri i parë Charles Monroe King, u thirr në luftë në Bagdad. Lufta është gjithnjë e papritur. Përpara se të vritej në aksion në Bagdad, i shkruan një ditar djalit të tij me synimin t'i tregonte se si të bëj një jetë të denjë pavarësisht se mund rritej pa baba. ",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/t8xX6kYZj6y0XIxniJdFmaFkvp1.jpg',
+            'http://localhost:4000/images/t8xX6kYZj6y0XIxniJdFmaFkvp1.jpg',
     },
     {
         title: 'Checkered Ninja (2018) a.k.a. Ternet Ninja',
@@ -1951,7 +1925,7 @@ export const movies = [
         description:
             'Kur xhaxhai i tij, pas një udhëtimi në Tajlandë, i sjell dhuratë kukullën-ninxha me kuadrate, Eske zbulon se kukulla është e gjallë dhe mund ta ndihmojë atë me problemet në shkollë. Eske dëshiron t’i kthejë nderin, por shpejt mëson se ninxha është në një mision hakmarrjeje dhe ai duhet të përfshihet në të...',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_dzn5xbp73ti7pjeqz66ecnxdwjl.png',
+            'http://localhost:4000/images/rsz_dzn5xbp73ti7pjeqz66ecnxdwjl.png',
     },
     {
         title: 'Fast and Fierce: Death Race (2020)',
@@ -1963,7 +1937,7 @@ export const movies = [
         description:
             'Jack Tyson është një i ri që merr pjesë në një garë të paligjshme makinash nga Meksika në Kaliforni kur një grua e dëshpëruar, duke ikur nga i dashuri i saj gangster abuziv që financon turneun, hidhet në makinën e tij duke u lutur për ndihmën e tij dhe që ka një disk inkriminues USB që mund të dërgojë i dashuri i saj bandit, ndër të tjera, në burg.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_v9bpkquqtdnh1zlafnfagvg8c1c.png',
+            'http://localhost:4000/images/rsz_v9bpkquqtdnh1zlafnfagvg8c1c.png',
     },
     {
         title: 'Iron Will (1994)',
@@ -1975,7 +1949,7 @@ export const movies = [
         description:
             "Pas vdekjes së babait të tij, përgjegjësia për t'u kujdesur për familjen bie mbi supet e Will. Ai merr pjesë në një garë me qen, e cila kërkon orë të gjata garash dhe një vullnet të hekurt për të fituar. ",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/6Ujbtp0NklUoQ67s32HyW6R5540.jpg',
+            'http://localhost:4000/images/6Ujbtp0NklUoQ67s32HyW6R5540.jpg',
     },
     {
         title: 'Golden Men (2019) a.k.a. Gli uomini d&#8217;oro',
@@ -1986,8 +1960,7 @@ export const movies = [
         ratingImdb: 6.2,
         description:
             'Një grup burrash të dëshpëruar dhe të pakënaqur nga jeta e tyre, vendosin të bëjnë një grabitje të një kamionit të blinduar të rojes postare. ',
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/locandiasdasdasd23434na.jpg',
+        photoSrc: 'http://localhost:4000/images/locandiasdasdasd23434na.jpg',
     },
     {
         title: 'Panama (2022)',
@@ -1999,7 +1972,7 @@ export const movies = [
         description:
             'Një ish-marins punësohet nga një kontraktues i mbrojtjes për të udhëtuar në Panama për të mbyllur një marrëveshje armësh. Në këtë proces ai përfshihet me pushtimin e Panamasë nga SHBA dhe nxjerr një mësim të rëndësishëm për natyrën e vërtetë të pushtetit politik. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/82I3tDsGDTMy7lHar84Gz0jUuyW.jpg',
+            'http://localhost:4000/images/82I3tDsGDTMy7lHar84Gz0jUuyW.jpg',
     },
     {
         title: 'Eternals (2021)',
@@ -2011,7 +1984,7 @@ export const movies = [
         description:
             'Të përjetshmit janë një skuadër jashtëtokësorësh të lashtë që kanë jetuar në Tokë në fshehtësi për mijëra vjet. Kur një tragjedi e papritur i detyron të dalin nga hija, ata duhet të ribashkohen kundër armikut më të lashtë të njerëzimit…',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/1RjyfPLsZTq3lUdJY7pTzcmpPKl.jpg',
+            'http://localhost:4000/images/1RjyfPLsZTq3lUdJY7pTzcmpPKl.jpg',
     },
     {
         title: 'Prayers for the Stolen (2021)',
@@ -2022,7 +1995,7 @@ export const movies = [
         ratingImdb: 7.3,
         description:
             'Jeta në një qytet në luftë, e parë përmes syve të tre vajzave të reja në rrugën e tyre drejt adoleshencës.',
-        photoSrc: 'http://www.filma24.so/wp-content/uploads/rsz_prayes.png',
+        photoSrc: 'http://localhost:4000/images/rsz_prayes.png',
     },
     {
         title: 'Money Trap (2019) a.k.a. Organize Isler: Sazan Sarmali',
@@ -2034,7 +2007,7 @@ export const movies = [
         description:
             "Asim Noyan mashtron njerëzit me gënjeshtrat dhe lojërat e tij. Asim Noyan-i dhe banda e tij, të cilët askush tjetër nuk ka mundur t'i kapë, ngatërrohet përsëri në një mashtrim. ",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/4kiVg3QJQghjtRupyfWYI3T1R0O-1.jpg',
+            'http://localhost:4000/images/4kiVg3QJQghjtRupyfWYI3T1R0O-1.jpg',
     },
     {
         title: 'Deep Water (2022)',
@@ -2046,7 +2019,7 @@ export const movies = [
         description:
             'Një burrë i pasur, i cili lejon gruan e tij të ketë lidhje te tjera për të shmangur divorcin, bëhet i dyshuari kryesor për zhdukjen e të dashurëve të saj. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/r6iIgRKD5ZJ1lt0o60qlGa8zlSk.jpg',
+            'http://localhost:4000/images/r6iIgRKD5ZJ1lt0o60qlGa8zlSk.jpg',
     },
     {
         title: 'Someone Marry Barry (2014)',
@@ -2058,7 +2031,7 @@ export const movies = [
         description:
             'Tre miq bëjnë komplot të heqin qafe shokun e tyre të pa përshtatshëm në situata shoqërore duke i gjetur një nuse, por kur ai takon një grua si vetja problemet e tyre dyfishohen.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_yqwiv4pme7ub8tarmbrzxcmawmh.png',
+            'http://localhost:4000/images/rsz_yqwiv4pme7ub8tarmbrzxcmawmh.png',
     },
     {
         title: 'Barry (2016)',
@@ -2070,7 +2043,7 @@ export const movies = [
         description:
             'Një vështrim në jetën e hershme të Presidentit të Sh.B.A, Barack Obama.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/yttnkAg8lrL1AZgK3QztJRnj6oE.jpg',
+            'http://localhost:4000/images/yttnkAg8lrL1AZgK3QztJRnj6oE.jpg',
     },
     {
         title: 'Barry Lyndon (1975)',
@@ -2082,7 +2055,7 @@ export const movies = [
         description:
             'Një mashtrues irlandez fiton zemrën e një të veje të pasur dhe merr pozitën aristokratike të burrit të saj të vdekur në Anglinë e shekullit të 18-të.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/hxl6rjUCmWD65GbVCYX5IYn1E0f.png',
+            'http://localhost:4000/images/hxl6rjUCmWD65GbVCYX5IYn1E0f.png',
     },
     {
         title: 'Zombieland (2009)',
@@ -2094,7 +2067,7 @@ export const movies = [
         description:
             'Kolombusit i është bërë zakon t’ia mbathë nga gjithçka që e frikëson. Talahasi nuk ka frikë nga asgjë. Nëse do të kishte, do t’ua kishte zhdëpur prapanicën. Në një botë të pushtuar nga zombit, këta të dy janë evoluar në dy të mbijetuar perfektë. Por tani, janë gati të përballen me perspektivën më tmerruese nga të gjitha: njëri-tjetrin.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_yoep8rf2g4de4jno5bdfkrgucsx.png',
+            'http://localhost:4000/images/rsz_yoep8rf2g4de4jno5bdfkrgucsx.png',
     },
     {
         title: 'Cucuy: The Boogeyman (2018)',
@@ -2105,8 +2078,7 @@ export const movies = [
         ratingImdb: 5.2,
         description:
             'Në qytetin e vogël dhe të qetë të Glimer Pikut fillojnë të zhduken fëmijë në mënyrë të mistershme. Kështu, adoleshentja rebele, Sofia, e dënuar me arrest shtëpie, fillon të dyshojë se legjenda urbane meksikane mbi lugatin Kukuji është e vërtetë dhe ai mund të jetë fajtori i këtyre zhdukjeve.',
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_p15946831_v_v8_aa.png',
+        photoSrc: 'http://localhost:4000/images/rsz_p15946831_v_v8_aa.png',
     },
     {
         title: 'From a House on Willow Street (2016)',
@@ -2118,7 +2090,7 @@ export const movies = [
         description:
             'Katër miq rrëmbejnë vajzën e një biznesmeni të pasur për të marrë në këmbim një pagesë të majme. Por ngjarjet që do të zbulojnë më pas do jenë të paparashikueshme. Një shtëpi e pushtuar nga djalli. Dhe jo vetëm...',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_pcdpexkeuriuxedr3cs97i4tfdh.png',
+            'http://localhost:4000/images/rsz_pcdpexkeuriuxedr3cs97i4tfdh.png',
     },
     {
         title: 'Highway (2014)',
@@ -2130,7 +2102,7 @@ export const movies = [
         description:
             'Përpara martesës së saj një grua a gjen vetën të rrëmbyer dhe të mbajtur peng për shpërblim. Sa më shumë ditët kalojnë ajo fillon të krijoje një lidhje të çuditshme me rrëmbyesin.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_xutevyf35wdkelpm5vnbvaiskt9.png',
+            'http://localhost:4000/images/rsz_xutevyf35wdkelpm5vnbvaiskt9.png',
     },
     {
         title: 'San Andreas (2015)',
@@ -2142,7 +2114,7 @@ export const movies = [
         description:
             'Ngjarjet vendosen në Kaliforni ku pas një tërmeti masiv, një pilot shpëtimi së bashku me ish gruan e tij do të bëjnë një udhëtim të rrezikshëm nga Los Angelos në Kaliforni vetëm e vetëm që të shpëtojnë vajzën e tyre te vetme. Por teksa mendojnë se gjithçka ka marrë fund, kuptojnë se në fakt gjithçka sapo ka filluar...',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_5uymmcsph2oluqnzp5kklkjabxp.png',
+            'http://localhost:4000/images/rsz_5uymmcsph2oluqnzp5kklkjabxp.png',
     },
     {
         title: 'Jackass Forever (2022)',
@@ -2154,7 +2126,7 @@ export const movies = [
         description:
             'Jackass Forever është një film komedi me realitet amerikan i vitit 2022, i drejtuar dhe prodhuar nga Jeff Tremaine, së bashku me producentët Spike Jonze dhe Johnny Knoxville, dhe u publikua nga Paramount Pictures. Është pjesa e katërt kryesore në serinë e filmave Jackass, pas Jackass 3D. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/nXYFGNVWtbu4iSeptu9IwmM5EMj.jpg',
+            'http://localhost:4000/images/nXYFGNVWtbu4iSeptu9IwmM5EMj.jpg',
     },
     {
         title: 'City Hunter (2019) a.k.a Nicky Larson et le parfum de Cupidon',
@@ -2166,7 +2138,7 @@ export const movies = [
         description:
             'Nikiy Larson, detektivi privat më i mirë, thirret për një mision me rrezik të lartë: të rikthejë parfumin e Kupidit, një parfum që do e bë të parezistueshëm këdo që e përdor. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/cBlnYUKq0YipHhiCsxNKElv5Y5d-1.jpg',
+            'http://localhost:4000/images/cBlnYUKq0YipHhiCsxNKElv5Y5d-1.jpg',
     },
     {
         title: 'Pirates II: Stagnetti&#8217;s Revenge (2008) +18',
@@ -2178,7 +2150,7 @@ export const movies = [
         description:
             'KUJDES FILMI NDALOHET RREPTESISHT PER MOSHAT NEN 18 VJEC! PERMBAN SKENA EROTIKE TE FORTA! Gjahtari i piratëve Eduard Rejnold, shkon për të vrarë piraten Xifing dhe të sigurojë që Viktor Stagneti ka vdekur. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/xl_1266097_casdas32432423463f9812.jpg',
+            'http://localhost:4000/images/xl_1266097_casdas32432423463f9812.jpg',
     },
     {
         title: 'The Shadow in My Eye (2021) a.k.a. Skyggen i mit øje',
@@ -2190,7 +2162,7 @@ export const movies = [
         description:
             'Fatet e qytetarëve të ndryshëm në Kopenhagen ndeshen kur një bombardim gjatë luftës së dytë botërore aksidentalisht godet një shkollë me fëmijë. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/eqCdwVKvdmNTt8435cJqh2YX1My.jpg',
+            'http://localhost:4000/images/eqCdwVKvdmNTt8435cJqh2YX1My.jpg',
     },
     {
         title: 'A House on the Bayou (2021)',
@@ -2202,7 +2174,7 @@ export const movies = [
         description:
             "Një çift me probleme dhe vajza e tyre, shkojnë me pushime në një shtëpi të izoluar në moçalin e Luizianës për t'u rilidhur si familje. Por kur vijnë vizitorë të papritur, uniteti fillon të shpërbëhet. ",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/swjF7jmF9Ocr13mtKVJQes36Mop.jpg',
+            'http://localhost:4000/images/swjF7jmF9Ocr13mtKVJQes36Mop.jpg',
     },
     {
         title: 'Eight for Silver (2021) a.k.a. The Cursed',
@@ -2214,7 +2186,7 @@ export const movies = [
         description:
             'Në shekullin e 19-të, një burrë shkon në një fshat të largët për të hetuar një sulm nga një kafshë e egër. Ai zbulon një sekret shumë më të thellë që ka në kontroll pronari dhe banorët e qytetit. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/qygW7YwvX24A01hreopW2nTZe3q.png',
+            'http://localhost:4000/images/qygW7YwvX24A01hreopW2nTZe3q.png',
     },
     {
         title: 'Inch&#8217;Allah (2012)',
@@ -2226,7 +2198,7 @@ export const movies = [
         description:
             'Një mjeke kanadeze i gjen simpatitë e saj të testuara rëndë ndërsa punonte në territoret palestineze të shkatërruara nga konflikti. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/9BCd5LdVHQmWqEnDTJ5Ut8idstP-1.jpg',
+            'http://localhost:4000/images/9BCd5LdVHQmWqEnDTJ5Ut8idstP-1.jpg',
     },
     {
         title: 'Mobile Suit Gundam: Hathaway (2021)',
@@ -2238,7 +2210,7 @@ export const movies = [
         description:
             'Hathauej Noa, bëhet pjesë e një organizate terroriste e quajtur Mufti i cili organizon një sulm ndaj ministrave të Federatës së Tokës. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/6gw8onh4FKsruBA7Oouv01EFxzn-1.jpg',
+            'http://localhost:4000/images/6gw8onh4FKsruBA7Oouv01EFxzn-1.jpg',
     },
     {
         title: '1000 Miles from Christmas (2021)',
@@ -2250,7 +2222,7 @@ export const movies = [
         description:
             'Një punonjës që e përbuz plotësisht Krishtlindjen dërgohet në një qytet të vogël për punë, ku takon një grua të vendosur për të ndryshuar pikëpamjen e tij për festën. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/AAAABcM0NAJugQwjlJCQLxfkd56eHBWNUzkh7uKnPuFD25VsBMSt0at-3JOL_65gEHa_jFWgDDY3bXi1QVnPuS4aCF0dGrR65aMLJmwG9LTqQ5AONhZLbewMg8e3cYhJwg.jpg',
+            'http://localhost:4000/images/AAAABcM0NAJugQwjlJCQLxfkd56eHBWNUzkh7uKnPuFD25VsBMSt0at-3JOL_65gEHa_jFWgDDY3bXi1QVnPuS4aCF0dGrR65aMLJmwG9LTqQ5AONhZLbewMg8e3cYhJwg.jpg',
     },
     {
         title: 'Zola (2020) +18',
@@ -2262,7 +2234,7 @@ export const movies = [
         description:
             "Zola, një kameriere në Detroit,krijon një miqësi të re me një kliente, Stefania, e cila e josh atë për t'u bashkuar me një klub striptizmi në Florida. ",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/q4h2XjhryLMtYZxRCmg2KwgSHUN.jpg',
+            'http://localhost:4000/images/q4h2XjhryLMtYZxRCmg2KwgSHUN.jpg',
     },
     {
         title: 'Rescued by Ruby (2022)',
@@ -2274,7 +2246,7 @@ export const movies = [
         description:
             "Duke ndjekur ëndrrën e tij për t'u bashkuar me njësinë elitare të K-9, një ushtarak i shtetit bashkëpunon me një qen strehe shumë të zgjuar por të pabindur, Rubin. ",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/AAAABRFlUGzasg1we4oVLLc9JXVq7ZSQLn7HdWN843xQeoxnJ-Ls416_Fd9MxwwWpQRVluHj3dYxFCFqxorgsuRN1eG8U8KnhpwcWXWV8z8d_BRv7u-_8SNe_1qEByE-Ow.jpg',
+            'http://localhost:4000/images/AAAABRFlUGzasg1we4oVLLc9JXVq7ZSQLn7HdWN843xQeoxnJ-Ls416_Fd9MxwwWpQRVluHj3dYxFCFqxorgsuRN1eG8U8KnhpwcWXWV8z8d_BRv7u-_8SNe_1qEByE-Ow.jpg',
     },
     {
         title: 'The Girl on the Mountain (2022)',
@@ -2286,7 +2258,7 @@ export const movies = [
         description:
             "Kur një pylltar i izoluar gjen një vajzë të vogël memece që endet vetëm në pyll, ai duhet ta mbrojë atë nga forcat e liga të vendosura për t'i dhënë fund jetës së saj. ",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/1ZiZ3eVUWPxJROTkYbH8FBC9UuB.jpg',
+            'http://localhost:4000/images/1ZiZ3eVUWPxJROTkYbH8FBC9UuB.jpg',
     },
     {
         title: 'Grace (2014)',
@@ -2297,7 +2269,7 @@ export const movies = [
         ratingImdb: 6,
         description:
             'Kur Grejsi, është e alkoolizuar, zgjohet në një plazh duke mos mbajtur mend asgjë. Pasi futet në telashe, ajo do të duhet që të kryejë dënimin e saj në këtë qytet. Edhe pse ajo nuk do, ky komunitet do ta ndihmojë atë që ajo të pastrohet nga sëmundja e saj dhe të gjejë shpëtim.',
-        photoSrc: 'http://www.filma24.so/wp-content/uploads/2015/02/grace.jpg',
+        photoSrc: 'http://localhost:4000/images/grace.jpg',
     },
     {
         title: 'Heart Shot (2022)',
@@ -2309,7 +2281,7 @@ export const movies = [
         description:
             'Në këtë film të shkurtër, adoleshentet Niki dhe Semi janë të dashuruara dhe planifikojnë të ardhmen e tyre së bashku - derisa e kaluara e rrezikshme e Nikit kthehet për të kërcënuar gjithçka. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/AAAABeXlreZfPwdBQ4OgYsFhHM69cahbwRYMAuCI71Z8Z_Uhkn8Z4nd3vYv76qabb09intivBGP0Hp4y_Lo0PX7FD-HszM4hb2bNWIP2T9Aehxn_3nVnn4gURibRgr82ng.jpg',
+            'http://localhost:4000/images/AAAABeXlreZfPwdBQ4OgYsFhHM69cahbwRYMAuCI71Z8Z_Uhkn8Z4nd3vYv76qabb09intivBGP0Hp4y_Lo0PX7FD-HszM4hb2bNWIP2T9Aehxn_3nVnn4gURibRgr82ng.jpg',
     },
     {
         title: 'The Green Sea (2021)',
@@ -2321,7 +2293,7 @@ export const movies = [
         description:
             'Simone është një shkrimtare amerikane dhe muzikante në pension. Ajo pi ditë e natë ndërsa bën përpjekje me gjysmë zemre për të shkruar një libër të dytë. E izoluar nga bota, asaj po i mbaron koha dhe paratë. Ajo mban shtëpinë e saj dhe Jeep-in e vjetër si një litar shpëtimi për të kaluarën. Gjithçka ndryshon kur personazhi i saj në libër ngjallet dhe ndryshon gjithë jetën e saj. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/vbfI65KFneCgP787rW6Tusa8dsG.jpg',
+            'http://localhost:4000/images/vbfI65KFneCgP787rW6Tusa8dsG.jpg',
     },
     {
         title: '22 July (2018)',
@@ -2333,7 +2305,7 @@ export const movies = [
         description:
             "Një histori e sulmit më të rëndë terrorist që ka pësuar Norvegjia, në të cilin u vranë mbi 70 njerëz. '22 Korriku' na tregon për vetë fatkeqësinë, të mbijetuarit, sistemin politik të Norvegjisë, si edhe për avokatët që punuan me këtë çështje të tmerrshme.",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/b5a525e65954d15611a92d2185c2193a0743735a.jpg',
+            'http://localhost:4000/images/b5a525e65954d15611a92d2185c2193a0743735a.jpg',
     },
     {
         title: 'Are We Done Yet? (2007)',
@@ -2344,8 +2316,7 @@ export const movies = [
         ratingImdb: 4.2,
         description:
             'Të porsamartuarit Nick dhe Suzanne vendosin për të lëvizur në periferi për të siguruar një jetë më të mirë për dy fëmijët e tyre. Por ideja e tyre për një shtëpi ëndërr është e shqetësuar nga një kontraktor me një qasje të çuditshme të biznesit.',
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_p163913_v_v8_aa.png',
+        photoSrc: 'http://localhost:4000/images/rsz_p163913_v_v8_aa.png',
     },
     {
         title: 'The Night (2020)',
@@ -2356,7 +2327,7 @@ export const movies = [
         ratingImdb: 5.5,
         description:
             'Një çift iranian që jeton në SHBA zihet në kurth brenda një hoteli kur disa ngjarje misterioze i detyrojnë të përballen me sekretet që kanë pasur midis tyre, në një natë që nuk mbaron kurrë. ',
-        photoSrc: 'http://www.filma24.so/wp-content/uploads/images-6.jpg',
+        photoSrc: 'http://localhost:4000/images/images-6.jpg',
     },
     {
         title: 'Atlantis (2019)',
@@ -2367,7 +2338,7 @@ export const movies = [
         ratingImdb: 6.8,
         description:
             'Filmi që po bën namin tani me luftën dhe ja si përfundon lufta në Ukrainë, sipas filmit Atlantis! Përshkrimi: Në Ukrainën Lindore të vitit 2025, Sergi është një ish ushtar i cili ka vështirësi të përshtatet me realitetin e tij të ri. Ai takon Katjan e cila merret me një mision humanitar kushtuar zbulimit së së kaluarës që lidhet me luftën. ',
-        photoSrc: 'http://www.filma24.so/wp-content/uploads/rsz_1atlanitis.png',
+        photoSrc: 'http://localhost:4000/images/rsz_1atlanitis.png',
     },
     {
         title: 'The Weekend Away (2022)',
@@ -2379,7 +2350,7 @@ export const movies = [
         description:
             'Një fundjavë pushimi në Kroaci shkon keq kur një grua akuzohet për vrasjen e shoqes së saj më të mirë. Ndërsa përpiqet të pastrojë emrin e saj dhe të zbulojë të vërtetën, përpjekjet e saj zbulojnë një sekret të dhimbshëm. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/6MS0QEl7UK2gdFFbHfNwuYlsq4H.jpg',
+            'http://localhost:4000/images/6MS0QEl7UK2gdFFbHfNwuYlsq4H.jpg',
     },
     {
         title: 'Death on the Nile (2022)',
@@ -2390,8 +2361,7 @@ export const movies = [
         ratingImdb: 6.6,
         description:
             'Teksa shkon me pushime në Nil, Hercule Poirot duhet të hetojë vrasjen e një trashëgimtarje pasurie të re.',
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_death_on_the_nile.png',
+        photoSrc: 'http://localhost:4000/images/rsz_death_on_the_nile.png',
     },
     {
         title: 'Monte Carlo (2011)',
@@ -2403,7 +2373,7 @@ export const movies = [
         description:
             'Bëhuni gati për aventurën më të mahnitshme të jetës suaj në Monte Karlo! Selena Gomez ndriçon ekranin si Greis, një maturante gjimnazi me shpirt të madh që mezi pret të shkojë me pushime në Paris bashkë me shoqen e saj të ngushtë Emën dhe vajzën e njerkut Meg. Sapo vajzat mendojnë se udhëtimi i tyre është shkatërruar kur ciceroni i tyre tepër aktiv i lë mbrapa, Greisi ngatërrohet me një trashëgimtare të pasur dhe treshja përfundon në Monte Karlo për një javë emocionuese plot luks, magji dhe argëtim të paharrueshëm!',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_1sxgh0ttesjdk1z390w6beu5tmnu.png',
+            'http://localhost:4000/images/rsz_1sxgh0ttesjdk1z390w6beu5tmnu.png',
     },
     {
         title: 'Project A (1983)',
@@ -2415,7 +2385,7 @@ export const movies = [
         description:
             'Filmi bën fjalë për një luftë kundër piratëve në Hong-Kong. Një dramë kostumesh kineze me shumë aksion dhe muzikë.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_oxcitrhmbdgcgujmw2jhwjonvi7.png',
+            'http://localhost:4000/images/rsz_oxcitrhmbdgcgujmw2jhwjonvi7.png',
     },
     {
         title: 'Project A 2 (1987)',
@@ -2427,7 +2397,7 @@ export const movies = [
         description:
             'Projekti-A Pjesa 2: Dragoi është transferuar dhe tashmë është bërë kreu i policisë në rrethin Sai Van dhe i duhet të luftojë kundër një gangsteri të rëndësishëm, kundër revolucionarëve anti-Mançu, kundër disa piratëve të arratisur, kundër besnikëve të Mançu-së dhe kundër një inspektori të korruptuar të policisë.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_plqntqjts6uqvgkyoddjr3a8ii0.png',
+            'http://localhost:4000/images/rsz_plqntqjts6uqvgkyoddjr3a8ii0.png',
     },
     {
         title: 'Dora and the Lost City of Gold (2019)',
@@ -2439,7 +2409,7 @@ export const movies = [
         description:
             'Pas vitesh të tërë duke eksploruar xhunglën me prindërit e saj, Dora shpërngulet në qytet për të filluar një nga aventurat më të vështira që ka parë ndonjëherë, t’i mbijetojë gjimnazit dhe të bëjë miq të rinj.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_xvycz740xvngxk0fnesnvtjjj5v.png',
+            'http://localhost:4000/images/rsz_xvycz740xvngxk0fnesnvtjjj5v.png',
     },
     {
         title: 'Midsommar (2019)',
@@ -2451,7 +2421,7 @@ export const movies = [
         description:
             'Një çift udhëton në Suedi për të vizituar festivalin e qytetit të lindjes të shokut të tyre në mes të verës. Në fillim duket interesante, por shumë shpejt një konkurs i dhunshëm dhe i çuditshëm në duart e një kulti pagan ndryshon çdo gjë.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_rxsh4mi6uyvgzbsszxcfitjnvpy.png',
+            'http://localhost:4000/images/rsz_rxsh4mi6uyvgzbsszxcfitjnvpy.png',
     },
     {
         title: 'Tapped Out (2014)',
@@ -2462,8 +2432,7 @@ export const movies = [
         ratingImdb: 5.3,
         description:
             "Një djalosh i ri i cili dënohet nga komuniteti i shkollës për disiplinën dërgohet tek një shkolle e karatesë, të cilin e shtyhen ate të merr pjese në MMA (arteve marciale ne tela) kur e kupton lajmin që vrasësi i prindërve te t'i është ne atë gare...",
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_p10653525_v_v8_ae.png',
+        photoSrc: 'http://localhost:4000/images/rsz_p10653525_v_v8_ae.png',
     },
     {
         title: 'Quantum of Solace (2008)',
@@ -2475,7 +2444,7 @@ export const movies = [
         description:
             'Agjenti 007 është i plagosur në krenarinë e tij, pasi është tradhtuar nga Vesper, gruaja që dashuronte. Misioni i tij i ri fillon me detyrën e re për Bondin që të mos bënte asnjë hakmarrje personale. Pasi zbulon se një organizatë sekrete kishte kapur Vesper, e që një llogari bankare i përket një agjenti M16 të korruptuar në Haiti, Bond falë edhe ndihmës së Kamilës, një grua e etur për hakmarrje, njihet me Dominik Grin një biznesmen që bën pjesë në organizatë. Bond zbulon që Grini është duke punuar për të marr kontrollin e një prej burimeve natyrore më të rëndësishme në botë dhe për ta arritur këtë është gati të bëjë gjithçka. Mes mashtrimeve dhe tradhtive, Bond, me ndihmën e disa miqve të vjetër duhet të zbulojë burrin që shkaktoi tradhtinë e Vesper dhe të ndalojë planin e Grinit.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_vtrjvqnmo60tynmpfy9ewm0phfb.png',
+            'http://localhost:4000/images/rsz_vtrjvqnmo60tynmpfy9ewm0phfb.png',
     },
     {
         title: 'I Spy (2002)',
@@ -2487,7 +2456,7 @@ export const movies = [
         description:
             'Kur qeverisë amerikane i vjedhin një avion të padukshëm-prototip, spiunazhi vihet në veprim për rikthimin e tij. Me mision niset një spiun i sprovuar, por ajo që ai nuk pret është të bashkohet me një kampion boksi, mendjemadh dhe qesharak, për të kapur një nga tregtarët më të suksesshëm të armëve në botë.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_y1n8qiklha36qdh6bedx4xzvlxh.png',
+            'http://localhost:4000/images/rsz_y1n8qiklha36qdh6bedx4xzvlxh.png',
     },
     {
         title: 'The Secret of Sinchanee (2021)',
@@ -2499,7 +2468,7 @@ export const movies = [
         description:
             'Një shofer kamioni që vuan nga pagjumësia kthehet në shtëpinë e fëmijërisë pas vdekjes së papritur të të atit dhe zbulon se prezenca e shpirtrave ka ekzistuar në atë vend dhe ka torturuar tokën e shenjtë ku është ndërtuar.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_6lih1h8m7m6n9upszp35ipwc7mr.png',
+            'http://localhost:4000/images/rsz_6lih1h8m7m6n9upszp35ipwc7mr.png',
     },
     {
         title: 'Salt (2010)',
@@ -2511,7 +2480,7 @@ export const movies = [
         description:
             'Si çdo oficer i CIA, Evelyn Salt është betuar ti shërbejë vendit me besnikëri. Por një detektor e akuzon atë se është një spiune Ruse dhe besnikëria e saj vihet në dyshim. Salt arratiset dhe përpiqet të provojë pafajësinë e saj, por dyshimi përsëri mbetet: “Kush është Salt?”',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_956xmjh4spoqimqolop6ai19mjm.png',
+            'http://localhost:4000/images/rsz_956xmjh4spoqimqolop6ai19mjm.png',
     },
     {
         title: 'Lost Solace (2018)',
@@ -2523,7 +2492,7 @@ export const movies = [
         description:
             'Pas marrjes së një forme të re ekstazie, një psikopat përjeton një ndryshim mendor që e bën atë të ndiejë dhe të vejë në diskutim moralin e tij për herë të parë.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_1zifc2um5xtohmjzmi426q3dhqv.png',
+            'http://localhost:4000/images/rsz_1zifc2um5xtohmjzmi426q3dhqv.png',
     },
     {
         title: 'Bullet Head (2017)',
@@ -2535,7 +2504,7 @@ export const movies = [
         description:
             "Tre kriminelë profesionistë e gjejnë veten të bllokuar në një depo në përpjekje për t'u arritisur nga ligji dhe me një kërcënim edhe më të madh brenda.",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_au1ktwgl9qtw5jwaqsd4z2ykufx-1.png',
+            'http://localhost:4000/images/rsz_au1ktwgl9qtw5jwaqsd4z2ykufx-1.png',
     },
     {
         title: 'CODA (2021)',
@@ -2547,7 +2516,7 @@ export const movies = [
         description:
             'Rubi, është personi i vetëm që dëgjon në familjen e saj të shurdhër. Kur biznesi i peshkimit i familjes kërcënohet, Rubi e gjen veten të ndarë mes ndjekjes së dashurisë së saj për muzikën dhe frikës për të braktisur prindërit e saj. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_bzvjmm8l23rpsijlinluzuqtyd.png',
+            'http://localhost:4000/images/rsz_bzvjmm8l23rpsijlinluzuqtyd.png',
     },
     {
         title: 'Black Crab (2022) a.k.a. Svart krabba',
@@ -2559,7 +2528,7 @@ export const movies = [
         description:
             'Në një botë post-apokaliptike, gjashtë ushtarë në një mision të fshehtë duhet të transportojnë një paketë misterioze nëpër një arkipelag të ngrirë. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/AAAABRpgAjiXoh3YCHvnc31BeBIIV-l3PFksMA7KkJpdGMG5UpOieHhdRKz5-itmm8LK_yEJaJbI7LdIrs9jB2k-AvD4K7mldJenJoRZ4RVY8OKBrwICoEkVCj96XhvlKA.jpg',
+            'http://localhost:4000/images/AAAABRpgAjiXoh3YCHvnc31BeBIIV-l3PFksMA7KkJpdGMG5UpOieHhdRKz5-itmm8LK_yEJaJbI7LdIrs9jB2k-AvD4K7mldJenJoRZ4RVY8OKBrwICoEkVCj96XhvlKA.jpg',
     },
     {
         title: 'A Shot Through the Wall (2021)',
@@ -2571,7 +2540,7 @@ export const movies = [
         description:
             'Jeta e një polici kinezo-amerikan zbërthehet pasi qëllon aksidentalisht një zezak të pafajshëm. Duke u përballur me gjyqin, ai kalon përmes fajit të tij ndërsa lundron nëpër botët e ndërlikuara të medias, drejtësisë, politikës racore dhe moralit të tij. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_12edfmosgitsobx8tsmi3wv05rwp.png',
+            'http://localhost:4000/images/rsz_12edfmosgitsobx8tsmi3wv05rwp.png',
     },
     {
         title: 'Moonfall (2022)',
@@ -2583,7 +2552,7 @@ export const movies = [
         description:
             'Një forcë misterioze e zhvendos hënën nga orbita e saj rreth Tokës dhe e dërgon atë në një rrugë përplasjeje me Tokën. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_moonfall_me_titra_shqip.png',
+            'http://localhost:4000/images/rsz_moonfall_me_titra_shqip.png',
     },
     {
         title: 'Wolf Warrior (2015)',
@@ -2595,7 +2564,7 @@ export const movies = [
         description:
             'Një snajperist i forcave speciale me një shenjëtër të jashtëzakonshme, pasi vret vëllanë e një bosi të drogës dhe bashkohet me Luftëtarët Ujk, duhet të përballet me disa mercenarë të cilët i dërgon bosi i drogës për të marrë hakun e vëllait.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_501d6roytuk2vidtpkk6l4d4kwy.png',
+            'http://localhost:4000/images/rsz_501d6roytuk2vidtpkk6l4d4kwy.png',
     },
     {
         title: 'Wolf Warrior 2 (2017)',
@@ -2607,7 +2576,7 @@ export const movies = [
         description:
             "Kur mercenarët sadistë shënjestrojnë civilët, Leng Feng detyrohet t'i kthehet detyrës së tij, në mënyrë që të shpëtojë jetët e kërcënuara të tyre.",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_spvnzpiczoopptodtoqbm7fqdxg.png',
+            'http://localhost:4000/images/rsz_spvnzpiczoopptodtoqbm7fqdxg.png',
     },
     {
         title: 'Viking (2016)',
@@ -2618,7 +2587,7 @@ export const movies = [
         ratingImdb: 4.5,
         description:
             'Rusi, fundi i shekullit të 10-të. Pas vdekjes së të atit, princi i ri, Vladimiri i Novgorodit, detyrohet të mërgojë larg shtëpisë së tij, nëpër Detin e Ngrirë.',
-        photoSrc: 'http://www.filma24.so/wp-content/uploads/rsz_vvv-1.png',
+        photoSrc: 'http://localhost:4000/images/rsz_vvv-1.png',
     },
     {
         title: 'Thunderbolt (1995)',
@@ -2630,7 +2599,7 @@ export const movies = [
         description:
             'Që të shpëtojë motrën e tij të rrëmbyer, një mekanik makinash sportive duhet të mundë një kriminel që organizon gara në rrugë.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_81d5xblntadjs19dbkfw8ek0owa.png',
+            'http://localhost:4000/images/rsz_81d5xblntadjs19dbkfw8ek0owa.png',
     },
     {
         title: 'Topside (2020)',
@@ -2642,7 +2611,7 @@ export const movies = [
         description:
             'Thellë në pjesën e poshtme të qytetit të Nju Jorkut, një vajzë pesë vjeçare dhe nëna e saj jetojnë mes një komuniteti që ka pretenduar se tunelet e braktisura të metrosë janë shtëpia e tyre. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/mcDGQ2nBftKijYVNFcm0rWsaPiU.jpg',
+            'http://localhost:4000/images/mcDGQ2nBftKijYVNFcm0rWsaPiU.jpg',
     },
     {
         title: 'The Hangover (2009)',
@@ -2654,7 +2623,7 @@ export const movies = [
         description:
             'Pas një nate feste beqarisë tre shokët zgjohen të humbur nga parti në Las Vegas, ku njëri nga ta zhduket ata duhet të bëjnë rrugëtimi nëpër qytet për të gjetur mikun e tyre para dasmës së tij.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_uluhlxubgu1vxu63x9vhclwdayp.png',
+            'http://localhost:4000/images/rsz_uluhlxubgu1vxu63x9vhclwdayp.png',
     },
     {
         title: 'The Hangover Part II (2011)',
@@ -2666,7 +2635,7 @@ export const movies = [
         description:
             'Dy vjet pas festes se beqarisë ne Las Vegas, Fili, Stjuja, Alani dhe Dagu shkojnë ne Tailande për dasmën e Stjuse. Stju planifikon një dreke te qete paramartesore megjithatë ndodh diçka me shume se kaq.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/2015/06/rsz_yoijyvknxfu4jcjvpyemocgylky.png',
+            'http://localhost:4000/images/rsz_yoijyvknxfu4jcjvpyemocgylky.png',
     },
     {
         title: 'The Hangover Part III (2013)',
@@ -2678,7 +2647,7 @@ export const movies = [
         description:
             'Kur një prej tyre rrëmbehet nga një gangster i inatosur, Tufa e Ujqërve duhet të gjurmojë zotin Çou, i cili është arratisur nga burgu.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_vtxupwkdlllnlvygjkya267ntuh.png',
+            'http://localhost:4000/images/rsz_vtxupwkdlllnlvygjkya267ntuh.png',
     },
     {
         title: 'The Extra Man (2010)',
@@ -2690,7 +2659,7 @@ export const movies = [
         description:
             'Një burrë që shoqëron gra të pasura në Manhatan merr një djalë të ri në patronazh. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/7RhiXoCm6yEflHQvYtoLeAkDhaU.jpg',
+            'http://localhost:4000/images/7RhiXoCm6yEflHQvYtoLeAkDhaU.jpg',
     },
     {
         title: 'Andhadhun (2018)',
@@ -2702,7 +2671,7 @@ export const movies = [
         description:
             'Një seri ngjarjesh misterioze ndryshojnë jetën e një pianisti të verbër, i cili tani duhet të raportojë një krim të cilin nuk e kishte dëshmuar.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_ixpoxuokeyxk2tpjnnvr2jpyvnm.png',
+            'http://localhost:4000/images/rsz_ixpoxuokeyxk2tpjnnvr2jpyvnm.png',
     },
     {
         title: 'Diabolik (2021)',
@@ -2714,7 +2683,7 @@ export const movies = [
         description:
             'Historia e errët dhe romantike e takimit mes mjeshtrit hajdut Djallëzori dhe Eva Kant, vendosur në qytetin imagjinar të Klervil në fund të viteve 1960’. Inspektori Xhinko është në kërkim të kriminelit duke u përpjekur të ndalojë planet e tij djallëzore.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_diabolik_me_titra_shqip.png',
+            'http://localhost:4000/images/rsz_diabolik_me_titra_shqip.png',
     },
     {
         title: 'UFO (2022)',
@@ -2725,8 +2694,7 @@ export const movies = [
         ratingImdb: 4.8,
         description:
             'Kur studentja Deniz e cila do të bëhet këngëtare takon një djalë që bën gara me motor, rruga për dashurinë e tyre është e penguar nga kundërshtimi i familjes dhe tragjedia.',
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/UFO-me-titra-shqip.png',
+        photoSrc: 'http://localhost:4000/images/UFO-me-titra-shqip.png',
     },
     {
         title: 'Asterix at the Olympic Games (2008)',
@@ -2737,8 +2705,7 @@ export const movies = [
         ratingImdb: 5.2,
         description:
             'Asteriksi dhe Obeliksi konkurrojnë në Lojërat Olimpike për të ndihmuar mikun e tyre Alafoliks që të martohet me Princeshë Irinën. Brutusi gjithashtu mundohet të fitojë garën me skuadrën e tij dhe të heqë qafe babanë, Jul Çezarin.',
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_p175104_v_v8_at.png',
+        photoSrc: 'http://localhost:4000/images/rsz_p175104_v_v8_at.png',
     },
     {
         title: 'Freetown (2015)',
@@ -2750,7 +2717,7 @@ export const movies = [
         description:
             "FREETOWN është një histori emocionunese e shpresës për të mbijetuar. Bazuar në ngjarje të vërteta! Të ngecur në mes të një lufte të vrazhdë, gjashtë misionarë Liberianë në Monrovia mundohen t'ia mbathin nga dhuna në vendin e tyre. Destinacioni i tyre: Freetaun, Sierra Leone. Me ndihmën e drejtuesit të kishës, Filip Abubakar, misonarët nisen në udhëtimin e vështirë duke u munduar të shmangin rebelët që duan të vrasin njërin prej tyre.",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/2015/08/rsz_oelwoxkslqhk7uusghfetw6c0ll.png',
+            'http://localhost:4000/images/rsz_oelwoxkslqhk7uusghfetw6c0ll.png',
     },
     {
         title: 'Bully (2018)',
@@ -2761,7 +2728,7 @@ export const movies = [
         ratingImdb: 5.2,
         description:
             'Xhimi, një adoleshent i bën ballë bullizmit në shkollë me ndihmën e një trajneri boksi dhe miqve te tij. ',
-        photoSrc: 'http://www.filma24.so/wp-content/uploads/v1.jpg',
+        photoSrc: 'http://localhost:4000/images/v1.jpg',
     },
     {
         title: 'The Tunnel (2019)',
@@ -2773,7 +2740,7 @@ export const movies = [
         description:
             'Kur një kamion përplaset në një tunel në Norvegji në mes të një stuhie dëbore, është në duart e të mbijetuarve dhe të skuadrës së shpëtimit të sigurohen që dita të mos përfundojë në tragjedi.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_mv5bnjnlywuzogmtyziwni00mwviltk5mmutnge5mtbly2q1ztjjxkeyxkfqcgdeqxvymtezmjq4nzew.png',
+            'http://localhost:4000/images/rsz_mv5bnjnlywuzogmtyziwni00mwviltk5mmutnge5mtbly2q1ztjjxkeyxkfqcgdeqxvymtezmjq4nzew.png',
     },
     {
         title: 'The Game (1997)',
@@ -2785,7 +2752,7 @@ export const movies = [
         description:
             'Pasi një bankieri i pasur i San Franciskos i jepet një mundësi për të marrë pjesë në një lojë misterioze, jeta e tij kthehet përmbys kur ai fillon për të pyetur nëse mund të ishte vërtet një komplot i fshehur për ta shkatërruar atë.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_the_game_me_titra_shqip.png',
+            'http://localhost:4000/images/rsz_the_game_me_titra_shqip.png',
     },
     {
         title: 'Windfall (2022)',
@@ -2797,7 +2764,7 @@ export const movies = [
         description:
             'Një burrë hyn në shtëpinë e zbrazët të pushimeve të një miliarderi, por gjërat shkojnë keq kur miliarderi arrogant dhe gruaja e tij provojnë të arratisen në minutën e fundit.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_windfall_me_titra_shqip.png',
+            'http://localhost:4000/images/rsz_windfall_me_titra_shqip.png',
     },
     {
         title: 'Ratatouille (2007)',
@@ -2809,7 +2776,7 @@ export const movies = [
         description:
             'Një mi që gatuan bën një aleancë të pazakontë me një punëtor kuzhine në një restorant të njohur! ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/y8y6Fv0k068OnHBZtu949A1t6pj.jpg',
+            'http://localhost:4000/images/y8y6Fv0k068OnHBZtu949A1t6pj.jpg',
     },
     {
         title: 'The Contractor (2022)',
@@ -2821,7 +2788,7 @@ export const movies = [
         description:
             'Një rreshter i shkarkuar i Forcave Speciale të SHBA, Xhejms Harper, rrezikon gjithçka për familjen e tij, kur bashkohet me një organizatë private kontraktuese.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/The-Contractor-me-titra-shqip.png',
+            'http://localhost:4000/images/The-Contractor-me-titra-shqip.png',
     },
     {
         title: 'The Nutty Professor (1996)',
@@ -2833,7 +2800,7 @@ export const movies = [
         description:
             'Profesori Sherman Klump tepër mbipeshë, por me zemër të mirë, merr një kimikat të veçantë që e kthen atë në Badi Lov të dobët, por të neveritshëm.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/the-nutty-professor-me-titra-shqip.png',
+            'http://localhost:4000/images/the-nutty-professor-me-titra-shqip.png',
     },
     {
         title: 'Without Saying Goodbye (2022) a.k.a. Hasta que nos volvamos a encontrar a.k.a. Backpackers',
@@ -2845,7 +2812,7 @@ export const movies = [
         description:
             'Jetët e kundërta të një arkitekti të apasionuar pas punës dhe një artiste të zjarrtë përplasen kur takimi i tyre i rastësishëm në Peru ndryshon pikëpamjet e tyre për jetën. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/Without-Saying-Goodbye-2022-netflix-shqip-me-titra.jpg',
+            'http://localhost:4000/images/Without-Saying-Goodbye-2022-netflix-shqip-me-titra.jpg',
     },
     {
         title: 'Point Break (2015)',
@@ -2856,8 +2823,7 @@ export const movies = [
         ratingImdb: 5.4,
         description:
             "'Pika e Thyerjes'. Një agjent i ri i FBI-së infiltrohet në një grup të jashtëzakonshëm sportistësh të sporteve ekstreme të dyshuar për organizimin e një vargu të paparë vjedhjesh të sofistikuara.",
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_7613059314931xxl.png',
+        photoSrc: 'http://localhost:4000/images/rsz_7613059314931xxl.png',
     },
     {
         title: 'Star Wars: Episode V &#8211; The Empire Strikes Back (1980)',
@@ -2869,7 +2835,7 @@ export const movies = [
         description:
             'Pasi rebelët shtypen brutalisht nga Perandoria në bazën e tyre të re, Luke Skywalker merr leksione të avancuara të Jedit nga Mjeshtri Yoda, ndërsa shokët e tij ndiqen nga Darth Vader si pjesë e planit të tij për të kapur Luke-n.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/2016/01/rsz_cmz1x4btdql8gwjifu7wpj3ucjd.png',
+            'http://localhost:4000/images/rsz_cmz1x4btdql8gwjifu7wpj3ucjd.png',
     },
     {
         title: 'Balkan Line (2019)',
@@ -2881,7 +2847,7 @@ export const movies = [
         description:
             'Një film propagandistik, ku mashtrohet e vërteta dhe tregon për NATO-n që bombardon Beogradin në mars 1999. Në qershor, ushtria serbe tërhiqet nga Kosova. Disa myslimanë besojnë se tani ata mund të plaçkisin, përdhunojnë dhe vrasin serbët në Kosovë. 5 rusët do të marrin aeroportin e Kosovës nga banditë të tillë dhe do ta mbajnë atë deri sa të arrijnë paqeruajtësit. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/okiB4NUriKKbGjAtVSzveicPTtu-1.jpg',
+            'http://localhost:4000/images/okiB4NUriKKbGjAtVSzveicPTtu-1.jpg',
     },
     {
         title: 'In the Forest (2022)',
@@ -2892,8 +2858,7 @@ export const movies = [
         ratingImdb: 4.2,
         description:
             'Pasi një udhëtim familjar në kamp bëhet i tmerrshëm, një nënë duhet të luftojë për të shpëtuar familjen e saj nga një pronar toke i zemëruar, i cili po fsheh një sekret të tmerrshëm në pronën e tij.',
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/movieposter_en-1.jpg',
+        photoSrc: 'http://localhost:4000/images/movieposter_en-1.jpg',
     },
     {
         title: 'Memoria (2021)',
@@ -2904,8 +2869,7 @@ export const movies = [
         ratingImdb: 6.6,
         description:
             'Një grua skoceze, teksa udhëton për në Kolumbi, fillon të shquajë tinguj të çuditshëm. Shumë shpejt, ajo fillon të mendojë për pamjen që ata mund të kenë. ',
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_memoria_me_titra_shqip.png',
+        photoSrc: 'http://localhost:4000/images/rsz_memoria_me_titra_shqip.png',
     },
     {
         title: 'Logan (2017)',
@@ -2916,8 +2880,7 @@ export const movies = [
         ratingImdb: 8.1,
         description:
             'Në të ardhmen e afërt, Logani i plakur kujdeset për Profesor-X i cili është i sëmurë rëndë diku në kufirin Meksikan. Tentativa e Loganit për tu fshehur nga bota ndryshon kur vjen një mutante e re e cila ndiqet nga forca të errëta.',
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_logan_me_titra_shqip.png',
+        photoSrc: 'http://localhost:4000/images/rsz_logan_me_titra_shqip.png',
     },
     {
         title: '14 Peaks: Nothing Is Impossible (2021)',
@@ -2929,7 +2892,7 @@ export const movies = [
         description:
             'Alpinisti i patrembur nepalez Nirmal Purxha, nis një kërkim në dukje të pamundur për të arritur të 14 majat 8 mijë metra të botës në 7 muaj. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/AAAABdM8h2pl06NCiYL3_uSQ53x2O_kxCWz5cpJKX251-TFv35GWncYZjdbxfDmJwhda2SHLeIJCer_pCm90RxKgA1i4e2rLrHDNr94BhEFRa8QeeaxfEi80nsltpV95DQ.jpg',
+            'http://localhost:4000/images/AAAABdM8h2pl06NCiYL3_uSQ53x2O_kxCWz5cpJKX251-TFv35GWncYZjdbxfDmJwhda2SHLeIJCer_pCm90RxKgA1i4e2rLrHDNr94BhEFRa8QeeaxfEi80nsltpV95DQ.jpg',
     },
     {
         title: 'Central Intelligence (2016)',
@@ -2940,7 +2903,7 @@ export const movies = [
         ratingImdb: 6.3,
         description:
             'Pasi ribashkohet me një mik të vjetër nëpermjet Facebook-ut, një llogaritar i urtë e i sjellshëm joshet nga bota e spiunazhit ndërkombëtar.',
-        photoSrc: 'http://www.filma24.so/wp-content/uploads/rsz_1central.png',
+        photoSrc: 'http://localhost:4000/images/rsz_1central.png',
     },
     {
         title: 'The Wolverine (2013)',
@@ -2952,7 +2915,7 @@ export const movies = [
         description:
             "Gjatë bombardimeve atomike të Nagasaki në fund të Luftës së Dytë Botërore, Uolverin shpëton ushtarin Jashida. Dekada më vonë u krijua një teknologji e lartë magnetike. Plaku dërgon të besuarën e tij Jukion, që të rifitoj 'Njeriun Ujk 'në Tokio. 'Njeriu Ujk ' ishte vetë-internuar në pyll pas konfliktit të fundit në skuadrën X-Men. Jashida nuk synon ti thotë vetëm në një 'Lamtumirë të thjeshtë Loganit, por gjithashtu dëshiron t'i ofrojë dhuratën e çmuar të vdekshmërisë, mundësinë për t'i dhënë fund vargut të humbjeve që ka pësuar Uolverin në ekzistencën e tij të përjetshme....",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_itst6dclhfufwyukcoskkusayuq.png',
+            'http://localhost:4000/images/rsz_itst6dclhfufwyukcoskkusayuq.png',
     },
     {
         title: 'Gran Torino (2008)',
@@ -2964,7 +2927,7 @@ export const movies = [
         description:
             'Veterani idhnak dhe zemërak i luftës në Kore, Uollt Kovalski zë miqësi të rrallë me një komshiun e tij, Taon, edhe pse ky i fundit tentoi t’i vidhte Gran Torinon e tij të 1972 me kërkesën e kushëririt të tij gangster. Duke qenë që rolin e babait nuk e bëri me dy djemtë e tij, vendos t’a shlyejë duke ndihmuar Taon dhe motrën e tij, Sju, nga gangsterat',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/2015/07/rsz_9ip2lgcyvmdovhjqy4mtttwfyo6.png',
+            'http://localhost:4000/images/rsz_9ip2lgcyvmdovhjqy4mtttwfyo6.png',
     },
     {
         title: 'Watchmen (2009)',
@@ -2976,7 +2939,7 @@ export const movies = [
         description:
             'Në vitin 1985 zhvillohen ngjarje alternative (të imagjinuara) ku vrasja e një kolegu super-hero e detyron detektivin Rorsçak ti futet hetimeve. Ai do zbuloje që…',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_dsk7wr3996xrxrdzgkkwqhfr8bj.png',
+            'http://localhost:4000/images/rsz_dsk7wr3996xrxrdzgkkwqhfr8bj.png',
     },
     {
         title: 'Little Man (2006)',
@@ -2988,7 +2951,7 @@ export const movies = [
         description:
             'Një baba gabimisht adapton një kriminel si fëmijën e tij...',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_zlmlklvnexuciv3ffdtqhelevgg.png',
+            'http://localhost:4000/images/rsz_zlmlklvnexuciv3ffdtqhelevgg.png',
     },
     {
         title: 'Letters from Iwo Jima (2006)',
@@ -3000,7 +2963,7 @@ export const movies = [
         description:
             'Historia e betejës së Iwo Jima midis Shteteve të Bashkuara dhe Japonisë Perandorake gjatë Luftës së Dytë Botërore, siç tregohet nga këndvështrimi i japonezëve që e luftuan atë.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/Letters-from-Iwo-Jima-me-titra-shqip.png',
+            'http://localhost:4000/images/Letters-from-Iwo-Jima-me-titra-shqip.png',
     },
     {
         title: 'Aftermath (2021)',
@@ -3011,7 +2974,7 @@ export const movies = [
         ratingImdb: 5.3,
         description:
             'Dy të rinj, në përpjekje për të ndrequr problemet në çift,vendosin të blejnë një shtëpi të re. Megjithëse shtëpia kishte një të shkuar problematike, ata vendosin ta marrin,pasi ranë dakord për një çmim shumë të arsyeshëm. ',
-        photoSrc: 'http://www.filma24.so/wp-content/uploads/rsz_aftermath.png',
+        photoSrc: 'http://localhost:4000/images/rsz_aftermath.png',
     },
     {
         title: 'Master (2022)',
@@ -3023,7 +2986,7 @@ export const movies = [
         description:
             'Dy gra afrikano-amerikane fillojnë të ndajnë përvoja shqetësuese në një kolegj të mbizotëruar kryesisht nga të bardhët në New England. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/gxbwRHsQ2v6DQv28ttp7pIx7Utj.jpg',
+            'http://localhost:4000/images/gxbwRHsQ2v6DQv28ttp7pIx7Utj.jpg',
     },
     {
         title: 'Notting Hill (1999)',
@@ -3035,7 +2998,7 @@ export const movies = [
         description:
             'Jeta e Uilliam Thakerit ndryshon rrënjësisht kur një ditë, në librarinë e tij të vogël shfaqet aktorja amerikane më e famshme e momentit. Ky takim rastësor shndërrohet në një ndjenjë të fortë, por të dy duhet të kalojnë shumë pengesa...',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_f1gmw3pvicfdq9thlvuijj5udvs.png',
+            'http://localhost:4000/images/rsz_f1gmw3pvicfdq9thlvuijj5udvs.png',
     },
     {
         title: 'American Murder: The Family Next Door (2020)',
@@ -3046,7 +3009,7 @@ export const movies = [
         ratingImdb: 7.2,
         description:
             'Në 2018, 38 vjeçarja Shanann Watts dhe dy fëmijët e saj u zhdukën në Kolorado. Me fakte të reja që mësoheshin, historia e një familje të thjeshtë u përhap në të gjithë botën...',
-        photoSrc: 'http://www.filma24.so/wp-content/uploads/rsz_1american.png',
+        photoSrc: 'http://localhost:4000/images/rsz_1american.png',
     },
     {
         title: 'Riot Girls (2019)',
@@ -3057,8 +3020,7 @@ export const movies = [
         ratingImdb: 4.5,
         description:
             'Një sëmundje misterioze i zhduk të gjithë të rriturit. Në epokën e re, dy grupe përballen me njëra tjetrën në një luftë mizore për territore, burime dhe mbijetesë. ',
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/Riot.Girls-me-titra-shqip.jpg',
+        photoSrc: 'http://localhost:4000/images/Riot.Girls-me-titra-shqip.jpg',
     },
     {
         title: 'Amadeus (1984)',
@@ -3070,7 +3032,7 @@ export const movies = [
         description:
             'Jeta, suksesi dhe telashet e Wolfgang Amadeus Mozart, siç tregohet nga Antonio Salieri, kompozitori bashkëkohor që ishte çmendurisht xheloz për talentin e Mozartit dhe pretendonte se e kishte vrarë atë.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_1tsqcwbp1jyzdccexxoveby0dzkt.png',
+            'http://localhost:4000/images/rsz_1tsqcwbp1jyzdccexxoveby0dzkt.png',
     },
     {
         title: 'The Hater (2022)',
@@ -3082,7 +3044,7 @@ export const movies = [
         description:
             'Dorothy, një hartuese fjalimesh liberale mjedisore, humbet punën e saj në një fushatë të Senatit të SHBA-së për një protestë që shkoi keq. Ajo kthehet në vendlindjen e saj konservatore në Teksas, ku mëson se ai që e ngacminte në fëmijëri po kandidon si republican për legjislaturën e shtetit. Në këtë qytet, vetëm republikanët mund të fitojnë, kështu që e vetmja gjë për të bërë është të fshihemi dhe të kandidojmë kundër tij si vetë republikane. Në pamundësi për të fshehur ndjenjat e saj në rrugën e fushatës, edhe pse ajo luan një rol, Dorothy zbulon se e mira kundër së keqes nuk është domosdoshmërisht aq e thjeshtë sa e majta dhe e djathta.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_the_hater_me_titra_shqip.png',
+            'http://localhost:4000/images/rsz_the_hater_me_titra_shqip.png',
     },
     {
         title: 'Put Grandma in the Freezer (2018) a.k.a Metti la nonna in freezer',
@@ -3094,7 +3056,7 @@ export const movies = [
         description:
             'Simone, një financier i ngathët, bie në dashuri me Klaudian, e cila jeton me pensionin e gjyshes së saj. Kur e moshuara ndërron jetë, Klaudia e fsheh trupin e saj në frigorifer dhe bëhet pjesë e një mashtrimi bashkë me ndihmën e mikeve të saj për të shmangur falimentimin.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_ezy4ufgg2xtthjlzpgoes60a1tq.png',
+            'http://localhost:4000/images/rsz_ezy4ufgg2xtthjlzpgoes60a1tq.png',
     },
     {
         title: 'Ocean&#8217;s Eight (2018)',
@@ -3106,7 +3068,7 @@ export const movies = [
         description:
             'Debbie Ocean mbledh një skuadër me femra për të bërë një grabitje të pamundur te mbrëmja Met Gala në New York.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_mvypklpfuktivnlbhizgbkae3v.png',
+            'http://localhost:4000/images/rsz_mvypklpfuktivnlbhizgbkae3v.png',
     },
     {
         title: 'The Innocents (2021) a.k.a. De uskyldige',
@@ -3118,7 +3080,7 @@ export const movies = [
         description:
             'Gjatë kohës së dritave polare një grup fëmijësh zbulojnë fuqitë e tyre të errëta dhe misterioze ndërkohë që të rriturit nuk i shohin, por kjo lojë merr një kthesë të rrezikshme. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/4hIptu4Yre7pIUhFa7GBZlfDTPW.jpg',
+            'http://localhost:4000/images/4hIptu4Yre7pIUhFa7GBZlfDTPW.jpg',
     },
     {
         title: 'The Furies (2019)',
@@ -3129,8 +3091,7 @@ export const movies = [
         ratingImdb: 4.8,
         description:
             'Një vajzë e gjen veten duke luftuar për të qëndruar gjallë në një lojë vdekjeprurëse, ku gratë janë nën gjuetinë e burrave të maskuar.',
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_the-furies-poster.png',
+        photoSrc: 'http://localhost:4000/images/rsz_the-furies-poster.png',
     },
     {
         title: 'Mean Dreams (2016)',
@@ -3142,7 +3103,7 @@ export const movies = [
         description:
             "'Ëndrra të Këqija' : Një djalë 15-vjeçar vjedh një çantë me para droge dhe ia mbath me vajzën që dashuron. Ndërkohë që babai i saj polic, i dhunshëm dhe i korruptuar i ndjek, ata nisen në një udhëtim që do ju ndryshojë jetën përgjithmonë. ",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/AlowOYyprAAq85PPtE9LvoiYT1b.jpg',
+            'http://localhost:4000/images/AlowOYyprAAq85PPtE9LvoiYT1b.jpg',
     },
     {
         title: 'Furie (2019)',
@@ -3154,7 +3115,7 @@ export const movies = [
         description:
             'Një ish kapobande lufton disa trafikues njerëzish për të shpëtuar vajzën e saj të rrëmbyer.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_6lon0m5qfrb8m2xqknuvopcbq3z.png',
+            'http://localhost:4000/images/rsz_6lon0m5qfrb8m2xqknuvopcbq3z.png',
     },
     {
         title: 'Ambulance (2022)',
@@ -3166,7 +3127,7 @@ export const movies = [
         description:
             'Dy grabitës vjedhin një ambulancë pasi grabitja e tyre shkoi keq. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/zT5ynZ0UR6HFfWQSRf2uKtqCyWD.jpg',
+            'http://localhost:4000/images/zT5ynZ0UR6HFfWQSRf2uKtqCyWD.jpg',
     },
     {
         title: 'Flags of Our Fathers (2006)',
@@ -3177,7 +3138,7 @@ export const movies = [
         ratingImdb: 7.1,
         description:
             'Historitë jetësore te gjashtë burrave që ngritën flamurin në Betejën e Iwo Jima, një pikë kthese në Luftën e Dytë Botërore.',
-        photoSrc: 'http://www.filma24.so/wp-content/uploads/rsz_flags.png',
+        photoSrc: 'http://localhost:4000/images/rsz_flags.png',
     },
     {
         title: 'In Good Hands (2022)',
@@ -3189,7 +3150,7 @@ export const movies = [
         description:
             'E diagnostikuar me sëmundje terminale, një nënë e vetme ndeshet me një beqar të guximshëm ndërsa lufton për të ardhmen e djalit të saj kokëfortë.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_1in-good-hands-movie-768x1076-1.png',
+            'http://localhost:4000/images/rsz_1in-good-hands-movie-768x1076-1.png',
     },
     {
         title: 'The Shawshank Redemption (1994)',
@@ -3201,7 +3162,7 @@ export const movies = [
         description:
             'Andi Dufrein është një bankier i cili dënohet me burg të përjetshëm për vrasjen e gruas së tij dhe dashnorit të saj. Në burg ai njihet me Red-in, një tjetër të burgosur për vrasje, dhe kështu fillon një histori burgu dhe respekti të dyanshëm mes dy burrave.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_xp0vwq9j9gti6wbfy954grs7xps.png',
+            'http://localhost:4000/images/rsz_xp0vwq9j9gti6wbfy954grs7xps.png',
     },
     {
         title: '10,000 BC (2008)',
@@ -3213,7 +3174,7 @@ export const movies = [
         description:
             'Në vitin 10.000 para Krishtit, një gjahtar humbet gruan e tij nga një luftëtar i keq, kështu që mbledh së bashku një ushtri masive për të përshkuar shkretëtirën duke luftuar gjithë sjelljet e njeriut dhe të kafshëve vetëm e vetëm për të zbuluar një qytetërim të humbur dhe për të planifikuar një shpëtim të guximshëm.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_b2vtwnww200mkrf7qpbhk9bppd0.png',
+            'http://localhost:4000/images/rsz_b2vtwnww200mkrf7qpbhk9bppd0.png',
     },
     {
         title: 'The Founder (2016)',
@@ -3225,7 +3186,7 @@ export const movies = [
         description:
             'Historia e Rei Krok, një shitësi që shdërroi idenë inovative të fast food-it të dy vëllezërve McDonald, në biznesin më të madh të restorantëve në botë, me një kombinim të ambicjes, këmbënguljes dhe vendosshmërisë.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_wosvqwev48n6jinvxmqd5s33lhp.png',
+            'http://localhost:4000/images/rsz_wosvqwev48n6jinvxmqd5s33lhp.png',
     },
     {
         title: 'The Vanishing of Sidney Hall (2017)',
@@ -3236,8 +3197,7 @@ export const movies = [
         ratingImdb: 6.9,
         description:
             'Sidnei Holl aksidentalisht gjen suksesin dhe dashurinë në një moshë të re, pastaj papritur, zhduket pa lënë gjurmë.',
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_p14902834_v_v8_aa.png',
+        photoSrc: 'http://localhost:4000/images/rsz_p14902834_v_v8_aa.png',
     },
     {
         title: 'Mustang (2015)',
@@ -3248,7 +3208,7 @@ export const movies = [
         ratingImdb: 7.7,
         description:
             'Kur 5 vajza jetime shikohen teksa luajnë me pafajshmëri me djem në plazh, kujdestarët e tyre konservativë të skandalizuar i mbyllin në shtëpi teksa martesat e tyre me detyrim organizohen.',
-        photoSrc: 'http://www.filma24.so/wp-content/uploads/rsz_321.png',
+        photoSrc: 'http://localhost:4000/images/rsz_321.png',
     },
     {
         title: 'Delibal (2015)',
@@ -3259,8 +3219,7 @@ export const movies = [
         ratingImdb: 6.8,
         description:
             "Delibal 'Mjalt helmues' një romance mes dy të dashuruarve a do të lulëzoj e ardhmja në baze të dashurisë apo karrierës, si do gjejnë veten që të vendosin se si duhet të jetojnë? Ndiqni filmin për më shumë dhe përjetoni emocionet që përcillen përmes tij.",
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/Delibal-me-titra-shqip.jpg',
+        photoSrc: 'http://localhost:4000/images/Delibal-me-titra-shqip.jpg',
     },
     {
         title: 'The Boss Baby (2017)',
@@ -3272,7 +3231,7 @@ export const movies = [
         description:
             "Një bebe e vogël, e veshur me kostum e që lëviz gjithmonë me një valixhe në dorë, bëhet bashkë me vëllanë 7 vjeçar për t'i dhënë fund planit për të shkatërruar korporatën e bebeve, Bebikorp. ",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_cscebeupqvtcvn5uygnsuwf8sob.png',
+            'http://localhost:4000/images/rsz_cscebeupqvtcvn5uygnsuwf8sob.png',
     },
     {
         title: 'Southbound (2015)',
@@ -3284,7 +3243,7 @@ export const movies = [
         description:
             'Pesë tregime të ndërthurura terrori ndjekin fatin e një grupi udhëtarësh të lodhur, që përballen me ankthet e tyre më të këqija dhe sekretet më të errëta, gjatë një nate të gjatë në një autostradë të braktisur në shkretëtirë.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/u4jDG1ANfVoCs7GChgafqkve3v8.jpg',
+            'http://localhost:4000/images/u4jDG1ANfVoCs7GChgafqkve3v8.jpg',
     },
     {
         title: 'Beverly Hills Cop (1984)',
@@ -3296,7 +3255,7 @@ export const movies = [
         description:
             'Pasi shoku i tij i fëmijërisë vritet gjatë vizitës në Detroit, polici rebel Aksel Foli niset për në Beverli Hills për të gjetur fajtorët. Atje, së bashku me shoqen e saj të fëmijërisë, do t’u hapë telashe jo vetëm kriminelëve, por edhe policisë vendore...',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/Beverly-Hills-Cop-me-titra-shqip.png',
+            'http://localhost:4000/images/Beverly-Hills-Cop-me-titra-shqip.png',
     },
     {
         title: 'Mean Girls (2004)',
@@ -3308,7 +3267,7 @@ export const movies = [
         description:
             'Kedi Heron shkon shumë mirë me plastiket, një grup dominues vajzash në shkollën e saj të re, deri sa bën gabimin dhe bie në dashuri me Aron Samuels, ish-të dashurin e plastikes kryesore Rexhina Xhorxh.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_5rrltexh0kblqwpmkduyjio8ik2.png',
+            'http://localhost:4000/images/rsz_5rrltexh0kblqwpmkduyjio8ik2.png',
     },
     {
         title: 'The Grey (2011)',
@@ -3320,7 +3279,7 @@ export const movies = [
         description:
             'Pasi avioni i tyre rrëzohet në vendin e shkretë dhe të izoluar të Alaskës, një grup punonjësish nafte detyrohet të gjejë një rrugë për t’u kthyer në civilizim. Ndërsa Otuej i udhëheq të mbijetuarit e plagosur përmes dëborës dhe akullit të vrazhdë, ata gjurmohen pa mëshirë nga një kope ujqish që do të bëjnë gjithçka për të mbrojtur territorin e tyre.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_jfjqsr5jnwyyrmrrkzwp3dwv4ym.png',
+            'http://localhost:4000/images/rsz_jfjqsr5jnwyyrmrrkzwp3dwv4ym.png',
     },
     {
         title: 'Call Me by Your Name (2017)',
@@ -3332,7 +3291,7 @@ export const movies = [
         description:
             'Në Italinë Veriore, në vitin 1983, shtatëmbëdhjetëvjeçari Elio fillon një marrëdhënie me Oliverin, ndihmësin e babait të tij, me të cilin ai afrohet prej seksualitetit të tij në zhvillim, trashëgimisë së tyre hebraike dhe peizazhit italian.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_if24au4u9sbv8qlidocrdkgyvjt.png',
+            'http://localhost:4000/images/rsz_if24au4u9sbv8qlidocrdkgyvjt.png',
     },
     {
         title: 'Here Before (2022)',
@@ -3344,7 +3303,7 @@ export const movies = [
         description:
             'E përhumbur nga vdekja e vajzës së saj të vogël, një grua zhvillon një obsesion me një vajzë që ajo beson se është fëmija e saj e rimishëruar.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_5ipzcu1pkbzppubvetnezxplbtc.png',
+            'http://localhost:4000/images/rsz_5ipzcu1pkbzppubvetnezxplbtc.png',
     },
     {
         title: 'You Are Not My Mother (2022)',
@@ -3356,7 +3315,7 @@ export const movies = [
         description:
             'Në një shtëpi banimi në veri të Dublinit, nëna e Sharit zhduket. Kur ajo kthehet, Shari është e vendosur të zbulojë të vërtetën e zhdukjes së saj dhe të zbulojë sekretet e errëta të familjes.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_suw081i0k5jwl6nptadrjmplkwr.png',
+            'http://localhost:4000/images/rsz_suw081i0k5jwl6nptadrjmplkwr.png',
     },
     {
         title: 'Morbius (2022)',
@@ -3368,7 +3327,7 @@ export const movies = [
         description:
             'Biokimisti Michael Morbius përpiqet të kurojë veten nga një sëmundje e rrallë e gjakut, por ai pa dashje infekton veten me një formë vampirizmi.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_16nhwr1lcozbiin47b8obeomoadm.png',
+            'http://localhost:4000/images/rsz_16nhwr1lcozbiin47b8obeomoadm.png',
     },
     {
         title: 'Sky High (2020) a.k.a Hasta el cielo',
@@ -3380,7 +3339,7 @@ export const movies = [
         description:
             'Një film mbi shoqërinë spanjolle, i veshur si një triller, në lidhje me fatkeqësitë e një bande të vogël kriminelësh, që pasojnë rrëzimin e pasurive të patundshme. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/hK-1pLRwAs-9S9gY83VsRNuwdvfJXmIozGEu1VqZpjeFvDSqp-ngmHrE086w.jpg',
+            'http://localhost:4000/images/hK-1pLRwAs-9S9gY83VsRNuwdvfJXmIozGEu1VqZpjeFvDSqp-ngmHrE086w.jpg',
     },
     {
         title: 'To Steal from a Thief (2016)',
@@ -3391,8 +3350,7 @@ export const movies = [
         ratingImdb: 6.4,
         description:
             'Një grup hajdutësh të drejtuar nga një njeri të quajtur Uruguajani studiojnë një bankë në Valencia për të vjedhur sa më shumë kuti sigurie dhe më vonë të largohen përmes një tuneli të hapur që lidhet me një stacion metroje të braktisur. Sidoqoftë, agjenti i kryeministres zbulon atë që po kërkojnë me të vërtetë hajdutët, duan të shtijnë në dorë kutinë 314, pronë e Gonzalo sorianos, ish-anëtar i qeverisë që ka rënë në koma pas një aksidenti, duke lënë dokumente kompromentuese. Planet e grupit fillojnë të shkojnë keq kur... ',
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_p12042117_v_v8_ac.png',
+        photoSrc: 'http://localhost:4000/images/rsz_p12042117_v_v8_ac.png',
     },
     {
         title: 'Rise of the Footsoldier: Origins (2022)',
@@ -3404,7 +3362,7 @@ export const movies = [
         description:
             'Historia se si Takeri, Rolfi dhe Pat Tejti bashkohen për të krijuar firmën e tyre. Takeri kthehet nga Lufta e Falklandës si një burrë i hidhëruar dhe i zemëruar, duke bërë emër në botën e krimit me biznesin e tij të sigurisë dhe të tregtimit të drogës.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_ghgr6biyfxhwyjbugqrinw2h19h.png',
+            'http://localhost:4000/images/rsz_ghgr6biyfxhwyjbugqrinw2h19h.png',
     },
     {
         title: 'The Outfit (2022)',
@@ -3416,7 +3374,7 @@ export const movies = [
         description:
             "Leonardi është një rrobaqepës anglez që bën kostume në Savile Row në Londër. Ai duhet të mposhtë një grup të rrezikshëm kriminelësh për t'i mbijetuar një nate fatale.",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_zbgn4qbrkot3ho7etj4fvlm3ozb.png',
+            'http://localhost:4000/images/rsz_zbgn4qbrkot3ho7etj4fvlm3ozb.png',
     },
     {
         title: '365 Days : This Day (2022)',
@@ -3427,7 +3385,7 @@ export const movies = [
         description:
             'Laura dhe Massimo janë kthyer dhe më të nxehtë se kurrë. Por fillimi i ri i çiftit të ribashkuar është i ndërlikuar nga lidhjet familjare të Massimos dhe një burrë misterioz që hyn në jetën e Laurës për të fituar zemrën dhe besimin e saj, me çdo kusht. - DEL NE KINEMA ME 27 PRILL!',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/3UPXQtdWLdOkU6zHNP3gIZ2M4K4.jpg',
+            'http://localhost:4000/images/3UPXQtdWLdOkU6zHNP3gIZ2M4K4.jpg',
     },
     {
         title: 'Heart of Dragon (1985)',
@@ -3439,7 +3397,7 @@ export const movies = [
         description:
             'Ted, ish polic i SWAT tashmë me C1D në Honk kong, ka një vëlla 30 vjeç. Vëllai tij është invalid, sillet si djemtë e vegjël, luan me ta, duke u futur gjithmonë në telashe. Ted lufton të kujdeset për të - në kurriz të të dashurës së tij të lezetshme dhe ëndrrave për tu bërë marinar.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_jt2wptdlmumm9h5hodn1x2zdq22.png',
+            'http://localhost:4000/images/rsz_jt2wptdlmumm9h5hodn1x2zdq22.png',
     },
     {
         title: 'Juniper (2021)',
@@ -3451,7 +3409,7 @@ export const movies = [
         description:
             'Kur një adoleshent që shkatërron gjithçka pezullohet nga shkolla dhe i kërkohet të kujdeset për gjyshen e tij alkoolike si një ndëshkim, koha e çmendur që kalojnë së bashku i jep një kthesë jetës së tij. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_g3ppdv8iokvqi0m2ful4p1sctoa.png',
+            'http://localhost:4000/images/rsz_g3ppdv8iokvqi0m2ful4p1sctoa.png',
     },
     {
         title: 'On the Line (2021)',
@@ -3463,7 +3421,7 @@ export const movies = [
         description:
             'Seo-joon, humbet gjithçka nga një mashtrim telefonik dhe depërton në një organizatë në Kinë për të takuar Kwak Pro-në, projektuesin e këtij sistemi mashtrimi.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_wz10nxjpm7tvl5m3wo0mm3muchh.png',
+            'http://localhost:4000/images/rsz_wz10nxjpm7tvl5m3wo0mm3muchh.png',
     },
     {
         title: 'Steve Jobs (2015)',
@@ -3475,7 +3433,7 @@ export const movies = [
         description:
             'Stiv Xhobsi na përfshin në prapaskenat e revolucionit dixhital, për të pasur një imazh të njeriut në epiqendrën e tij. Historia shpalos prapaskenat e lançimit të tre produkteve, që përfundojnë në vitin 1998 me zbulimin e iMac-ut.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_d7a6v7ldugubkanvrght9lfh3mq.png',
+            'http://localhost:4000/images/rsz_d7a6v7ldugubkanvrght9lfh3mq.png',
     },
     {
         title: 'John Carter (2012)',
@@ -3487,7 +3445,7 @@ export const movies = [
         description:
             'I transferuar në Mars, një veteran i luftës civile zbulon një planet madhështor i banuar nga krijesa gjigande. Si skllav i këtyre krijesave, ai vendos që të arratiset me qellim që ta shpëtojë Princeshën.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_rczlqyaiptkmh16ciihdalxnjf9.png',
+            'http://localhost:4000/images/rsz_rczlqyaiptkmh16ciihdalxnjf9.png',
     },
     {
         title: 'OSS 117: From Africa with Love (2021)',
@@ -3499,7 +3457,7 @@ export const movies = [
         description:
             'Hyrja e tretë në aventurat e spiunazhit parodik të agjentit sekret OSS 117.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_6j0f1q9cjstqhbtaos9ntq4ocbx.png',
+            'http://localhost:4000/images/rsz_6j0f1q9cjstqhbtaos9ntq4ocbx.png',
     },
     {
         title: 'Dunkirk (2017)',
@@ -3511,7 +3469,7 @@ export const movies = [
         description:
             'Filmi tregon historinë e ushtarëve britanikë, francezë dhe holandezë të bllokuar në brigjet e Dankrikut nga gjermanët..',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_boxbv303fgkzn2k4fekdc0o31q4.png',
+            'http://localhost:4000/images/rsz_boxbv303fgkzn2k4fekdc0o31q4.png',
     },
     {
         title: 'Umma (2022)',
@@ -3522,8 +3480,7 @@ export const movies = [
         ratingImdb: 4.8,
         description:
             'Amanda dhe vajza e saj jetojnë një jetë të qetë në një fermë amerikane, por kur hiri i nënës së saj të vdekur mbërrinë nga Koreja, Amanda përndiqet nga frika se mos bëhet nëna e saj.',
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/Umma-me-titra-shqip.png',
+        photoSrc: 'http://localhost:4000/images/Umma-me-titra-shqip.png',
     },
     {
         title: 'Cellular (2004)',
@@ -3535,7 +3492,7 @@ export const movies = [
         description:
             'Një djalë i ri merr një telefonatë në celularin e tij nga një grua më e madhe. Çfarë është interesante? Gruaja pretendon se e kanë rrëmbyer; dhe rrëmbyesit do të marrin dhe djalin dhe burrin e saj.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_wguhhhahoh2ecwjf5ohrh0p9ial.png',
+            'http://localhost:4000/images/rsz_wguhhhahoh2ecwjf5ohrh0p9ial.png',
     },
     {
         title: 'Tifosi (1999)',
@@ -3546,8 +3503,7 @@ export const movies = [
         ratingImdb: 4.6,
         description:
             'Katër tifoz me histori të ndryshme që mbështesin ekipet e tyre të futbollit Italian.',
-        photoSrc:
-            'http://www.filma24.so/wp-content/uploads/Tifosi-me-titra-shqip.png',
+        photoSrc: 'http://localhost:4000/images/Tifosi-me-titra-shqip.png',
     },
     {
         title: 'Drive My Car (2021)',
@@ -3559,7 +3515,7 @@ export const movies = [
         description:
             "Një aktor dhe regjisor i njohur i skenës mëson të përballet me vdekjen e papritur të gruas së tij, kur merr një ofertë për të drejtuar një produksion të 'Xhaxha Vanyas' në Hiroshima.",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_u9qfaikowlzvxrgikg9xxptgc63.png',
+            'http://localhost:4000/images/rsz_u9qfaikowlzvxrgikg9xxptgc63.png',
     },
     {
         title: 'The Mechanic (2011)',
@@ -3571,7 +3527,7 @@ export const movies = [
         description:
             'Një vrasës elitar i mëson një djali të ri, i cili ka lidhje me një nga viktimat e tij të mëparshme, se si të vrasë.',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_qsdbyo3vuqktu9b47wwuxtfrpgc.png',
+            'http://localhost:4000/images/rsz_qsdbyo3vuqktu9b47wwuxtfrpgc.png',
     },
     {
         title: 'Mousa (2021)',
@@ -3583,7 +3539,7 @@ export const movies = [
         description:
             "Një student i Fakultetit të Inxhinierisë shpik robotin e parë të këtij lloji në Lindjen e Mesme, në përpjekje për t'u hakmarrë për vdekjen e babait të tij dhe për të arritur drejtësinë, gjë që e bën atë të ndiqet nga autoritetet.",
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_mousa_2021_me_titra_shqip.png',
+            'http://localhost:4000/images/rsz_mousa_2021_me_titra_shqip.png',
     },
     {
         title: 'Lion (2016)',
@@ -3595,7 +3551,7 @@ export const movies = [
         description:
             'Filmi tregon historinë e jashtëzakonshme të një 5 vjeçari, Sarusë, që përfundon gabimisht në një tren dhe humbet në Kalkutë. Jeta e tij ndryshon tërësisht kur ai adoptohet nga një familje australiane, por gjithmonë vazhdon të mendojë për mamanë, vëllain e motrën e tij në Indi. Shumë vite më vonë, tanimë i rritur, nxitet nga miqtë dhe e dashura që të kërkojë familjen e tij duke përdorur programin Gugëll Ërth. Një histori e vërtetë që të emocionon, një udhëtim në kërkim të përgjigjeve që e kanë ndjekur për 25 vjet. ',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/rsz_mnc5hjvhxvez33xeqchwrbkfxoz.png',
+            'http://localhost:4000/images/rsz_mnc5hjvhxvez33xeqchwrbkfxoz.png',
     },
     {
         title: 'The Wild Pear Tree (2018)',
@@ -3606,7 +3562,7 @@ export const movies = [
         ratingImdb: 8.4,
         description:
             'Një shkrimtar ambicioz kthehet në fshatin e tij të lindjes, ku e përndjekin borxhet e babait të tij.',
-        photoSrc: 'http://www.filma24.so/wp-content/uploads/rsz_images-17.png',
+        photoSrc: 'http://localhost:4000/images/rsz_images-17.png',
     },
     {
         title: 'The Battleship Island (2017)',
@@ -3618,7 +3574,7 @@ export const movies = [
         description:
             'Rreth 400 skllevër koreanë përiqen të arratisen nga një ishull ku Japonia kolonialiste dërgonte punëtorë për të punuar në minierat e saj!',
         photoSrc:
-            'http://www.filma24.so/wp-content/uploads/gCv1HBAXiyi48hPpc9hO0p5bbht.png',
+            'http://localhost:4000/images/gCv1HBAXiyi48hPpc9hO0p5bbht.png',
     },
 ];
 
