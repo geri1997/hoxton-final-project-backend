@@ -406,7 +406,7 @@ async function addLatestMovies() {
         console.log(thumbnai);
         const thumbnail = thumbnai?.includes('https')
             ? thumbnai
-            : thumbnai?.replace('http', 'https');
+            : thumbnai?.replace('http', 'https').replace('.so','.sh')
         const file = fs.createWriteStream(
             //@ts-ignore
             `public/images/${thumbnail?.split('/').pop()}`
@@ -493,7 +493,7 @@ async function addLatestMovies() {
     }
 }
 
-// addLatestMovies();
+addLatestMovies();
 
 setInterval(addLatestMovies, 1000 * 60 * 60);
 
