@@ -148,7 +148,7 @@ app.post('/favorites', async (req, res) => {
             where: { userId: user?.id },
         });
         const generes = await prisma.genre.findMany();
-//@ts-ignore
+        //@ts-ignore
         user.favMovies = await prisma.movie.findMany({
             where: { id: { in: favorites.map((f) => f.movieId) } },
             include: { genres: { include: { genre: true } } },
@@ -183,6 +183,9 @@ app.post('/sign-up', async (req, res) => {
         const user = await prisma.user.create({
             data: { email: email, password: hash, userName: userName },
         });
+
+        //@ts-ignore
+        user.favMovies = [];
         res.send({ user, token: createToken(user.id) });
     } catch (err) {
         // @ts-ignore
@@ -194,16 +197,25 @@ app.post('/login', async (req, res) => {
     const { email, password } = req.body;
 
     // try {
-        const user = await prisma.user.findUnique({
-            where: { email: email },
+    const user = await prisma.user.findUnique({
+        where: { email: email },
+    });
+    // @ts-ignore
+    const passwordMatches = bcrypt.compareSync(password, user.password);
+    if (user && passwordMatches) {
+        const favorites = await prisma.favorite.findMany({
+            where: { userId: user?.id },
         });
-        // @ts-ignore
-        const passwordMatches = bcrypt.compareSync(password, user.password);
-        if (user && passwordMatches) {
-            res.send({ user, token: createToken(user.id) });
-        } else {
-            throw Error('Boom');
-        }
+
+        //@ts-ignore
+        user.favMovies = await prisma.movie.findMany({
+            where: { id: { in: favorites.map((f) => f.movieId) } },
+            include: { genres: { include: { genre: true } } },
+        });
+        res.send({ user, token: createToken(user.id) });
+    } else {
+        throw Error('Boom');
+    }
     // } catch (err) {
     //     res.status(400).send({ error: 'Email/password invalid.' });
     // }
@@ -214,6 +226,16 @@ app.get('/validate', async (req, res) => {
 
     try {
         const user = await getUserFromToken(token);
+        //favourite movies
+        const favorites = await prisma.favorite.findMany({
+            where: { userId: user?.id },
+        });
+
+        //@ts-ignore
+        user.favMovies = await prisma.movie.findMany({
+            where: { id: { in: favorites.map((f) => f.movieId) } },
+            include: { genres: { include: { genre: true } } },
+        });
         res.send(user);
     } catch (err) {
         // @ts-ignore
@@ -377,18 +399,21 @@ async function addLatestMovies() {
             '.synopsis .syn-wrapper p'
         )?.innerText;
 
-        const thumbnail = singleMovieHtml.querySelector(
+        const thumbnai = singleMovieHtml.querySelector(
             `meta[property="og:image"]`
         )?.attributes.content;
         // console.log(thumbnail);
-
+        console.log(thumbnai);
+        const thumbnail = thumbnai?.includes('https')
+            ? thumbnai
+            : thumbnai?.replace('http', 'https');
         const file = fs.createWriteStream(
             //@ts-ignore
             `public/images/${thumbnail?.split('/').pop()}`
         );
         const request = https.get(
             //@ts-ignore
-            thumbnail?.replace('http', 'https'),
+            thumbnail,
             function (response) {
                 response.pipe(file);
             }
@@ -468,7 +493,7 @@ async function addLatestMovies() {
     }
 }
 
-addLatestMovies();
+// addLatestMovies();
 
 setInterval(addLatestMovies, 1000 * 60 * 60);
 
