@@ -218,7 +218,8 @@ app.get('/validate', async (req, res) => {
 
 //search endpoint
 app.post('/search', async (req, res) => {
-    const { title } = req.body;
+    const { title, page } = req.body;
+    //page
 
     try {
         const movies = await prisma.movie.findMany({
@@ -226,8 +227,16 @@ app.post('/search', async (req, res) => {
                 title: { contains: title },
             },
             include: { genres: { include: { genre: true } } },
+            skip: (page - 1) * 20,
+            take: 20,
         });
-        res.send(movies);
+        //count
+        const count = await prisma.movie.count({
+            where: {
+                title: { contains: title },
+            },
+        });
+        res.send({ movies, count });
     } catch (err) {
         // @ts-ignore
         res.status(400).send({ error: err.message });
@@ -305,7 +314,7 @@ import https from 'https'; // or 'https' for https:// URLs
 import fs from 'fs';
 
 async function addLatestMovies() {
-    const resq = await fetch('https://www.filma24.so/feed', {
+    const resq = await fetch('https://www.filma24.sh/feed', {
         headers: {
             'User-Agent':
                 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
