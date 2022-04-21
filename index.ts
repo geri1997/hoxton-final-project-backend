@@ -148,10 +148,15 @@ app.post('/favorites', async (req, res) => {
             where: { userId: user?.id },
         });
         const generes = await prisma.genre.findMany();
-        //@ts-ignore
-        user.favorites = favorites;
-        //@ts-ignore
-        user.generes = generes;
+//@ts-ignore
+        user.favMovies = await prisma.movie.findMany({
+            where: { id: { in: favorites.map((f) => f.movieId) } },
+            include: { genres: { include: { genre: true } } },
+        });
+        // //@ts-ignore
+        // user.favorites = favorites;
+        // //@ts-ignore
+        // user.generes = generes;
 
         res.send(user);
     } catch (err) {
@@ -188,7 +193,7 @@ app.post('/sign-up', async (req, res) => {
 app.post('/login', async (req, res) => {
     const { email, password } = req.body;
 
-    try {
+    // try {
         const user = await prisma.user.findUnique({
             where: { email: email },
         });
@@ -199,9 +204,9 @@ app.post('/login', async (req, res) => {
         } else {
             throw Error('Boom');
         }
-    } catch (err) {
-        res.status(400).send({ error: 'Email/password invalid.' });
-    }
+    // } catch (err) {
+    //     res.status(400).send({ error: 'Email/password invalid.' });
+    // }
 });
 
 app.get('/validate', async (req, res) => {
@@ -314,7 +319,7 @@ import https from 'https'; // or 'https' for https:// URLs
 import fs from 'fs';
 
 async function addLatestMovies() {
-    const resq = await fetch('https://www.filma24.sh/feed', {
+    const resq = await fetch('https://www.filma24.sh/feed/', {
         headers: {
             'User-Agent':
                 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
