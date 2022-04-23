@@ -446,20 +446,28 @@ app.get('/latest', async (req, res) => {
 
 //sort movies
 // app.get('/sort', async (req, res) => {
+
 //     const by = req.query.by;
 //     const ascOrDesc = req.query.ascOrDesc;
 //     const page = Number(req.query.page);
 //     console.log(by, ascOrDesc, page);
+
 //     const movies = await prisma.movie.findMany({
+
 //         orderBy: {
 //             //@ts-ignore
 //             [by]: ascOrDesc,
 //         },
+
 //         take: 20,
+
 //         skip: (page - 1) * 20,
+
 //         include: { genres: { include: { genre: true } } },
 //     });
+
 //     res.send(movies);
+
 // });
 
 //add latest movies in db
@@ -476,6 +484,7 @@ async function addLatestMovies() {
     });
 
     const text = await resq.text();
+
     // const html = cheerio.load(text)
     // const html = jquery.parseHTML(text)
     // console.log(text);
@@ -557,19 +566,25 @@ async function addLatestMovies() {
             : thumbnai?.replace('http', 'https').replace('.so','.sh')
         
             const file = fs.createWriteStream(
-            //@ts-ignore
-            `public/images/${thumbnail?.split('/').pop()}`
-        );
+
+                //@ts-ignore
+                `public/images/${thumbnail?.split('/').pop()}`
+
+            );
         
         const request = https.get(
+
             //@ts-ignore
             thumbnail,
+            
             function (response) {
                 response.pipe(file);
             }
+
         );
 
         movies.push({
+
             title: movieTitle,
             videoSrc: movieLink,
             genres,
@@ -580,7 +595,7 @@ async function addLatestMovies() {
             description: synopsis,
             photoSrc: `http://localhost:4000/images/${thumbnail
                 ?.split('/')
-                .pop()}`,
+                .pop()}`
         });
 
     }

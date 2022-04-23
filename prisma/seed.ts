@@ -68,6 +68,7 @@ const genres = [
 ];
 
 async function createStuff() {
+    
     await prisma.user.deleteMany();
 
     for (const user of users) {
@@ -89,12 +90,17 @@ async function createStuff() {
     await prisma.movieGenre.deleteMany();
 
     for (const movieGenre in movieGenres) {
+
         for (const genre of movieGenres[movieGenre]) {
+
             await prisma.movieGenre.create({
                 data: { genreId: genre, movieId: Number(movieGenre) + 1 },
             });
+
         }
+
     }
+
 }
 
 createStuff();
