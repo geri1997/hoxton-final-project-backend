@@ -26,7 +26,7 @@ app.get('/', async (req, res) => {
     res.send('Server Up and Running');
 });
 
-app.listen(4000, () => {
+app.listen(process.env.PORT, () => {
     console.log(`Server up: http://localhost:4000`);
 });
 // #endregion
@@ -103,7 +103,7 @@ app.post('/login', async (req, res) => {
 
         //@ts-ignore
         user.favMovies = await prisma.movie.findMany({
-            where: { id: { in: favorites.map((f) => f.movieId) } },
+            where: { id: { in: favorites.map((f:any) => f.movieId) } },
             include: { genres: { include: { genre: true } } },
         });
 
@@ -136,7 +136,7 @@ app.get('/validate', async (req, res) => {
 
         //@ts-ignore
         user.favMovies = await prisma.movie.findMany({
-            where: { id: { in: favorites.map((f) => f.movieId) } },
+            where: { id: { in: favorites.map((f:any) => f.movieId) } },
             include: { genres: { include: { genre: true } } },
         });
 
@@ -593,7 +593,7 @@ async function addLatestMovies() {
             releaseYear,
             ratingImdb: imdbRating,
             description: synopsis,
-            photoSrc: `http://localhost:4000/images/${thumbnail
+            photoSrc: `https://petite-locrian-piper.glitch.me//images/${thumbnail
                 ?.split('/')
                 .pop()}`
         });
